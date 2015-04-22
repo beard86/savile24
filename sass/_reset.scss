@@ -98,9 +98,11 @@ html {
             height: 100%;
             display: table;
 }
+
 .tbl-row {
-    display: table-row;
+            display: table-row;
 }
+
 .cell {
             display: table-cell;
             vertical-align: middle;
@@ -162,6 +164,7 @@ img {
 .pad-right-s {
             padding-right: 0.66em;
 }
+
 .pad-right-lg {
             padding-right: 4.33em;
 }
@@ -189,9 +192,15 @@ img {
 .pad-bottom-xxlg {
             padding-bottom: 16em;
 }
-.marg-right {
-      margin-right: 8.3em;
+
+.no-pad {
+            padding: 0;
 }
+
+.marg-right {
+            margin-right: 8.3em;
+}
+
 .full-w {
             width: 100%;
 }
@@ -215,8 +224,17 @@ img {
             bottom: 0;
 }
 
+.bord-btm {
+            border-bottom: 1px solid;
+}
+
 .centralise {
             margin: 0 auto;
+            text-align: center;
+}
+
+.area-schedule {
+            width: 190px;
 }
 
 .no-margin-header {

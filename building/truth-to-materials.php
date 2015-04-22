@@ -8,7 +8,7 @@ include '../header.php';
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<section id="hero">
-		<div class="down">
+		<div class="down" id="hero-down">
 			<img src="../img/down.png" alt="Scroll Down">
 		</div>
 		<div id="hero-carousel" class="owl-carousel owl-theme">

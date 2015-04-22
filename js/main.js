@@ -8,11 +8,19 @@
 
 
                 UTIL.loadCarousels();
-                var bodyWrap = $('body');
-                bodyWrap.find('.down').on('click', function() {
+
+                var body = $('body');
+
+                body.find('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');
                 });
-                bodyWrap.find('.backtop').on('click', function() {
+                body.find('#down-schedule').on('click', function() {
+                    UTIL.goToSection('#floor-plans');
+                });
+                body.find('#down-floor').on('click', function() {
+                    UTIL.goToSection('#space-plans');
+                });
+                body.find('.backtop').on('click', function() {
                     UTIL.goToSection('#hero');
                 });
 
@@ -33,7 +41,7 @@
                 var scrolldelta = Math.round(document.body.scrollTop || document.documentElement.scrollTop || 0);
                 var scrolltemp = 0;
                 var prevscroll = window.scrollY;
-                var down = document.querySelectorAll('.down')[0];
+                var down = document.querySelectorAll('#hero-down')[0];
                 down.hider = false;
                 down.trigger = 150;
                 var heroimage = document.querySelectorAll('#hero img')[0];
@@ -149,6 +157,13 @@
             //initialise carousel for main section gallery
             $("#main-carousel").owlCarousel({
                 navigation: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                singleItem: true
+            });
+            $("#floor-carousel").owlCarousel({
+                navigation: true, // Show next and prev buttons
+                pagination: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 singleItem: true

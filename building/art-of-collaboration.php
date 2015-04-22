@@ -7,7 +7,7 @@ include '../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
-	<div class="down">
+	<div class="down" id="hero-down">
 		<img src="../img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">

@@ -30,7 +30,7 @@ section {
                         right: 0;
                         bottom: 0;
                         text-align: center;
-                        color:#fff;
+                        color: #fff;
                         >* {
                                     position: absolute;
                                     top: 50%;
@@ -42,8 +42,8 @@ section {
                                                 color: $blue;
                                     }
                         }
-                        p{
-                              top:65%;
+                        p {
+                                    top: 65%;
                         }
             }
             &>img {
@@ -70,23 +70,27 @@ section {
                         padding-left: 1em;
             }
 }
-.down {
+
+#hero-down {
             position: fixed;
+}
+
+.down {
             width: 100%;
             bottom: 1.6em;
             cursor: pointer;
-              z-index: 6;
-              opacity: 1;
+            z-index: 6;
+            opacity: 1;
             @include transition(transform 0.2s ease-in-out, opacity 0.4s ease-in-out);
             @include transform(translateY(0px));
             &:hover {
                         @include transform(translateY(5px));
             }
             &.fade {
-                  opacity: 0;
+                        opacity: 0;
             }
             &.hide {
-                  display: none;
+                        display: none;
             }
             img {
                         width: 40px;
@@ -97,6 +101,25 @@ section {
 #main {
             .cell {
                         text-align: left;
+            }
+            .schedule {
+                        .tbl-row {
+                                    height: 48px;
+                        }
+                        .cell {
+                                    text-align: center;
+                        }
+                        .heading {
+                                    div {
+                                                font-size: 1.2em;
+                                                span {
+                                                            border-bottom: 1px solid $orange;
+                                                }
+                                    }
+                        }
+                        &.tabled {
+                                    width: 90%;
+                        }
             }
             h2 {
                         border-bottom: 1px solid $mblue;
@@ -110,12 +133,12 @@ section {
                         }
             }
             ol {
-                 list-style-type: decimal-leading-zero;
-                   list-style-position: inside;
-                     font-size: 1.2em;
-                     li {
-                        padding-bottom:10px;
-                     }
+                        list-style-type: decimal-leading-zero;
+                        list-style-position: inside;
+                        font-size: 1.2em;
+                        li {
+                                    padding-bottom: 10px;
+                        }
             }
             .no-margin-header {
                         h2 {
@@ -132,7 +155,24 @@ section {
                         padding-bottom: 1em;
             }
 }
-
+#floor-plans {
+      .owl-controls  {
+            .owl-buttons  {
+                  div {
+                        text-indent: -10000px;
+                        background-size: contain;
+                        background-repeat:no-repeat;
+                        height: 42px;
+                  &.owl-next {
+                        background-image: url(/img/right.png);
+                  }
+                  &.owl-prev {
+                        background-image: url(/img/left.png);
+                  }
+                  }
+            }
+      }
+}
 .test {
             background: $blue;
             height: 200px;
@@ -161,20 +201,22 @@ section {
                         font-size: 2em;
                         padding-bottom: 0;
                         border-bottom: 1px solid;
-                          display: inline;
+                        display: inline;
             }
 }
+
 .main-carousel-wrap {
-      .owl-pagination {
-              bottom: 30px;
-              .owl-page {
-                   span {
-                          height: 14px;
-                          width: 14px;
-                   }
-              }
-      }
+            .owl-pagination {
+                        bottom: 30px;
+                        .owl-page {
+                                    span {
+                                                height: 14px;
+                                                width: 14px;
+                                    }
+                        }
+            }
 }
+
 .bgimage {
             position: absolute;
             top: 0;
@@ -211,7 +253,10 @@ section {
                         padding-bottom: 1em;
             }
 }
-
+.foot-note {
+      text-align:center;
+      font-size: 0.75em;
+}
 footer {
             p {
                         font-size: 0.9em;

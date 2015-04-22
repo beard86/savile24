@@ -19,7 +19,7 @@ include 'header.php';
 				</div>
 			</div>
 		</div>
-		<div class="down">
+		<div class="down" id="hero-down">
 			<img src="img/down.png" alt="Scroll Down">
 		</div>
 	</section>
