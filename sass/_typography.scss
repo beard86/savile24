@@ -1,0 +1,70 @@
+body,
+cite {
+	color: $blue;
+	font-family: 'Futura W01 Book', 'Futura Book', Futura, "Trebuchet MS", Arial, sans-serif;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1.4em;
+	&.large {
+		font-size: 5em;
+	}
+}
+h2 {
+	font-size: 1.8em;
+	line-height: 1.2em;
+	padding-bottom: 0.8em;
+}
+h3 {
+	font-size: 1.4em;
+}
+a {
+  color:$blue;
+  text-decoration:none;
+  &.active {
+  	color:$orange;
+  }
+}
+
+p {
+	line-height: 1.3em;
+	font-size: 1.1em;
+}
+cite {
+	font-size:0.75em;
+	padding-top:10px;
+}
+h1,h2,h3,h4,h5,h6, blockquote {
+	font-family: 'Didot W01 Headline', 'Didot Headline', Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-weight: 100;
+}
+#hero {
+	.futura {
+		font-family: 'Futura W01 Book', 'Futura Book', Futura, "Trebuchet MS", Arial, sans-serif;	
+	}
+	.light {
+		color: $white;
+	}
+}
+i {
+	font-style: italic;
+}
+.bold {
+	font-weight:700;
+}
+.blue {
+	color:$blue;
+}
+.orange {
+            color: $orange;
+}
+.purple {
+	color:$purple;
+}
+.underline {
+	border-bottom:1px solid;
+	display:inline-block;
+}
+.uppercase {
+	text-transform:uppercase;
+}
