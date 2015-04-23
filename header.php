@@ -44,7 +44,7 @@
 						</ul>
 					</li>
 					<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-					<li class="main-menu-item"><a href="/downloads">Downloads</a></li>
+					<li class="main-menu-item"><a href="/contact#intro">Downloads</a></li>
 					<li class="main-menu-item"><a href="/contact">Contact</a></li>
 				</ul>
 				<div class="mobile-nav hidden">
@@ -58,6 +58,7 @@
 			</nav>
 		</div>
 	</header>
+	<!--mobile menu -->
 	 <nav id="slide-menu" class="responsive-menu">
 	        <ul>
 	           <li class="main-menu-item "><a class="<?php echo ($_SERVER['PHP_SELF'] == '/building' ? ' active' : '');?>" href="/building"> The Building</a>
@@ -88,7 +89,8 @@
 					</ul>
 				</li>
 				<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-				<li class="main-menu-item"><a href="/downloads">Downloads</a></li>
+				<li class="main-menu-item"><a href="/contact#intro">Downloads</a></li>
 				<li class="main-menu-item"><a href="/contact">Contact</a></li>
 	        </ul>
 	</nav>
+	<!--mobile menu -->

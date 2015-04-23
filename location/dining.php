@@ -12,11 +12,7 @@ include '../header.php';
 		<img src="../img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="../img/hero/dining-hero.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large uppercase">DINING</h1>
 		</div>
@@ -37,14 +33,18 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<h2 class="orange">Read our case study</h2>
-							<h2 class="orange">with Bellamy’s</h2><br/>
-							<h2 class="orange">restaurant ></h2>
+							<a href="/location/bellamys.php">
+								<h2 class="orange">Read our case study</h2>
+								<h2 class="orange">with Bellamy’s</h2><br/>
+								<h2 class="orange">restaurant ></h2>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/bellamys.jpg" alt="DSquared2" class="full-w">
+					<a href="/location/bellamys.php">
+						<img src="../img/bellamys.jpg" alt="DSquared2" class="full-w">
+					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>

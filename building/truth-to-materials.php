@@ -2,22 +2,22 @@
 // Page Setup
 $title = 'Building';
 $subtitle = 'truth-to-materials';
-$logocolour = 'blue';
+$logocolour = 'cream';
 include '../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
+	<div class="down" id="hero-down">
+		<img src="../img/down.png" alt="Scroll Down">
+	</div>
 	<section id="hero">
-		<div class="down" id="hero-down">
-			<img src="../img/down.png" alt="Scroll Down">
-		</div>
 		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="../img/hero/truth-to-hero.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 		<div class="text-container">
-			<h1>Truth <i>to</i> Materials</h1>
+			<h1 class="orange large">Truth <i>to</i> Materials</h1>
 		</div>
 	</section>
 
@@ -34,7 +34,10 @@ include '../header.php';
 		<div class="wrapper">
 
 			<div class="rel">
-				<div class="three pad-right full-h">
+				<div class="six pad-left-s right">
+					<img src="../img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
+				</div>
+				<div class="three pad-right full-h left marg-bot">
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
@@ -44,12 +47,12 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="six pad-left-s right">
-					<img src="../img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
-				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
+				<div class="two right">
+					<img src="../img/ext.jpg" alt="Exterior" class="full-w">
+				</div>
 				<div class="three pad-right full-h">
 					<div class="tabled">
 						<div class="cell">
@@ -59,9 +62,6 @@ include '../header.php';
 						</div>
 					</div>
 
-				</div>
-				<div class="two right">
-					<img src="../img/ext.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
@@ -83,6 +83,9 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
+				<div class="two right">
+					<img src="../img/tiles.jpg" alt="Tiles" class="full-w">
+				</div>
 				<div class="three pad-right left">
 					<div class="tabled">
 						<div class="cell purple">
@@ -94,14 +97,11 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 					</div>
 
 				</div>
-				<div class="two right">
-					<img src="../img/tiles.jpg" alt="Exterior" class="full-w">
-				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
 				<div class="two pad-right-s left">
-					<img src="../img/plinth.jpg" alt="facade" class="full-w">
+					<img src="../img/plinth.jpg" alt="The Plinth" class="full-w">
 				</div>
 				<div class="three pad-left right a-right">
 					<div class="tabled">

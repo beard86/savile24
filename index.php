@@ -10,16 +10,21 @@ include 'header.php';
 		<img src="img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
-		<div class="text-container">
-			<div class="tabled">
-				<div class="cell">
-					<h1 class="futura light">
-						The art is the building <br>
-						The building is 24 Savile Row
-					</h1>
+		<div id="hero-carousel" class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+				<div class="text-container">
+					<div class="tabled">
+						<div class="cell">
+							<h1 class="futura light">
+								The art is the building <br>
+								The building is 24 Savile Row
+							</h1>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 	</section>
 

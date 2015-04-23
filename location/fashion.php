@@ -12,11 +12,7 @@ include '../header.php';
 		<img src="../img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="../img/hero/fashion-hero.jpg" alt="Holland &amp; Holland - Margiela">
 		<div class="text-container">
 			<h1 class="orange large uppercase">Fashion</h1>
 		</div>
@@ -37,14 +33,18 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<h2 class="orange">Read our interview</h2>
-							<h2 class="orange">with 24 Savile Row</h2><br/>
-							<h2 class="orange">occupiers ></h2>
+							<a href="/location/double-vision.php">
+								<h2 class="orange">Read our interview</h2>
+								<h2 class="orange">with 24 Savile Row</h2><br/>
+								<h2 class="orange">occupiers ></h2>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/dsquared2.jpg" alt="DSquared2" class="full-w">
+					<a href="/location/double-vision.php">
+						<img src="../img/dsquared2.jpg" alt="DSquared2" class="full-w">
+					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
@@ -64,6 +64,9 @@ include '../header.php';
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
+				<div class="two right">
+					<img src="../img/tailors.jpg" alt="Exterior" class="full-w">
+				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell">
@@ -72,9 +75,6 @@ include '../header.php';
 						</div>
 					</div>
 
-				</div>
-				<div class="two right">
-					<img src="../img/tailors.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>

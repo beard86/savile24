@@ -13,7 +13,7 @@ include '../header.php';
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+			<img src="../img/hero/art-hero.jpg" alt="Art Hero">
 		</div>
 		<div class="text-container">
 			<h1 class="orange large uppercase">Art</h1>
@@ -36,14 +36,18 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<h2 class="orange">Read our interview</h2>
-							<h2 class="orange">interview with</h2><br/>
-							<h2 class="orange">our neighbours ></h2>
+							<a href="/location/hauser-and-wirth.php">
+								<h2 class="orange">Read our interview</h2>
+								<h2 class="orange">interview with</h2><br/>
+								<h2 class="orange">our neighbours ></h2>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/hauser-and-wirth.jpg" alt="HAUSER &amp; WIRTH" class="full-w">
+					<a href="/location/hauser-and-wirth.php">
+						<img src="../img/hauser-and-wirth.jpg" alt="HAUSER &amp; WIRTH" class="full-w">
+					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
@@ -64,6 +68,13 @@ include '../header.php';
 				<div class="clear pad-bottom-lg"></div>
 			</div>
 			<div class="rel">
+				<div class="main-carousel-wrap two right">
+					<div id="main-carousel" class="owl-carousel owl-theme">
+						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+					</div>
+				</div>
 				<div class="three pad-left left">
 					<div class="tabled">
 						<div class="cell purple">
@@ -73,13 +84,6 @@ include '../header.php';
 						</div>
 					</div>
 
-				</div>
-				<div class="main-carousel-wrap two right">
-					<div id="main-carousel" class="owl-carousel owl-theme">
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
-					</div>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>

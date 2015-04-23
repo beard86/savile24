@@ -22,7 +22,7 @@
 section {
             position: relative;
             background: $white;
-            padding: 3em 0 0 0;
+            padding: 5em 0 0 0;
 }
 
 #hero {
@@ -53,6 +53,16 @@ section {
                         }
                         p {
                                     top: 65%;
+                        }
+                        blockquote {
+                              font-size: 3em;
+                              text-decoration: none;
+                              cite {
+                                    color: #fff;
+                                      position: relative;
+                                      right: 145px;
+                                      font-size: 0.65em;
+                              }
                         }
             }
             &>img {
@@ -86,8 +96,8 @@ section {
 
 .down {
             width: 100%;
-            bottom: 1.6em;
-            padding-bottom: 2em;
+            bottom: 2em;
+            padding-bottom: 1em;
             cursor: pointer;
             z-index: 6;
             opacity: 1;
@@ -140,6 +150,9 @@ section {
                         &.orange {
                                     color: $orange;
                                     border-bottom: 1px solid $morange;
+                                    @media #{$smartphones} {
+                                          border:0;
+                                    }
                         }
             }
             ol {
@@ -176,6 +189,7 @@ section {
                                                 height: 42px;
                                                 &.owl-next {
                                                             background-image: url(/img/right.png);
+                                                            background-position: right;
                                                 }
                                                 &.owl-prev {
                                                             background-image: url(/img/left.png);
@@ -265,6 +279,41 @@ section {
                         padding-bottom: 1em;
             }
 }
+/////////// /////////// /////////// /////////// /////////// 
+/////////// P A G E - S P E C I F I C //////////////
+/////////// /////////// /////////// /////////// /////////// 
+.Home {
+            a.active {
+              color: inherit;
+      }
+}
+.Building {
+            li {
+                        ul.building {
+                                    display: block;
+                        }
+            }
+}
+.Location {
+            li {
+                        ul.location {
+                                    display: block;
+                                    width:730px;
+                                    li {
+                                    }
+                        }
+            }
+}
+.Accomodation {
+            li {
+                        ul.accomodation {
+                                    display: block;
+                                    width:730px;
+                                    li {
+                                    }
+                        }
+            }
+}
 .contact {
       #hero {
             .text-container {
@@ -286,18 +335,42 @@ section {
       }
 }
 
-//RESPONSIVE
+/////////// /////////// /////////// /////////// /////////// 
+///////////// R E S P O N S I V E ////////// ////////////
+/////////// /////////// /////////// /////////// /////////// 
 .rel > div {
             @media #{ $tablets }
             {
                         width: 100%;
                         position: static;
+                          padding: 0;
+            }
+            &:first-child {
+                  @media #{ $tablets }
+                  {
+                              margin-bottom:15px;
+                  }
+            }
+            blockquote {
+                  @media #{ $tablets }
+                  {
+                        width: 100%;
+                  }
             }
 }
-.foot-note {
-            text-align: center;
-            font-size: 0.75em;
+#similar {
+      .three {
+                  @media #{ $smartphones }
+                  {
+                              width:100%;
+                              padding:0;
+                  }
+            }
 }
+
+/////////// /////////// /////////// /////////// ///////
+///// //////// F O O T E R ////////// ////////////
+/////////// /////////// /////////// /////////// ///// 
 
 footer {
             p {
@@ -312,6 +385,7 @@ footer {
                                     @media #{ $tablets }
                                     {
                                                 display: block;
+                                                  padding: 0.2em;
                                     }
                         }
             }

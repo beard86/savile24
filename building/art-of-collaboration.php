@@ -12,12 +12,12 @@ include '../header.php';
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="../img/hero/art-of-hero.jpg" alt="Art of Collaboration"></div>
 			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 		<div class="text-container">
-			<h1 class="blue"><i>The</i> Art <i>of</i><br/> Collaboration</h1>
+			<h1 class="blue large"><i>The</i> Art <i>of</i><br/> Collaboration</h1>
 		</div>
 	</section>
 
@@ -60,16 +60,6 @@ include '../header.php';
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
-				<div class="two pad-left-s left">
-					<img src="../img/kate-malone.jpg" alt="Kate Malone" class="full-w">
-					<blockquote class="six">
-						This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
-						<footer>
-							<cite class="orange"><a class="orange" href="#">Kate Malone</a></cite>
-						</footer>
-					</blockquote>
-					
-				</div>
 				<div class="three pad-left right">
 					<div class="tabled">
 						<div class="cell">
@@ -82,6 +72,16 @@ include '../header.php';
 						</div>
 					</div>
 
+				</div>
+				<div class="two pad-left-s left">
+					<img src="/img/kate-malone.jpg" alt="Kate Malone" class="full-w">
+					<blockquote class="six">
+						This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
+						<footer>
+							<cite class="orange"><a class="orange" href="#">Kate Malone</a></cite>
+						</footer>
+					</blockquote>
+					
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
@@ -97,9 +97,9 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="two pad-left-s right">
-					<img src="http://placehold.it/560x424" alt="Storage Associati" class="full-w">
-					<blockquote class="six orange right">
+				<div class="six pad-left right">
+					<img src="/img/storage-associati.jpg" alt="Storage Associati" class="full-w">
+					<blockquote class="two orange right">
 						“This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
 						<footer>
 							<cite><a href="#">Storage Associati</a></cite>

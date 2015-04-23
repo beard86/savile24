@@ -114,8 +114,11 @@ $dot-rounded: 50%;
             -webkit-tap-highlight-color: transparent;
             position: absolute;
             width: 100%;
-            bottom: 140px;
+            bottom: 80px;
             z-index: 1;
+            @media #{$tablets}{
+                  bottom: 10px;
+            }
             .owl-page {
                         display: inline-block;
                         zoom: 1;

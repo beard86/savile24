@@ -12,9 +12,31 @@ include '../header.php';
 		<img src="../img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
+		<div id="hero-carousel" class="owl-carousel owl-theme">
+			<div class="item">
+				<img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
+				<div class="text-container">
+					<div class="text-container">
+						<h1 class="large blue">Rhythm <i>of</i><br><i>the</i> street</h1>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+				<div class="text-container">
+					<div class="text-wrapper">
+						<blockquote class="futura light">
+							“One of the first principles of<br> art so clearly seen in<br> primitive work is truth to<br> material, the artist shows<br> an instinctive understanding<br> of his material, its right<br> use and possibilities” 
+							<footer>
+								<cite>Henry Moore</cite>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+		</div>
 	</section>
-
 
 	<section id="intro">
 		<div class="intro-text">
@@ -52,17 +74,18 @@ include '../header.php';
 			</div>
 
 			<div class="rel">
+				<div class="two right">
+					<img src="../img/ext.jpg" alt="Exterior" class="full-w">
+				</div>
 				<div class="three pad-right full-h">
 					<div class="tabled">
 						<div class="cell">
 							<h2>Realised</h2>
+							<p class="bold">The ultimate pursuit of perfection</p>
 							<p>To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
 						</div>
 					</div>
 
-				</div>
-				<div class="two right">
-					<img src="../img/ext.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear"></div>
 			</div>

@@ -46,6 +46,13 @@ include '../header.php';
 				<div class="clear pad-bottom-lg"></div>
 			</div>
 			<div class="rel">
+				<div class="two left main-carousel-wrap">
+					<div id="main-carousel-2" class="owl-carousel owl-theme">
+						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
+					</div>
+				</div>
 				<div class="three pad-right full-h a-right">
 					<div class="tabled">
 						<div class="cell large-copy">
@@ -58,13 +65,6 @@ include '../header.php';
 						</div>
 					</div>
 
-				</div>
-				<div class="two left main-carousel-wrap">
-					<div id="main-carousel-2" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
-					</div>
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>

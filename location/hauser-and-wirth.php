@@ -12,12 +12,7 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
-		<div class="text-container">
+		<img src="/img/hero/hauser-wirth-hero.jpg" alt="Exterior shot of 24 Savile Row">		<div class="text-container">
 			<h1 class="orange large uppercase">FOR WHAT <br/>IT'S WIRTH</h1>
 			<p class="orange"> Hauser &amp; Wirth</p>
 		</div>

@@ -7,9 +7,9 @@
             init: function() {
 
                 UTIL.slideMenu();
-
                 UTIL.loadCarousels();
                 UTIL.scrollHandlers();
+                UTIL.activeClassToNav();
 
                 var body = $('body');
 
@@ -28,7 +28,6 @@
 
                 // JavaScript to be fired on all pages
                 //UTIL.scrollTo();
-                  $('nav>ul>li>a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
             },
             finalize: function() {
                 // JavaScript to be fired on all pages, after page specific JS is fired
@@ -85,6 +84,9 @@
 
             // Fire common finalize JS
             UTIL.fire('common', 'finalize');
+        },
+        activeClassToNav: function() {
+          $('nav>ul>li>a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
         },
         goToSection: function(id) {
             $('html, body').animate({
@@ -211,6 +213,7 @@
             console.log('slidemenu')
             if ( typeof $menu_trigger !== 'undefined' ) {   
                 $menu_trigger.addEventListener('click', function() {
+                    //modify to body has class / add class
                     $body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
                 });
             }

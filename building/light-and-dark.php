@@ -34,6 +34,9 @@ include '../header.php';
 		<div class="wrapper">
 
 			<div class="rel">
+				<div class="two pad-left-s right">
+					<img src="../img/building-crop.jpg" alt="24 Savile Row vision" class="full-w">
+				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell">
@@ -45,9 +48,6 @@ include '../header.php';
 
 						</div>
 					</div>
-				</div>
-				<div class="two pad-left-s right">
-					<img src="../img/building-crop.jpg" alt="24 Savile Row vision" class="full-w">
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>

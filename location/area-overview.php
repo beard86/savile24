@@ -12,7 +12,7 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+		<img src="/img/hero/area-overview.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large ">Area Overview</h1>
 		</div>

@@ -12,11 +12,7 @@ include '../header.php';
 		<img src="../img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="../img/hero/social-hero.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large">Social</h1>
 		</div>
@@ -37,13 +33,17 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<h2 class="orange">Read our case study</h2><br/>
-							<h2 class="orange">about Mr Fogg’s ></h2>
+							<a href="/location/mr-foggs.php">
+								<h2 class="orange">Read our case study</h2><br/>
+								<h2 class="orange">about Mr Fogg’s ></h2>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/social-cta.jpg" alt="Mr Fogg's" class="full-w">
+					<a href="/location/mr-foggs.php">
+						<img src="../img/social-cta.jpg" alt="Mr Fogg's" class="full-w">
+					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
