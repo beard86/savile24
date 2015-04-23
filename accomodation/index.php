@@ -95,7 +95,7 @@ include '../header.php';
 	</section>
 	<section id="floor-plans">
 		<div class="centralise">
-			<div id="floor-carousel" class="owl-carousel owl-theme">
+			<div id="floor-carousel" class="owl-carousel owl-theme show-nav">
 				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
 				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
 				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>

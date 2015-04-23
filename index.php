@@ -6,7 +6,9 @@ include 'header.php';
 ?>
 
 <div class="container">
-	
+	<div class="down" id="hero-down">
+		<img src="img/down.png" alt="Scroll Down">
+	</div>
 	<section id="hero">
 		<img src="img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
@@ -18,9 +20,6 @@ include 'header.php';
 					</h1>
 				</div>
 			</div>
-		</div>
-		<div class="down" id="hero-down">
-			<img src="img/down.png" alt="Scroll Down">
 		</div>
 	</section>
 
