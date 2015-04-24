@@ -4,23 +4,20 @@ $title = 'Location';
 $subtitle = 'art';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<img src="../img/hero/art-hero.jpg" alt="Art Hero">
-		</div>
+		<img src="/img/hero/art-hero.jpg" alt="Art Hero">
 		<div class="text-container">
 			<h1 class="orange large uppercase">Art</h1>
 		</div>
 	</section>
-
-
+	
 	<section id="intro">
 		<div class="intro-text">
 			<h2>
@@ -36,7 +33,7 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<a href="/location/hauser-and-wirth.php">
+							<a href="/location/art/hauser-and-wirth.php">
 								<h2 class="orange">Read our interview</h2>
 								<h2 class="orange">interview with</h2><br/>
 								<h2 class="orange">our neighbours ></h2>
@@ -45,15 +42,15 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<a href="/location/hauser-and-wirth.php">
-						<img src="../img/hauser-and-wirth.jpg" alt="HAUSER &amp; WIRTH" class="full-w">
+					<a href="/location/art/hauser-and-wirth.php">
+						<img src="/img/hauser-and-wirth.jpg" alt="HAUSER &amp; WIRTH" class="full-w">
 					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/painting.jpg" alt="Painting" class="full-w">
+					<img src="/img/painting.jpg" alt="Painting" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -70,9 +67,9 @@ include '../header.php';
 			<div class="rel">
 				<div class="main-carousel-wrap two right">
 					<div id="main-carousel" class="owl-carousel owl-theme">
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="../img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/gallery.jpg" alt="Exterior shot of 24 Savile Row"></div>
 					</div>
 				</div>
 				<div class="three pad-left left">
@@ -143,5 +140,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

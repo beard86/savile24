@@ -22,7 +22,7 @@
 section {
             position: relative;
             background: $white;
-            padding: 5em 0 0 0;
+            padding: 5em 0 1px 0;
 }
 
 #hero {
@@ -53,9 +53,16 @@ section {
                         }
                         p {
                                     top: 65%;
+                                    @media #{$smartphones} {
+                                            top: auto;
+                                            bottom: 1em;
+                                    }
                         }
                         blockquote {
                               font-size: 3em;
+                                    @media #{$smartphones} {
+                                          font-size: 1em;
+                                    }
                               text-decoration: none;
                               cite {
                                     color: #fff;
@@ -89,7 +96,8 @@ section {
                         padding-left: 1em;
             }
 }
-
+#space-down,
+#hero-downloads,
 #hero-down {
             position: fixed;
 }
@@ -149,7 +157,7 @@ section {
                         margin-bottom: 1.3em;
                         &.orange {
                                     color: $orange;
-                                    border-bottom: 1px solid $morange;
+                                    border:0;
                                     @media #{$smartphones} {
                                           border:0;
                                     }
@@ -212,7 +220,7 @@ section {
             background: $blue;
             position: relative;
             cursor: pointer;
-            margin-bottom: 2em;
+            margin-bottom: 2.5em;
             &:hover {
                         .bgimage {
                                     @include transform(scale(1.5));
@@ -226,8 +234,6 @@ section {
                         margin: 0 auto;
                         font-size: 2em;
                         padding-bottom: 0;
-                        border-bottom: 1px solid;
-                        display: inline;
             }
 }
 
@@ -298,7 +304,6 @@ section {
             li {
                         ul.location {
                                     display: block;
-                                    width:730px;
                                     li {
                                     }
                         }
@@ -308,30 +313,95 @@ section {
             li {
                         ul.accomodation {
                                     display: block;
-                                    width:730px;
                                     li {
                                     }
                         }
             }
 }
+.core-office {
+      margin-bottom:1em;
+      p {
+            line-height: 0.75em;
+            margin-bottom:5px;
+            &.core {
+                  span {
+                  background-color: $grey;
+                  }
+            }
+      }
+      span {      
+                  margin-right:10px;
+                  height: 10px;
+                  width: 10px;
+                  background-color: $orange;
+                  -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg);
+                  display: block;
+                  -webkit-backface-visibility: visible;
+                  float: left;
+      }
+}
+.north {
+      position: absolute;
+      right: 0;
+      bottom: 3em;
+      width: 55px;
+}
+
 .contact {
       #hero {
+            @media #{ $smartphones } {
+                  height: auto;
+                    padding-bottom:122%;
+            }
+            >img {
+                  @media #{ $smartphones } {
+                        position: static;
+                  }
+            }
             .text-container {
-                  padding-top:200px;
+                    padding-top: 10em;
+                              @media #{ $smartphones } {
+                                    padding-top: 4em;
+                              }
                         > * {
                               position: static;
                               width:50%;
                               margin:0 auto;
+                              @media #{ $smartphones } {
+                                    width:100%;
+                                    color:$blue;
+                                      -webkit-transform: translateY(0);
+                                       transform: translateY(0);
+                            }
                         }
                         a {
                               display: block;
-                              color:#FFF;
-                                line-height: 1.4em;
+                              color:$white;
+                              line-height: 1.4em;
+                              @media #{ $smartphones } {
+                                    margin-bottom: 1.5em;
+                                    color:$blue;
+                              }
+                        }
+                        h1 {
+                              margin-bottom: 0.75em;
+                              @media #{ $smartphones } {
+                                    margin-bottom: 1.5em;
+                                    color:$white;
+
+                              }
                         }
             }
       }
       .square {
             padding-bottom:110%;
+      }
+      #contact {
+            padding:0;
+      }
+      #downloads {
+            margin-bottom:10em;
       }
 }
 
@@ -360,6 +430,14 @@ section {
 }
 #similar {
       .three {
+                  @media #{ $smartphones } {
+                              width:100%;
+                              padding:0;
+                  }
+            }
+}
+#downloads {
+      .two {
                   @media #{ $smartphones }
                   {
                               width:100%;

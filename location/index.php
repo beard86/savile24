@@ -9,7 +9,7 @@ include '../header.php';
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
@@ -53,14 +53,14 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/new-vision.jpg" alt="24 Savile Row vision" class="full-w">
+					<img src="/img/new-vision.jpg" alt="24 Savile Row vision" class="full-w">
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/residents.jpg" alt="Mayfair residents" class="full-w">
+					<img src="/img/residents.jpg" alt="Mayfair residents" class="full-w">
 				</div>
 				<div class="three pad-right full-h a-right right">
 					<div class="tabled">
@@ -77,7 +77,7 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -105,7 +105,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -120,7 +120,7 @@ include '../header.php';
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="three left pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -148,7 +148,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">

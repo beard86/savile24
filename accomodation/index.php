@@ -8,7 +8,7 @@ include '../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
-	<div class="down" id="hero-down">
+	<div class="down" id="space-down">
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
@@ -18,18 +18,13 @@ include '../header.php';
 			<p>Plans and Schedule</p>
 		</div>
 	</section>
-
-
-	<section id="intro">
-		<div class="centralise area-schedule">
-			<h2 class="orange no-pad bord-btm">
-				Area Schedule
-			</h2>
-		</div>
-	</section>
-
 	<section id="main">
 		<div class="wrapper">
+			<div class="centralise area-schedule">
+				<h2 class="orange no-pad">
+					Area Schedule
+				</h2>
+			</div>
 			<div class="rel">
 				<div class="two right">
 					<img src="/img/area-schedule.jpg" alt="Area schedule" class="full-w">
@@ -94,25 +89,49 @@ include '../header.php';
 		</div>
 	</section>
 	<section id="floor-plans">
-		<div class="centralise">
-			<div id="floor-carousel" class="owl-carousel owl-theme show-nav">
-				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
-				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
-				<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
+		<div class="wrapper">
+			<div class="centralise area-schedule">
+				<h2 class="orange no-pad">
+					Floor Plans
+				</h2>
+				<p>Fourth Floor 4,478 sq ft / 416 sq m</p>
 			</div>
-		</div>
-		<div id="down-floor" class="down">
-			<img src="/img/down-blk.png" alt="Scroll Down">
+			<div class="centralise">
+				<div id="floor-carousel" class="owl-carousel owl-theme show-nav">
+					<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
+					<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
+					<div class="item"><img src="/img/floor-plan/floor-plan.jpg" alt="Exterior shot of 24 Savile Row"></div>
+				</div>
+			</div>
+			<div class="core-office">
+				<p class="office"><span></span>Office</p>
+				<p class="core"><span></span>Core</p>
+			</div>
+			<div id="compass" class="north">
+				<img src="/img/floor-plan/compass.jpg" alt="Compass" class="full-w">
+			</div>
+			<p class="foot-note">Approximate net internal areas. Floors to be measured upon practical completion</p>
+			<div id="down-floor" class="down">
+				<img src="/img/down-blk.png" alt="Scroll Down">
+			</div>
 		</div>
 	</section>
 	<section id="space-plans">
-		<div class="centralise">
-			<img src="/img/floor-plan/space-plan.jpg" alt="Exterior shot of 24 Savile Row"  class="full-w">
+		<div class="wrapper">
+			<div class="centralise area-schedule">
+				<h2 class="orange no-pad">
+					Space Plan
+				</h2>
+				<p>Fourth Floor – Open Plan 4,478 sq ft / 416 sq m</p>
+			</div>
+			<div class="centralise">
+				<img src="/img/floor-plan/space-plan.jpg" alt="Exterior shot of 24 Savile Row"  class="full-w">
+			</div>
+			<p class="foot-note">Approximate net internal areas. Floors to be measured upon practical completion</p>
 		</div>
 	</section>
 
 </div>
-
 
 
 

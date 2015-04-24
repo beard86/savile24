@@ -5,16 +5,22 @@
         // All pages
         'common': {
             init: function() {
+                // JavaScript to be fired on all pages
 
-                UTIL.slideMenu();
+                UTIL.mobileNav();
                 UTIL.loadCarousels();
-                UTIL.scrollHandlers();
                 UTIL.activeClassToNav();
 
                 var body = $('body');
 
                 body.find('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');
+                });
+                body.find('#space-down').on('click', function() {
+                    UTIL.goToSection('#main');
+                });
+                body.find('#hero-downloads').on('click', function() {
+                    UTIL.goToSection('#downloads');
                 });
                 body.find('#down-schedule').on('click', function() {
                     UTIL.goToSection('#floor-plans');
@@ -23,11 +29,16 @@
                     UTIL.goToSection('#space-plans');
                 });
                 body.find('.backtop').on('click', function() {
-                    UTIL.goToSection('#hero');
+                    UTIL.goToSection('#savile');
                 });
 
-                // JavaScript to be fired on all pages
                 //UTIL.scrollTo();
+                //if(body.hasClass('contact')) {
+
+                //} else {
+                    UTIL.scrollHandlers();
+                //}
+
             },
             finalize: function() {
                 // JavaScript to be fired on all pages, after page specific JS is fired
@@ -43,19 +54,23 @@
             }
         },
         // About us page, note the change from about-us to about_us.
-        'about_us': {
+        'Accomodation': {
             init: function() {
                 // JavaScript to be fired on the about us page
+                UTIL.activeClassToNavByData();
             }
         },
-        'contact': {
-            init: function() {}
-        },
-        'example-page': {
+        'Gallery': {
             init: function() {
-
+                 $('#hero-down, .backtop').remove();
             }
-        }
+        },
+        'Contact': {
+            init: function() {
+                UTIL.activeClassToNavByData();
+                 $('#hero-down, .backtop').remove();
+            }
+        },
     };
     // The routing fires all common scripts, followed by the page specific scripts.
     // Add additional events for more control over timing e.g. a finalize event
@@ -72,6 +87,7 @@
                 namespace[func][funcname](args);
             }
         },
+
         loadEvents: function() {
             // Fire common init JS
             UTIL.fire('common');
@@ -85,17 +101,45 @@
             // Fire common finalize JS
             UTIL.fire('common', 'finalize');
         },
-        activeClassToNav: function() {
-          $('nav>ul>li>a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+
+        activeClassToNavByData : function() {
+        //adds class to active nav based on
+            $(window).scroll(function(){
+                var scrollTop = $(document).scrollTop();
+                var anchors = $('body').find('section');
+
+                //change to data attr to avoid redirect
+                for (var i = 0; i < anchors.length; i++){
+                    if (scrollTop > $(anchors[i]).offset().top - 50 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 50) {
+                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');
+                    } else {
+                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').removeClass('active');
+                    }
+                }
+
+            });
+
         },
+
+        //adds active
+        activeClassToNav: function() {
+          console.log(location.pathname.split("/")[2]);
+            //main menu
+          $('nav>ul>li>a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+            //sub menu
+          $('nav>ul>li>ul>li>a[data-page-type="' + location.pathname.split("/")[2] + '"]').addClass('active');
+        },
+
         goToSection: function(id) {
             $('html, body').animate({
-                scrollTop: $(id).offset().top
+                scrollTop: $(id).offset().top - 50
             }, 1000);
         },
+
         loadCarousels: function() {
             //initialise carousel for hero images
             $("#hero-carousel").owlCarousel({
+                autoPlay : 3000,
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
@@ -109,14 +153,16 @@
                 singleItem: true
             });
             $("#floor-carousel, #gallery-carousel").owlCarousel({
-                navigation: true, // Show next and prev buttons
+                navigation: true, // Show paginaion
                 pagination: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 singleItem: true
             });
         },
+
         scrollHandlers: function() {
+
                 var easing = {
                     // no easing, no acceleration
                     linear: function(t) {
@@ -129,7 +175,7 @@
                 var scrolldelta = Math.round(document.body.scrollTop || document.documentElement.scrollTop || 0);
                 var scrolltemp = 0;
                 var prevscroll = window.scrollY;
-                var down = document.querySelectorAll('#hero-down')[0];
+                var down = document.querySelectorAll('.down')[0];
                 down.hider = false;
                 down.trigger = 150;
                 var heroimage = document.querySelectorAll('#hero img')[0];
@@ -154,8 +200,6 @@
                     }
                 }
 
-
-
                 window.onscroll = function() {
                     scrolltemp = document.body.scrollTop || document.documentElement.scrollTop || 0;
                     scrolltemp = prevscroll - scrolltemp;
@@ -173,6 +217,7 @@
                 downCheck();
 
         },
+
         scrollTo: function(Y, duration, easingFunction, callback) {
             var start = Date.now();
             var from = document.body.scrollTop || document.documentElement.scrollTop || 0;
@@ -204,20 +249,24 @@
             }
             requestAnimationFrame(scroll);
         },
+
         /*
           Slidemenu
         */
-        slideMenu : function () {
-            var $body = document.body, 
-            $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
-            console.log('slidemenu')
+        mobileNav : function () {
+
+            var $body = $('body'), 
+            $menu_trigger = $body.find('.menu-trigger')[0];
+
             if ( typeof $menu_trigger !== 'undefined' ) {   
                 $menu_trigger.addEventListener('click', function() {
                     //modify to body has class / add class
-                    $body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
+                    $body.toggleClass('menu-active');
                 });
             }
+
         }
+
     };
     // Load Events
     $(document).ready(UTIL.loadEvents);

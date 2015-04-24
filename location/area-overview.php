@@ -30,9 +30,15 @@ include '../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel">
+				<div class="six pad-left right">
+					<img src="/img/map.jpg" alt="map" class="full-w">
+				</div>
 				<div class="three left">
 					<h2 class="orange underline">
 						Local amenities
+					</h2>
+					<h2 class="orange underline">
+						Local occupiers
 					</h2>
 					<p class="bold title">
 						Culture and dining
@@ -56,12 +62,6 @@ include '../header.php';
 						<li>Royal Academy of Arts</li>
 						<li>Annabel’s</li>
 					</ol>
-					<h2 class="orange underline">
-						Local occupiers
-					</h2>
-				</div>
-				<div class="six pad-left right">
-					<img src="/img/map.jpg" alt="map" class="full-w">
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>

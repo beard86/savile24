@@ -8,13 +8,13 @@ include '../header.php';
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 		<div class="text-container">
 			<h1><i>The</i> Story <i>of</i><br/> Light <i>and</i> Dark</h1>
@@ -35,7 +35,7 @@ include '../header.php';
 
 			<div class="rel">
 				<div class="two pad-left-s right">
-					<img src="../img/building-crop.jpg" alt="24 Savile Row vision" class="full-w">
+					<img src="/img/building-crop.jpg" alt="24 Savile Row vision" class="full-w">
 				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">

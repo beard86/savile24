@@ -8,13 +8,13 @@ include '../header.php';
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="../img/hero/art-of-hero.jpg" alt="Art of Collaboration"></div>
-			<div class="item"><img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/art-of-hero.jpg" alt="Art of Collaboration"></div>
+			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 		<div class="text-container">
 			<h1 class="blue large"><i>The</i> Art <i>of</i><br/> Collaboration</h1>
@@ -48,7 +48,7 @@ include '../header.php';
 
 				</div>
 				<div class="two pad-left-s right">
-					<img src="../img/steven-pey.jpg" alt="Steven Pey" class="full-w">
+					<img src="/img/steven-pey.jpg" alt="Steven Pey" class="full-w">
 					<blockquote class="six orange right">
 						“The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
 						<footer>

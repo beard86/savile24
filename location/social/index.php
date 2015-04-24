@@ -4,15 +4,15 @@ $title = 'Location';
 $subtitle = 'social';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="../img/hero/social-hero.jpg" alt="Exterior shot of 24 Savile Row">
+		<img src="/img/hero/social-hero.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large">Social</h1>
 		</div>
@@ -33,7 +33,7 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<a href="/location/mr-foggs.php">
+							<a href="/location/social/mr-foggs.php">
 								<h2 class="orange">Read our case study</h2><br/>
 								<h2 class="orange">about Mr Fogg’s ></h2>
 							</a>
@@ -41,13 +41,16 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<a href="/location/mr-foggs.php">
-						<img src="../img/social-cta.jpg" alt="Mr Fogg's" class="full-w">
+					<a href="/location/social/mr-foggs.php">
+						<img src="/img/social-cta.jpg" alt="Mr Fogg's" class="full-w">
 					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
+				<div class="two right">
+					<img src="/img/social-1.jpg" alt="Exterior" class="full-w">
+				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell purple">
@@ -56,14 +59,11 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="two right">
-					<img src="../img/social-1.jpg" alt="Exterior" class="full-w">
-				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/social-2.jpg" alt="Exterior" class="full-w">
+					<img src="/img/social-2.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -132,5 +132,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

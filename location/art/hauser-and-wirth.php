@@ -4,7 +4,7 @@ $title = 'Location';
 $subtitle = 'hauser-and-wirth';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
@@ -44,6 +44,9 @@ include '../header.php';
 				<div class="clear pad-bottom-lg"></div>
 			</div>
 			<div class="rel">
+				<div class="two right">
+					<img src="/img/hauser-2.jpg" alt="Exterior" class="full-w">
+				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell">
@@ -54,9 +57,6 @@ include '../header.php';
 						</div>
 					</div>
 
-				</div>
-				<div class="two right">
-					<img src="/img/hauser-2.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
@@ -131,5 +131,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

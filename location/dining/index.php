@@ -4,15 +4,15 @@ $title = 'Location';
 $subtitle = 'dining';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="../img/hero/dining-hero.jpg" alt="Exterior shot of 24 Savile Row">
+		<img src="/img/hero/dining-hero.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large uppercase">DINING</h1>
 		</div>
@@ -33,7 +33,7 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<a href="/location/bellamys.php">
+							<a href="/location/dining/bellamys.php">
 								<h2 class="orange">Read our case study</h2>
 								<h2 class="orange">with Bellamy’s</h2><br/>
 								<h2 class="orange">restaurant ></h2>
@@ -42,15 +42,15 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<a href="/location/bellamys.php">
-						<img src="../img/bellamys.jpg" alt="DSquared2" class="full-w">
+					<a href="/location/dining/bellamys.php">
+						<img src="/img/bellamys.jpg" alt="DSquared2" class="full-w">
 					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/dining-1.jpg" alt="Exterior" class="full-w">
+					<img src="/img/dining-1.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -74,7 +74,7 @@ include '../header.php';
 
 				</div>
 				<div class="two right">
-					<img src="../img/dining-2.jpg" alt="Exterior" class="full-w">
+					<img src="/img/dining-2.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
@@ -134,5 +134,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

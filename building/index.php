@@ -9,12 +9,12 @@ include '../header.php';
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
 			<div class="item">
-				<img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
+				<img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
 				<div class="text-container">
 					<div class="text-container">
 						<h1 class="large blue">Rhythm <i>of</i><br><i>the</i> street</h1>
@@ -22,7 +22,7 @@ include '../header.php';
 				</div>
 			</div>
 			<div class="item">
-				<img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+				<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
 				<div class="text-container">
 					<div class="text-wrapper">
 						<blockquote class="futura light">
@@ -34,7 +34,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 	</section>
 
@@ -44,7 +44,7 @@ include '../header.php';
 				Mayfair’s reputation as a style-driven retail destination is unparalleled. A celebrated address now has a landmark building to uniquely resonate with its surroundings. 
 			</h2>
 			<h2>
-				24,783 sq ft of office accommodation includes 8,691 sq ft of flagship retail on the ground and lower ground floors.
+				24,783 sq ft of office accommodation includes 8,691 sq ft of flagship retail on the ground and&nbsp;lower ground floors.
 			</h2>
 		</div>
 	</section>
@@ -54,7 +54,7 @@ include '../header.php';
 
 			<div class="rel">
 				<div class="six pad-right-s left">
-					<img src="../img/scribble.jpg" alt="24 Savile Row vision" class="full-w">
+					<img src="/img/scribble.jpg" alt="24 Savile Row vision" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -75,7 +75,7 @@ include '../header.php';
 
 			<div class="rel">
 				<div class="two right">
-					<img src="../img/ext.jpg" alt="Exterior" class="full-w">
+					<img src="/img/ext.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="three pad-right full-h">
 					<div class="tabled">
@@ -94,7 +94,7 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -122,7 +122,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">

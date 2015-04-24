@@ -12,7 +12,7 @@ include 'header.php';
 	<section id="hero">
 		<div id="hero-carousel" class="owl-carousel owl-theme">
 			<div class="item">
-				<img src="../img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+				<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
 				<div class="text-container">
 					<div class="tabled">
 						<div class="cell">
@@ -24,7 +24,7 @@ include 'header.php';
 					</div>
 				</div>
 			</div>
-			<div class="item"><img src="../img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+			<div class="item"><img src="/img/hero/home-2.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 	</section>
 
@@ -34,7 +34,7 @@ include 'header.php';
 				Mayfair’s reputation as a style-driven retail destination is unparalleled. A celebrated address now has a landmark building to uniquely resonate with its surroundings.
 			</h2>
 			<h2>
-				24,783 sq ft of office accommodation includes 8,691 sq ft of flagship retail on the ground and lower ground floors.
+				24,783 sq ft of office accommodation includes 8,691 sq ft of flagship retail on the ground and&nbsp;lower ground floors.
 			</h2>
 		</div>
 	</section>
@@ -46,7 +46,7 @@ include 'header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
-							<p>To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
+							<p class="purple">To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
 							<h3>Watch the process</h3>
 						</div>
 					</div>

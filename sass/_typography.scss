@@ -6,8 +6,14 @@ cite {
 h1 {
 	font-size: 3em;
 	line-height: 1.4em;
+		@media #{ $smartphones } {
+			font-size: 2em;
+		}
 	&.large {
 		font-size: 5em;
+	              @media #{ $smartphones } {
+		font-size: 6em;
+	              }
 	}
 }
 h2 {

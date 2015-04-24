@@ -4,15 +4,15 @@ $title = 'Location';
 $subtitle = 'fashion';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="../img/hero/fashion-hero.jpg" alt="Holland &amp; Holland - Margiela">
+		<img src="/img/hero/fashion-hero.jpg" alt="Holland &amp; Holland - Margiela">
 		<div class="text-container">
 			<h1 class="orange large uppercase">Fashion</h1>
 		</div>
@@ -33,7 +33,7 @@ include '../header.php';
 				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
-							<a href="/location/double-vision.php">
+							<a href="/location/fashion/double-vision.php">
 								<h2 class="orange">Read our interview</h2>
 								<h2 class="orange">with 24 Savile Row</h2><br/>
 								<h2 class="orange">occupiers ></h2>
@@ -42,15 +42,15 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<a href="/location/double-vision.php">
-						<img src="../img/dsquared2.jpg" alt="DSquared2" class="full-w">
+					<a href="/location/fashion/double-vision.php">
+						<img src="/img/dsquared2.jpg" alt="DSquared2" class="full-w">
 					</a>
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/dover-st-mkt.jpg" alt="Exterior" class="full-w">
+					<img src="/img/dover-st-mkt.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -65,7 +65,7 @@ include '../header.php';
 			</div>
 			<div class="rel">
 				<div class="two right">
-					<img src="../img/tailors.jpg" alt="Exterior" class="full-w">
+					<img src="/img/tailors.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
@@ -80,7 +80,7 @@ include '../header.php';
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/trainers.jpg" alt="Timeless style" class="full-w">
+					<img src="/img/trainers.jpg" alt="Timeless style" class="full-w">
 				</div>
 				<div class="three pad-left right">
 					<div class="tabled">
@@ -149,5 +149,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

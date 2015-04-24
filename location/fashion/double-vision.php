@@ -4,15 +4,15 @@ $title = 'Location';
 $subtitle = 'double-vision';
 $logocolour = 'blue';
 $PHP_SELF = $_SERVER['PHP_SELF'];
-include '../header.php';
+include '../../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="../img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="../img/hero/dsquared2.jpg" alt="Exterior shot of 24 Savile Row">
+		<img src="/img/hero/dsquared2.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
 			<h1 class="orange large uppercase">Double vision</h1>
 			<p class="orange">DSquared2</p>
@@ -40,7 +40,7 @@ include '../header.php';
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="../img/stilletto.jpg" alt="DSquared2" class="full-w">
+					<img src="/img/stilletto.jpg" alt="DSquared2" class="full-w">
 				</div>
 				<div class="clear pad-bottom-lg"></div>
 			</div>
@@ -55,7 +55,7 @@ include '../header.php';
 
 				</div>
 				<div class="three right pad-right marg-right">
-					<img src="../img/dean-catan.jpg" alt="Exterior" class="full-w">
+					<img src="/img/dean-catan.jpg" alt="Exterior" class="full-w">
 					<h2 class="orange">Dean Catan</h2>
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
@@ -71,14 +71,14 @@ include '../header.php';
 
 				</div>
 				<div class="three left pad-left ">
-					<img src="../img/dan-catan.jpg" alt="Exterior" class="full-w">
+					<img src="/img/dan-catan.jpg" alt="Exterior" class="full-w">
 					<h2 class="orange right">Dan Catan</h2>
 				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
 			<div class="rel">
 				<div class="two left">
-					<img src="../img/dsquared-aw-15.jpg" alt="DSquared2 AW-15" class="full-w">
+					<img src="/img/dsquared-aw-15.jpg" alt="DSquared2 AW-15" class="full-w">
 				</div>
 				<div class="three pad-left right full-h a-right">
 					<div class="tabled">
@@ -146,5 +146,5 @@ include '../header.php';
 
 
 <?php
-include '../footer.php'
+include '../../footer.php'
 ?>

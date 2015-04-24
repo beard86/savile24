@@ -1,16 +1,47 @@
 
-$smartphones: "only screen and (max-width: 479px)";
+$smartphones: "only screen and (max-width: 30em)";
 
-$tablets: "only screen and  (max-width: 768px)";
+$tablets: "only screen and  (max-width: 48em)"; /* (768px) */
 
-$netbooks: "only screen and  (max-width: 1200px)";
+$netbooks: "only screen and  (max-width: 68.75em)"; /* (1100px) */
 
-$widescreen: "only screen and (min-width:1280px)";
+$widescreen: "only screen and (min-width:81.25em)"; /* (1300px) */
 
 
-@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+/* ===== == = === Base Styles === = == ===== */
+
+
+/* ===== == = === 20em (320px) === = == ===== */
+
+@media only screen and (min-width : 20em) {
+}
+
+/* ===== == = === 30em (480px) === = == ===== */
+
+@media only screen and (min-width : 30em) {
+}
+
+/* ===== == = === 37.5em (600px) === = == ===== */
+
+@media only screen and (min-width: 37.5em) {
+}
+
+/* ===== == = === 48em (768px) === = == ===== */
+
+@media only screen and (min-width : 48em) {
+}
+
+/* ===== == = === 56.25em (900px) === = == ===== */
+
+@media only screen and (min-width : 56.25em) {
+}
+
+/* ===== == = === 68.75em (1100px) === = == ===== */
+
+@media only screen and (min-width : 68.75em) {
+}
+
+/* ===== == = === 81.25em (1300px) === = == ===== */
+
+@media only screen and (min-width : 81.25em) {
+}

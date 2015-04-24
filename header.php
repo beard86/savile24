@@ -7,7 +7,7 @@
 	<link href="http://fast.fonts.net/cssapi/93f0b630-b004-46b4-948b-7c33138d0c8f.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="<?php echo $title; ?> <?php echo $subtitle; ?> abs-full">
+<body id="savile" class="<?php echo $title; ?> <?php echo $subtitle; ?> abs-full">
 	<header>
 		<div class="wrapper">
 			<h1 class="logo">
@@ -27,25 +27,25 @@
 					<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location' ? ' active' : '');?>" href="/location">Location</a>
 						<ul class="location sub-menu">
 							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/index.php' ? ' active' : '');?>" href="/location/index.php">Gateway to Mayfair</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/fashion.php' ? ' active' : '');?>" href="/location/fashion.php">Fashion</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/art.php' ? ' active' : '');?>" href="/location/art.php">Art</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/dining.php' ? ' active' : '');?>" href="/location/dining.php">Dining</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/social.php' ? ' active' : '');?>" href="/location/social.php">Social</a></li>
+							<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/location/fashion' ? ' active' : '');?>" href="/location/fashion">Fashion</a></li>
+							<li><a data-page-type="art"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/art' ? ' active' : '');?>" href="/location/art">Art</a></li>
+							<li><a data-page-type="dining"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/dining' ? ' active' : '');?>" href="/location/dining">Dining</a></li>
+							<li><a data-page-type="social"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/social' ? ' active' : '');?>" href="/location/social">Social</a></li>
 							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/area-overview.php' ? ' active' : '');?>" href="/location/area-overview.php">Area Overview</a></li>
 						</ul>
 					</li>
 					<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">Accomodation</a>
 						<ul class="accomodation sub-menu">
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/index.php' ? ' active' : '');?>" href="/accomodation/index.php">The Space</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/fashion.php' ? ' active' : '');?>" href="/accomodation/area-schedule.php">Area Schedule</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/plans.php' ? ' active' : '');?>" href="/accomodation/plans.php">Plans</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/space-plans.php' ? ' active' : '');?>" href="/accomodation/space-plans.php">Space Plans</a></li>
+							<li><a data-page-type="hero" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/index.php' ? ' active' : '');?>" href="/accomodation/index.php">The Space</a></li>
+							<li><a data-page-type="main" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#intro' ? ' active' : '');?>" href="/accomodation#intro">Area Schedule</a></li>
+							<li><a data-page-type="floor-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#floor-plans' ? ' active' : '');?>" href="/accomodation#floor-plans">Plans</a></li>
+							<li><a data-page-type="space-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#space-plans' ? ' active' : '');?>" href="/accomodation#space-plans">Space Plans</a></li>
 							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/specification.php' ? ' active' : '');?>" href="/accomodation/specification.php">Specification</a></li>
 						</ul>
 					</li>
 					<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-					<li class="main-menu-item"><a href="/contact#intro">Downloads</a></li>
-					<li class="main-menu-item"><a href="/contact">Contact</a></li>
+					<li class="main-menu-item"><a data-page-type="downloads"  href="/downloads">Downloads</a></li>
+					<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 				</ul>
 				<div class="mobile-nav hidden">
 				     <div class="menu-btn menu-trigger" id="menu-btn">
@@ -82,15 +82,15 @@
 				<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">Accomodation</a>
 					<ul class="accomodation sub-menu">
 						<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/index.php' ? ' active' : '');?>" href="/accomodation/index.php">The Space</a></li>
-						<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/fashion.php' ? ' active' : '');?>" href="/accomodation/area-schedule.php">Area Schedule</a></li>
-						<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/plans.php' ? ' active' : '');?>" href="/accomodation/plans.php">Plans</a></li>
-						<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/space-plans.php' ? ' active' : '');?>" href="/accomodation/space-plans.php">Space Plans</a></li>
+						<li><a data-page-type="intro" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#intro' ? ' active' : '');?>" href="/accomodation#intro">Area Schedule</a></li>
+						<li><a data-page-type="floor-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#floor-plans' ? ' active' : '');?>" href="/accomodation#floor-plans">Plans</a></li>
+						<li><a data-page-type="space-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#space-plans' ? ' active' : '');?>" href="/accomodation#space-plans">Space Plans</a></li>
 						<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/specification.php' ? ' active' : '');?>" href="/accomodation/specification.php">Specification</a></li>
 					</ul>
 				</li>
 				<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-				<li class="main-menu-item"><a href="/contact#intro">Downloads</a></li>
-				<li class="main-menu-item"><a href="/contact">Contact</a></li>
+				<li class="main-menu-item"><a data-page-type="downloads"  href="/downloads">Downloads</a></li>
+				<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 	        </ul>
 	</nav>
 	<!--mobile menu -->
