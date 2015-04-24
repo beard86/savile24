@@ -31,7 +31,8 @@ include '../header.php';
 		<div class="wrapper">
 			<div class="rel">
 				<div class="six pad-left right">
-					<img src="/img/map.jpg" alt="map" class="full-w">
+					<img src="/img/hotspot-map.png" alt="map" class="full-w desktop">
+					<img src="/img/mobile-map.jpg" alt="map" class="full-w hidden">
 				</div>
 				<div class="three left">
 					<h2 class="orange underline">
@@ -138,7 +139,7 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -166,7 +167,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">

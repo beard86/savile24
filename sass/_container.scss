@@ -127,28 +127,6 @@ section {
 }
 
 #main {
-            .cell {
-                        text-align: left;
-            }
-            .schedule {
-                        .tbl-row {
-                                    height: 48px;
-                        }
-                        .cell {
-                                    text-align: center;
-                        }
-                        .heading {
-                                    div {
-                                                font-size: 1.2em;
-                                                span {
-                                                            border-bottom: 1px solid $orange;
-                                                }
-                                    }
-                        }
-                        &.tabled {
-                                    width: 90%;
-                        }
-            }
             h2 {
                         border-bottom: 1px solid $mblue;
                         display: inline-block;
@@ -318,6 +296,29 @@ section {
                         }
             }
 }
+.cell {
+            text-align: left;
+}
+.schedule {
+            .tbl-row {
+                        height: 48px;
+            }
+            .cell {
+                        text-align: center;
+            }
+            .heading {
+                        div {
+                                    font-size: 1.2em;
+                                    span {
+                                                border-bottom: 1px solid $orange;
+                                    }
+                        }
+            }
+            &.tabled {
+                        width: 90%;
+            }
+}
+
 .core-office {
       margin-bottom:1em;
       p {
@@ -445,7 +446,21 @@ section {
                   }
             }
 }
-
+img {
+      &.hidden {
+            @media #{ $smartphones } {
+                  display: block;
+               height: auto; 
+              width: 100%; 
+               visibility: visible;      
+            }
+      }
+      &.desktop {
+            @media #{ $smartphones } {
+                  display: none;
+            }
+      }
+}
 /////////// /////////// /////////// /////////// ///////
 ///// //////// F O O T E R ////////// ////////////
 /////////// /////////// /////////// /////////// ///// 

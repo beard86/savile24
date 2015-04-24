@@ -18,7 +18,7 @@ include '../header.php';
 			<p>Plans and Schedule</p>
 		</div>
 	</section>
-	<section id="main">
+	<section id="area-schedule">
 		<div class="wrapper">
 			<div class="centralise area-schedule">
 				<h2 class="orange no-pad">

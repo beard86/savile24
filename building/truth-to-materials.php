@@ -119,7 +119,7 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -147,7 +147,7 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
 					<div class="abs-full">
