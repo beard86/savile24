@@ -46,8 +46,8 @@ include 'header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
-							<p class="purple">To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
-							<h3>Watch the process</h3>
+							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
+							<h3>Watch the process unfold</h3>
 						</div>
 					</div>
 
@@ -65,7 +65,7 @@ include 'header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Storage Associati</h2>
-							<p>Et volorem quiatemporro te et et que possi reres niet aliqui ipid qui volupta exerruptatus aut occus, vollent plitatia eostem ipsam as et, tempori beatem eos doluptis et et arum etum ressiti o</p>
+							<p>Asked to imagine the new entrance and reception to 24 Savile Row, this acclaimed Milan-based team began with marble and brass – natural materials that translate what Savile Row means: a true reflection of value.</p>
 							<h3>Watch their story</h3>
 						</div>
 					</div>
@@ -77,17 +77,19 @@ include 'header.php';
 
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/truth.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Rhythm <i>of the</i> Street
-								</h2>
+						<a href="/building/truth-to-materials.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Truth <i>to</i> Materials
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -95,60 +97,102 @@ include 'header.php';
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Art <i>of</i> Collaboration
-								</h2>
+						<a href="/building/art-of-collaboration.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="blue">
+										<i>The</i> Art <i>of</i> Collaboration
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Story <i>of</i> Light <i>and</i> Dark
-								</h2>
+						<a href="/building/light-and-dark.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										<i>The</i> Story <i>of</i> Light <i>and</i> Dark
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>		
+			<div class="three left pad-left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/fashion">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Fashion
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/art">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Art 
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-right pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/dining">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Dining
+									</h2>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test4.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Gateway <i>to</i> Mayfair
-								</h2>
+						<a href="/location/social">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Social
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test5.jpg');"></div>
-					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Fashion
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>			
 			<div class="clear"></div>
+
 		</div>
 	</section>
 </div>

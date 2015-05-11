@@ -14,8 +14,12 @@ include '../header.php';
 	<section id="hero">
 		<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
-			<h1 class="large">The space</h1>
-			<p>Plans and Schedule</p>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="large">The Space</h1>
+					<p>Plans and Schedule</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="area-schedule">

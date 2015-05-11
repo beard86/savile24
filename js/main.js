@@ -17,7 +17,7 @@
                     UTIL.goToSection('#intro');
                 });
                 body.find('#space-down').on('click', function() {
-                    UTIL.goToSection('#main');
+                    UTIL.goToSection('#area-schedule');
                 });
                 body.find('#hero-downloads').on('click', function() {
                     UTIL.goToSection('#downloads');
@@ -110,7 +110,7 @@
 
                 //change to data attr to avoid redirect
                 for (var i = 0; i < anchors.length; i++){
-                    if (scrollTop > $(anchors[i]).offset().top - 50 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 50) {
+                    if (scrollTop > $(anchors[i]).offset().top - 60 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 60) {
                         $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');
                     } else {
                         $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').removeClass('active');
@@ -139,7 +139,7 @@
         loadCarousels: function() {
             //initialise carousel for hero images
             $("#hero-carousel").owlCarousel({
-                autoPlay : 3000,
+                autoPlay : 7000,
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
@@ -178,7 +178,7 @@
                 var down = document.querySelectorAll('.down')[0];
                 down.hider = false;
                 down.trigger = 150;
-                var heroimage = document.querySelectorAll('#hero img')[0];
+                var heroimage = document.querySelectorAll('#hero img');
 
                 function downCheck() {
                     if (!down.hider) {
@@ -209,7 +209,9 @@
                         herotemp = 0;
                     }
                     downCheck();
-                    heroimage.style.transform = 'translateY(' + herotemp + 'px)';
+                    for (var i = 0; i < heroimage.length; i++) {
+                        heroimage[i].style.transform = 'translateY(' + herotemp + 'px)';
+                    };
 
                     prevscroll = document.body.scrollTop || document.documentElement.scrollTop || 0;
                 };

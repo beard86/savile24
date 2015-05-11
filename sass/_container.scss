@@ -23,6 +23,9 @@ section {
             position: relative;
             background: $white;
             padding: 5em 0 1px 0;
+            @media #{ $smartphones } {
+            padding-top: 3em;
+            }
 }
 
 #hero {
@@ -34,43 +37,16 @@ section {
             transform: translateZ(0px);
             .text-container {
                         position: absolute;
-                        top: 0;
+                        top: 60px;
                         left: 0;
                         right: 0;
                         bottom: 0;
                         text-align: center;
                         color: #fff;
-                        >* {
-                                    position: absolute;
-                                    top: 50%;
-                                    -webkit-transform: translateY(-50%);
-                                    transform: translateY(-50%);
-                                    text-align: center;
-                                    width: 100%;
-                                    &.blue {
-                                                color: $blue;
-                                    }
-                        }
-                        p {
-                                    top: 65%;
-                                    @media #{$smartphones} {
-                                            top: auto;
-                                            bottom: 1em;
-                                    }
-                        }
-                        blockquote {
-                              font-size: 3em;
-                                    @media #{$smartphones} {
-                                          font-size: 1em;
-                                    }
-                              text-decoration: none;
-                              cite {
-                                    color: #fff;
-                                      position: relative;
-                                      right: 145px;
-                                      font-size: 0.65em;
+                        @media #{$tablets}
+                              {
+                                          top:0;
                               }
-                        }
             }
             &>img {
                         position: fixed;
@@ -94,6 +70,9 @@ section {
                         max-width: 600px;
                         border-left: 1px solid $lblue;
                         padding-left: 1em;
+                         @media #{$smartphones} {
+                              width: 90%;
+                        }
             }
 }
 #space-down,
@@ -129,10 +108,11 @@ section {
 #main {
             h2 {
                         border-bottom: 1px solid $mblue;
-                        display: inline-block;
+                        display: table;
                         padding-bottom: 0;
                         line-height: 1.2em;
                         margin-bottom: 1.3em;
+                        text-align: left;
                         &.orange {
                                     color: $orange;
                                     border:0;
@@ -157,11 +137,13 @@ section {
             }
             h3 {
                         color: $orange;
-                        padding-top: 2em;
+                        padding-top: 0.5em;
+                        text-align: left;
             }
             p {
                         padding-right: 2em;
                         padding-bottom: 1em;
+                        text-align: left;
             }
 }
 
@@ -195,15 +177,16 @@ section {
             padding-bottom: 100%;
             height: 0;
             overflow: hidden;
-            background: $blue;
             position: relative;
             cursor: pointer;
             margin-bottom: 2.5em;
+            @include transform(translateZ(0px));
+            @include backface-visibility(visible);
             &:hover {
                         .bgimage {
-                                    @include transform(scale(1.5));
+                                    // @include transform(scale(1.5));
                                     opacity: 0.2;
-                                    @include transition(transform 10s linear, opacity 0.7s linear);
+                                    @include transition(opacity 0.4s linear);
                         }
             }
             color: $white;
@@ -233,10 +216,12 @@ section {
             left: 0;
             right: 0;
             bottom: 0;
-            opacity: 0.5;
+            opacity: 1;
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-position: center;
+            @include transform(translateZ(0px));
+            @include backface-visibility(visible);
             @include transform(scale(1));
             @include transition(transform 0.5s ease-in, opacity 0.7s linear);
 }
@@ -296,9 +281,6 @@ section {
                         }
             }
 }
-.cell {
-            text-align: left;
-}
 .schedule {
             .tbl-row {
                         height: 48px;
@@ -351,31 +333,12 @@ section {
 
 .contact {
       #hero {
-            @media #{ $smartphones } {
-                  height: auto;
-                    padding-bottom:122%;
-            }
             >img {
                   @media #{ $smartphones } {
                         position: static;
                   }
             }
             .text-container {
-                    padding-top: 10em;
-                              @media #{ $smartphones } {
-                                    padding-top: 4em;
-                              }
-                        > * {
-                              position: static;
-                              width:50%;
-                              margin:0 auto;
-                              @media #{ $smartphones } {
-                                    width:100%;
-                                    color:$blue;
-                                      -webkit-transform: translateY(0);
-                                       transform: translateY(0);
-                            }
-                        }
                         a {
                               display: block;
                               color:$white;
@@ -388,12 +351,26 @@ section {
                         h1 {
                               margin-bottom: 0.75em;
                               @media #{ $smartphones } {
-                                    margin-bottom: 1.5em;
+                                    margin-bottom: 0;
                                     color:$white;
 
                               }
                         }
             }
+      }
+      @media #{ $smartphones } {
+            .row .two {
+                  padding-bottom: 0.5em;
+                  a {
+                        display: block;
+                  }
+            }
+            .row.title.pad-bottom {
+                  padding-bottom: 0;
+            }
+      }
+      .row.details {
+            padding-bottom: 1em;
       }
       .square {
             padding-bottom:110%;

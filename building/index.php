@@ -12,39 +12,25 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item">
-				<img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
-				<div class="text-container">
-					<div class="text-container">
-						<h1 class="large blue">Rhythm <i>of</i><br><i>the</i> street</h1>
-					</div>
+		<img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row">
+		<div class="text-container">
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="large blue">Rhythm <i>of</i><br><i>the</i> Street</h1>
 				</div>
 			</div>
-			<div class="item">
-				<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
-				<div class="text-container">
-					<div class="text-wrapper">
-						<blockquote class="futura light">
-							“One of the first principles of<br> art so clearly seen in<br> primitive work is truth to<br> material, the artist shows<br> an instinctive understanding<br> of his material, its right<br> use and possibilities” 
-							<footer>
-								<cite>Henry Moore</cite>
-							</footer>
-						</blockquote>
-					</div>
-				</div>
-			</div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>
 	</section>
 
 	<section id="intro">
 		<div class="intro-text">
 			<h2>
-				Mayfair’s reputation as a style-driven retail destination is unparalleled. A celebrated address now has a landmark building to uniquely resonate with its surroundings. 
-			</h2>
-			<h2>
-				24,783 sq ft of office accommodation includes 8,691 sq ft of flagship retail on the ground and&nbsp;lower ground floors.
+				<blockquote>
+					“One of the first principles of art so clearly seen in primitive work is truth to material, the artist shows an instinctive understanding of his material, its right use and possibilities” 
+					<footer>
+						<cite>Henry Moore</cite>
+					</footer>
+				</blockquote>
 			</h2>
 		</div>
 	</section>
@@ -96,15 +82,17 @@ include '../header.php';
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/truth.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Truth <i>to</i> Materials
-								</h2>
+						<a href="/building/truth-to-materials.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Truth <i>to</i> Materials
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -112,13 +100,15 @@ include '../header.php';
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Art <i>of</i> Collaboration
-								</h2>
+						<a href="/building/art-of-collaboration.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="blue">
+										<i>The</i> Art <i>of</i> Collaboration
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -126,13 +116,15 @@ include '../header.php';
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Story <i>of</i> Light <i>and</i> Dark
-								</h2>
+						<a href="/building/light-and-dark.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										<i>The</i> Story <i>of</i> Light <i>and</i> Dark
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

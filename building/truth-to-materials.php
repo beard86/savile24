@@ -11,13 +11,13 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="/img/hero/truth-to-hero.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="/img/hero/truth-to-hero.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
-			<h1 class="orange large">Truth <i>to</i> Materials</h1>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="orange large">Truth <i>to</i> Materials</h1>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -41,7 +41,7 @@ include '../header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
-							<p class="purple">To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
+							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
 							<h3 class="underline">Watch the process ></h3>
 						</div>
 					</div>
@@ -88,11 +88,10 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 				</div>
 				<div class="three pad-right left">
 					<div class="tabled">
-						<div class="cell purple">
+						<div class="cell">
 							<h2 class="orange"><i>The</i> Tiles</h2>
-							<p class="bold">Just as a diamond or a lump of coal, crystalline structures grow on the earth’s surface. I replicate those conditions and ingredients in my glaze recipes and firing conditions.</p>
-							<p>The building’s black tiles grow electric blue crystals much like lichen. Some tiles will grow a blanket of them, some will grow hardly any, and each one is unique. To complement the black glaze we selected three white glazes; a calm, super and PWwhite to spread over the building’s façade.</p>
-							<p>Colour has limited place in the built environment. It was the architect’s vision to use black and white. I wanted colour, but with views from five angles, choosing black and white was a very clever choice. Change occurs in the dark and the light, and the way these monochrome colours respond to light and weather represents the crucial nature of building projects.</p>
+							<p class="bold">Just like a diamond or a lump of coal, crystalline structures grow on the earth’s surface. Kate replicated those conditions and ingredients in her glaze recipes and firing conditions.</p>
+							<p>The building’s black tiles grow electric blue crystals, much like lichen. Some tiles grow a blanket of them, some grow hardly any – each one is unique. Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then cools, creating beautiful yet hardwearing ceramic tiles. </p>
 						</div>
 					</div>
 
@@ -105,11 +104,9 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 				</div>
 				<div class="three pad-left right a-right">
 					<div class="tabled">
-						<div class="cell purple">
+						<div class="cell">
 							<h2 class="orange"><i>The</i> Plinth</h2>
-							<p class="bold">Just as a diamond or a lump of coal, crystalline structures grow on the earth’s surface. I replicate those conditions and ingredients in my glaze recipes and firing conditions.</p>
-							<p>The building’s black tiles grow electric blue crystals much like lichen. Some tiles will grow a blanket of them, some will grow hardly any, and each one is unique. To complement the black glaze we selected three white glazes; a calm, super and PW white to spread over the building’s façade.</p>
-							<p>Colour has limited place in the built environment. It was the architect’s vision to use black and white. I wanted colour, but with views from five angles, choosing black and white was a very clever choice. Change occurs in the dark and the light, and the way these monochrome colours respond to light and weather represents the crucial nature of building projects.
+							<p class="bold">The entire building is mounted on a plinth – a kick plate, if you will –  cast in bronze, creating a giant replica of the intricate crystaline pattern of the tiles.</p>
 						</div>
 					</div>
 				</div>
@@ -121,43 +118,49 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('../img/squares/rhythm.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Truth <i>to</i> Materials
-								</h2>
+						<a href="/building/index.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										The Rhythm <i>of the</i> Street
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Art <i>of</i> Collaboration
-								</h2>
+						<a href="/building/art-of-collaboration.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="blue">
+										<i>The</i> Art <i>of</i> Collaboration
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-right pad-left">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Story <i>of</i> Light <i>and</i> Dark
-								</h2>
+						<a href="/building/light-and-dark.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										<i>The</i> Story <i>of</i> Light <i>and</i> Dark
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

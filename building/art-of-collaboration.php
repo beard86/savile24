@@ -11,13 +11,13 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="/img/hero/art-of-hero.jpg" alt="Art of Collaboration"></div>
-			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="/img/hero/art-of-hero.jpg" alt="Art of Collaboration">
 		<div class="text-container">
-			<h1 class="blue large"><i>The</i> Art <i>of</i><br/> Collaboration</h1>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="blue large"><i>The</i> Art <i>of</i><br/> Collaboration</h1>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -48,7 +48,7 @@ include '../header.php';
 
 				</div>
 				<div class="two pad-left-s right">
-					<img src="/img/steven-pey.jpg" alt="Steven Pey" class="full-w">
+					<img src="/img/collaboration.jpg" alt="Steven Pey" class="full-w">
 					<blockquote class="six orange right">
 						“The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
 						<footer>
@@ -100,7 +100,7 @@ include '../header.php';
 				<div class="six pad-left right">
 					<img src="/img/storage-associati.jpg" alt="Storage Associati" class="full-w">
 					<blockquote class="two orange right">
-						“This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
+						“It started with marble. Replicating the subtle elegance of the light and dark exterior, connecting materials, translating what Savile Row means. Reflecting its value.”
 						<footer>
 							<cite><a href="#">Storage Associati</a></cite>
 						</footer>
@@ -115,7 +115,7 @@ include '../header.php';
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('../img/squares/truth.jpg');"></div>
 					<div class="abs-full">
 						<div class="tabled">
 							<div class="cell">
@@ -133,7 +133,7 @@ include '../header.php';
 					<div class="abs-full">
 						<div class="tabled">
 							<div class="cell">
-								<h2>
+								<h2 class="blue">
 									<i>The</i> Art <i>of</i> Collaboration
 								</h2>
 							</div>

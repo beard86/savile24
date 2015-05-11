@@ -14,7 +14,11 @@ include '../header.php';
 	<section id="hero">
 		<img src="/img/hero/area-overview.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
-			<h1 class="orange large ">Area Overview</h1>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="orange large ">Area Overview</h1>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -141,7 +145,7 @@ include '../header.php';
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
 						<div class="tabled">
 							<div class="cell">
@@ -155,7 +159,21 @@ include '../header.php';
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
+					<div class="abs-full">
+						<div class="tabled">
+							<div class="cell">
+								<h2>
+									Art 
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-right pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
 						<div class="tabled">
 							<div class="cell">
@@ -167,14 +185,72 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="clear"></div>
+			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">
 						<div class="tabled">
 							<div class="cell">
 								<h2>
 									Social
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
+					<div class="abs-full">
+						<div class="tabled">
+							<div class="cell">
+								<h2 class="orange">
+									Hauser &amp; Wirth
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-right pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="abs-full">
+						<div class="tabled">
+							<div class="cell">
+								<h2 class="orange">
+									DSquared2
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="three left pad-left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
+					<div class="abs-full">
+						<div class="tabled">
+							<div class="cell">
+								<h2 class="orange">
+									Bellamy's
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/foggs.jpg');"></div>
+					<div class="abs-full">
+						<div class="tabled">
+							<div class="cell">
+								<h2 class="orange">
+									Mr. Fogg's
 								</h2>
 							</div>
 						</div>

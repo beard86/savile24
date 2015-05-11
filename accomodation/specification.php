@@ -12,17 +12,19 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
+		<img src="/img/hero/summary.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
-			<h1 class="orange  large">Summary<br/>Specification</h1>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="orange  large">Summary<br/>Specification</h1>
+				</div>
+			</div>
 		</div>
-	</section>
-	<section id="intro">
 	</section>
 
 	<section id="main">
 		<div class="wrapper">
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="two right main-carousel-wrap">
 					<div id="main-carousel" class="owl-carousel owl-theme">
 						<div class="item"><img src="/img/specs-building.jpg" alt="Exterior shot of 24 Savile Row"></div>
@@ -43,9 +45,9 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom-lg"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="two left main-carousel-wrap">
 					<div id="main-carousel-2" class="owl-carousel owl-theme">
 						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
@@ -53,7 +55,7 @@ include '../header.php';
 						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
 					</div>
 				</div>
-				<div class="three pad-right full-h a-right">
+				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell large-copy">
 							<p>VRF air-conditioning</p>
@@ -66,9 +68,9 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom-xlg"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="two right main-carousel-wrap">
 					<div id="main-carousel-2" class="owl-carousel owl-theme">
 						<div class="item"><img src="/img/specs-download.jpg" alt="Bathroom shot of 24 Savile Row"></div>
@@ -84,9 +86,9 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="two right main-carousel-wrap">
 				</div>
 				<div class="three pad-left left">
@@ -97,7 +99,7 @@ include '../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom"></div>
+				<div class="clear"></div>
 			</div>
 		</div>
 	</section>

@@ -12,13 +12,13 @@ include '../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="/img/hero/gateway.jpg" alt="Exterior shot of 24 Savile Row">
 		<div class="text-container">
-			<h1>Gateway <i>to</i> Mayfair</h1>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="large">Gateway <i>to</i> Mayfair</h1>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -37,7 +37,7 @@ include '../header.php';
 	<section id="main">
 		<div class="wrapper">
 
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="three pad-left left">
 					<div class="tabled">
 						<div class="cell">
@@ -49,26 +49,13 @@ include '../header.php';
 
 							<p>Creating new beauty in detail, form and function, we are delighted to present this most exclusive office space, with interiors realised by Milan-based interior architects Storage Associati. </p>
 
+							<p>Mayfair’s residents and casual passers-by will each form their own opinion of the building, every day, and thus, a reputation grows.</p>
+
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
 					<img src="/img/new-vision.jpg" alt="24 Savile Row vision" class="full-w">
-				</div>
-				<div class="clear pad-bottom"></div>
-			</div>
-
-			<div class="rel">
-				<div class="two left">
-					<img src="/img/residents.jpg" alt="Mayfair residents" class="full-w">
-				</div>
-				<div class="three pad-right full-h a-right right">
-					<div class="tabled">
-						<div class="cell">
-							<p>Mayfair’s residents and casual passers-by will each form their own opinion of the building, every day, and thus, a reputation grows.</p>
-						</div>
-					</div>
-
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -79,86 +66,131 @@ include '../header.php';
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Fashion
-								</h2>
+						<a href="/location/fashion">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Fashion
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Art 
-								</h2>
+						<a href="/location/art">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Art 
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-right pad-left">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Dining
-								</h2>
+						<a href="/location/dining">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Dining
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Social
-								</h2>
+						<a href="/location/social">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Social
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									HAUSER &amp; WIRTH
-								</h2>
+						<a href="/location/art/hauser-and-wirth.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Hauser &amp; Wirth
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-right pad-left">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									DSquared2
-								</h2>
+						<a href="/location/fashion/double-vision.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										DSquared2
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="three left pad-left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/dining/bellamys.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Bellamy's
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/foggs.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/social/mr-foggs.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Mr. Fogg's
+									</h2>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>

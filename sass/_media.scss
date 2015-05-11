@@ -1,3 +1,54 @@
-@media screen and (max-width: 1111px){
+#mobcontacts {
+	display: none;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1450px){
+
+	.rel .three {
+		width: 50%;
+	}
+
+	.rel .six {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width : 48em) {
+	.rel .three {
+		width: 100%;
+	}
+
+	.rel .six {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 950px){
+
+	.full-h {
+		position: relative;
+		float: left;
+	}
+
+}
+
+@media screen and (max-width: 1180px){
+
+	.contact #hero .text-container h1 {
+		margin: 0;
+	}
+
+	.contactblock {
+		display: none;
+	}
+
+	#mobcontacts {
+		display: block;
+	}
+
 }
 

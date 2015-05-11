@@ -132,18 +132,6 @@ q:after {
             content: none;
 }
 
-blockquote {
-            font-size: 1.5em;
-            line-height: 1.3em;
-            margin: 1.5em 25px;
-            padding: 0.5em 25px;
-            quotes: "\201C""\201D""\2018""\2019";
-}
-
-blockquote p {
-            display: inline;
-}
-
 table {
             border-collapse: collapse;
             border-spacing: 0;
@@ -218,6 +206,11 @@ img {
               }
 }
 
+.centralise {
+            margin: 0 auto 0.5em auto;
+            text-align: center;
+}
+
 .quart {
             width: 25%;
 }
@@ -250,7 +243,11 @@ img {
 }
 
 .pad-bottom {
-            padding-bottom: 2em;
+            margin-bottom: 4em;
+}
+
+.hpad-bottom {
+            margin-bottom: 2em;
 }
 
 .pad-bottom-lg {
@@ -310,9 +307,8 @@ img {
             border-bottom: 1px solid;
 }
 
-.centralise {
-            margin: 0 auto 2em;
-            text-align: center;
+.centered {
+      margin: 0 auto;
 }
 
 .area-schedule {

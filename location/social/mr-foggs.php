@@ -12,14 +12,14 @@ include '../../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<div id="hero-carousel" class="owl-carousel owl-theme">
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-		</div>
+		<img src="/img/hero/foggs.jpg" alt="Mr Fogg's">
 		<div class="text-container">
-			<h1 class="orange large uppercase">IPSUM <br/>DELORE</h1>
-			<p class="orange"> Mr Fogg's</p>
+			<div class="tabled">
+				<div class="cell">
+					<h1 class="orange large uppercase">FOR <br>WHAT IT'S <br>WORTH</h1>
+					<p class="orange"> Mr Fogg's</p>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -34,7 +34,7 @@ include '../../header.php';
 
 	<section id="main">
 		<div class="wrapper">
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="two left">
 					<img src="/img/mr-foggs-1.jpg" alt="Mr Fogg's" class="full-w">
 				</div>
@@ -46,9 +46,9 @@ include '../../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom-lg"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell purple">
@@ -62,9 +62,9 @@ include '../../header.php';
 				<div class="two right">
 					<img src="/img/mr-foggs-2.jpg" alt="Mr Fogg's" class="full-w">
 				</div>
-				<div class="clear pad-bottom-xlg"></div>
+				<div class="clear"></div>
 			</div>
-			<div class="rel">
+			<div class="rel pad-bottom">
 				<div class="six left pad-left pad-right-lg">
 					<img src="/img/mr-foggs-3.jpg" alt="Mr Fogg's" class="full-w">
 				</div>
@@ -77,7 +77,7 @@ include '../../header.php';
 					</div>
 
 				</div>
-				<div class="clear pad-bottom-xxlg"></div>
+				<div class="clear"></div>
 			</div>
 		</div>
 	</section>
@@ -85,43 +85,115 @@ include '../../header.php';
 		<div class="wrapper">
 			<div class="three left pad-left pad-right">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Fashion
-								</h2>
+						<a href="/location/fashion">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Fashion
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Dining
-								</h2>
+						<a href="/location/art">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Art 
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-right pad-left">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Social
-								</h2>
+						<a href="/location/dining">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Dining
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="three left pad-left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/social">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Social
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/dining/bellamys.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Bellamy's
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-right pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/art/hauser-and-wirth.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Hauser &amp; Wirth
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="three left pad-left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/fashion/double-vision.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										DSquared2
+									</h2>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
