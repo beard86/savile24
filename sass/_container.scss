@@ -184,17 +184,19 @@ h2 {
             position: relative;
             cursor: pointer;
             margin-bottom: 2.5em;
+            color: $white;
+            background-color: $white;
             @include transform(translateZ(0px));
             @include backface-visibility(visible);
             &:hover {
+                         @include transition( color 2s);
+                         background-color: $blue;
                         .bgimage {
                                     // @include transform(scale(1.5));
                                     opacity: 0.2;
                                     @include transition(opacity 0.4s linear);
                         }
             }
-            color: $white;
-            background-color:$blue;
             h2 {
                   max-width: 60%;
                   margin: 0 auto;
@@ -278,12 +280,13 @@ h2 {
                                     }
                         }
             }
-            .local-map {
+            #main.local-map {
                   li {
                         line-height:1.5em;
                   }
                   h3 {
                         cursor:pointer;
+                        float: none;
                   }
             }
             .image {
@@ -371,9 +374,6 @@ h2 {
                      display: inline-block;
                     font-size: 1em;
                     margin-bottom: 0.5em;
-            }
-            p {
-                    font-size: 1em;
             }
             .core-office {
                   left:1em;
@@ -522,6 +522,7 @@ h2 {
       }
       #downloads {
             margin-bottom:10em;
+            padding-bottom:5px;
       }
 }
 

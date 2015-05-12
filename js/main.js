@@ -11,7 +11,6 @@
                 UTIL.loadCarousels();
                 UTIL.activeClassToNav();
 
-                var body = $('body');
 
                 $('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');

@@ -51,7 +51,7 @@ include '../header.php';
 					<blockquote class="six orange right">
 						The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
 						<footer>
-							<cite><a href="#">Steven Pey, EPR</a></cite>
+							<cite>Steven Pey, EPR</cite>
 						</footer>
 					</blockquote>
 					

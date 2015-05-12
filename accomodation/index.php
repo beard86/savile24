@@ -184,10 +184,10 @@ include '../header.php';
 				</h2>
 			</div>
 			<div class="rel">
-				<div class="six right">
+				<div class="seven right">
 					<div id="space-carousel" class="owl-carousel owl-theme show-nav">
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>Sixth Floor</h3>
@@ -408,7 +408,7 @@ include '../header.php';
 						</div>
 					</div>
 				</div>
-				<div class="three pad-right left">
+				<div class="quart pad-right left">
 					<h3>Fourth Floor</h3>
 					<ul>
 						<li class="bold">Open Plan</li>
