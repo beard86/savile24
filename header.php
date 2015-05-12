@@ -12,6 +12,7 @@
 		<style>
 		</style>
 	<![endif]-->
+	<script src="//cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script>
 	<link href="//vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
 	<script src="//vjs.zencdn.net/4.12/video.js"></script>
 </head>

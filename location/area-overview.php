@@ -133,9 +133,9 @@ include '../header.php';
 					</div>
 
 						<img src="/img/hotspot-map.png" alt="map" class="full-w desktop">
-						<img src="/img/mobile-map.jpg" alt="map" class="full-w hidden">
+						<img src="/img/hotspot-map-mobile.png" alt="map" class="full-w hidden">
+						<div class="clear pad-bottom-xlg"></div>
 					</div>
-				<div class="clear pad-bottom-xlg"></div>
 				</div>
 					<div class="rel">
 						<div class="two left">
@@ -147,37 +147,38 @@ include '../header.php';
 								Transport
 								</h2>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell">Xxxxx Xxxxx</div>
-										<div class="cell">00 minutes</div>
+										<div class="cell aleft">Xxxxx Xxxxx</div>
+										<div class="cell aleft">00 minutes</div>
 								</div>
+								<div class="clear pad-bottom"></div>
 							</div>
 
 						</div>
