@@ -262,25 +262,25 @@
                 var scrolldelta = Math.round(document.body.scrollTop || document.documentElement.scrollTop || 0);
                 var scrolltemp = 0;
                 var prevscroll = window.scrollY;
-                var down = $('.down');
+                var down = document.querySelectorAll('.down')[0];
                 down.hider = false;
                 down.trigger = 150;
-                var heroimage = $('#hero img');
+                var heroimage = document.querySelectorAll('#hero img');
 
                 function downCheck() {
                     if (!down.hider) {
                         if (scrolldelta > down.trigger) {
-                            down.addClass('fade');
+                            down.classList.add('fade');
                             setTimeout(function() {
-                                down.addClass('hide');
+                                down.classList.add('hide');
                             }, 500);
                             down.hider = true;
                         }
                     } else {
                         if (scrolldelta < down.trigger) {
-                            down.removeClass('hide');
+                            down.classList.remove('hide');
                             setTimeout(function() {
-                                down.removeClass('fade');
+                                down.classList.remove('fade');
                             }, 100);
                             down.hider = false;
                         }
