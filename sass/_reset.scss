@@ -233,13 +233,16 @@ img {
 .pad-left-lg {
             padding-left: 4.33em;
 }
+.pad-left-xlg {
+            padding-left: 6.33em;
+}
 
 .pad-left-s {
             padding-left: 0.66em;
 }
 
 .pad-middle {
-            padding: 0 1.3em;
+            padding: 0 0.66666em;
 }
 
 .pad-bottom {
@@ -248,6 +251,9 @@ img {
 
 .hpad-bottom {
             margin-bottom: 2em;
+}
+.qpad-bottom {
+            margin-bottom: 1em;
 }
 
 .pad-bottom-lg {
@@ -312,19 +318,22 @@ img {
 }
 
 .area-schedule {
-            width: 190px;
             padding-top: 0.5em;
             p {
                 margin-top:1em;
             }
             h2 {
-                text-decoration: underline;
+                border-bottom:1px solid;
+                display: inline-block;
             }
 }
 
 .no-margin-header {
             h2 {
                         margin-bottom: 0;
+                        &.orange {
+                              border-bottom:0;
+                        }
             }
 }
 

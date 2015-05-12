@@ -32,10 +32,18 @@ include '../header.php';
 
 	<section id="main">
 		<div class="wrapper">
-
 			<div class="rel">
 				<div class="six pad-left-s right">
-					<img src="/img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
+					<div class="video-container">
+						<img src="/img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
+						<video id="example_video_1" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						 <source src="/video/malone.mp4" type='video/mp4' />
+						 <source src="/video/malone.webm" type='video/webm' />
+						 <source src="/video/malone.ogv" type='video/ogg' />
+						 <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+						</video>
+					</div>
+					<p class="cream">Opposites Attract</p>
 				</div>
 				<div class="three pad-right full-h left marg-bot">
 					<div class="tabled">
@@ -116,7 +124,7 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/rhythm.jpg');"></div>
 					<div class="abs-full">
@@ -148,7 +156,7 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">

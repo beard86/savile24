@@ -45,12 +45,11 @@ include '../header.php';
 
 						</div>
 					</div>
-
 				</div>
 				<div class="two pad-left-s right">
 					<img src="/img/collaboration.jpg" alt="Steven Pey" class="full-w">
 					<blockquote class="six orange right">
-						“The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
+						The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
 						<footer>
 							<cite><a href="#">Steven Pey, EPR</a></cite>
 						</footer>
@@ -113,45 +112,51 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/truth.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									Truth <i>to</i> Materials
-								</h2>
+						<a href="/building/truth-to-materials.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Truth <i>to</i> Materials
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test2.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/test2.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2 class="blue">
-									<i>The</i> Art <i>of</i> Collaboration
-								</h2>
+						<a href="/building/art-of-collaboration.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="blue">
+										<i>The</i> Art <i>of</i> Collaboration
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('../img/squares/test3.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
-						<div class="tabled">
-							<div class="cell">
-								<h2>
-									<i>The</i> Story <i>of</i> Light <i>and</i> Dark
-								</h2>
+						<a href="/building/light-and-dark.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										<i>The</i> Story <i>of</i> Light <i>and</i> Dark
+									</h2>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

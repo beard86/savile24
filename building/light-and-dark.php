@@ -58,7 +58,7 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/rhythm.jpg');"></div>
 					<div class="abs-full">
@@ -91,7 +91,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('../img/squares/test2.jpg');"></div>
 					<div class="abs-full">

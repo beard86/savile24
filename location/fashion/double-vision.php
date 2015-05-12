@@ -17,7 +17,7 @@ include '../../header.php';
 			<div class="tabled">
 				<div class="cell">
 					<h1 class="orange large uppercase">Double vision</h1>
-					<p class="orange">DSquared2</p>
+					<p class="orange">Dsquared2</p>
 				</div>
 			</div>
 		</div>
@@ -39,12 +39,12 @@ include '../../header.php';
 					<div class="tabled">
 						<div class="cell ">
 							<p class="bold">“We work in Milan and live in London, so we know the city well. We love the city, and its people are a constant influence for us. Our London flagship is our largest store, and a particularly special store for us.</h2>
-							<p>The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere.</p>
+							<p>The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere."</p>
 						</div>
 					</div>
 				</div>
 				<div class="two pad-right-s right">
-					<img src="/img/stilletto.jpg" alt="DSquared2" class="full-w">
+					<img src="/img/stilletto.jpg" alt="Dsquared2" class="full-w">
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -82,7 +82,7 @@ include '../../header.php';
 			</div>
 			<div class="rel pad-bottom">
 				<div class="two left">
-					<img src="/img/dsquared-aw-15.jpg" alt="DSquared2 AW-15" class="full-w">
+					<img src="/img/dsquared-aw-15.jpg" alt="Dsquared2 AW-15" class="full-w">
 				</div>
 				<div class="three pad-left right full-h a-right">
 					<div class="tabled">
@@ -98,7 +98,7 @@ include '../../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
@@ -116,6 +116,22 @@ include '../../header.php';
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/fashion/double-vision.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Dsquared2
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-left">
+				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
 					<div class="abs-full">
 						<a href="/location/art">
@@ -130,7 +146,24 @@ include '../../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="clear"></div>
+			<div class="three left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/art/hauser-and-wirth.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Hauser &amp; Wirth
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
@@ -146,8 +179,24 @@ include '../../header.php';
 					</div>
 				</div>
 			</div>
+			<div class="three left pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/dining/bellamys.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Bellamy's
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">
@@ -164,39 +213,6 @@ include '../../header.php';
 				</div>
 			</div>
 			<div class="three left pad-middle">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/dining/bellamys.php">
-							<div class="tabled">
-								<div class="cell">
-									<h2 class="orange">
-										Bellamy's
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="three left pad-right pad-left">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/art/hauser-and-wirth.php">
-							<div class="tabled">
-								<div class="cell">
-									<h2 class="orange">
-										Hauser &amp; Wirth
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/foggs.jpg');"></div>
 					<div class="abs-full">

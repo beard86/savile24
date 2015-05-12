@@ -13,32 +13,31 @@
 
                 var body = $('body');
 
-                body.find('#hero-down').on('click', function() {
+                $('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');
                 });
-                body.find('#space-down').on('click', function() {
+                $('#space-down').on('click', function() {
                     UTIL.goToSection('#area-schedule');
                 });
-                body.find('#hero-downloads').on('click', function() {
+                $('#hero-downloads').on('click', function() {
                     UTIL.goToSection('#downloads');
                 });
-                body.find('#down-schedule').on('click', function() {
+                $('#down-schedule').on('click', function() {
                     UTIL.goToSection('#floor-plans');
                 });
-                body.find('#down-floor').on('click', function() {
+                $('#down-floor').on('click', function() {
                     UTIL.goToSection('#space-plans');
                 });
-                body.find('.backtop').on('click', function() {
+                $('.backtop').on('click', function() {
                     UTIL.goToSection('#savile');
                 });
 
-                //UTIL.scrollTo();
-                //if(body.hasClass('contact')) {
+                UTIL.scrollHandlers();
 
-                //} else {
-                    UTIL.scrollHandlers();
-                //}
-
+                $('.video-container').on('click', function() {
+                        $(this).children('img').fadeOut('fast');
+                        $(this).addClass('video-size');
+                });
             },
             finalize: function() {
                 // JavaScript to be fired on all pages, after page specific JS is fired
@@ -47,7 +46,7 @@
         // Home page
         'Building': {
             init: function() {
-                // JavaScript to be fired on the home page
+                // JavaScript to be fired on the Building pages
             },
             finalize: function() {
                 // JavaScript to be fired on the home page, after the init JS
@@ -71,6 +70,66 @@
                  $('#hero-down, .backtop').remove();
             }
         },
+        'Location': {
+            init: function() {
+            //Hotspots
+            $('#hotspot-list').find('h3').on('click', function() { // Toggle the lists of occupiers on the location slides 
+                //first run, both are hidden
+                var $el = $('#hotspot-list');
+
+                if (!$el.data('first')) {
+                    $el.data('first', true);
+                    $(this).next('div').slideToggle();
+                    $(this).find('span').addClass('underline');
+                    $('.' + $(this).attr('data-type') + '-hotspots').show(); // :/
+                }
+                else {
+
+                    $el.find('div').each(function() {
+                        $(this).slideToggle();
+                    });
+                    $('#hotspot-list').find('h3 span').toggleClass('underline');
+                    $('.occupiers-hotspots, .culture-hotspots').toggle();
+                }
+            });
+
+                // this code is real bad, but at least its not dealing with string comprehension!!
+                // could chuck the occupiers and culture into two arrays. to condense this into two functions
+                // why does he use find so much?! it's so slow!!!!
+
+                $('.occupiers > ul > li').hover(function() {
+                    $('.occupiers-hotspots > span').eq($(this).attr('data-override')-1).addClass('hilight');
+                }, function() {
+                    $('.occupiers-hotspots > span').removeClass('hilight');
+                });
+
+                $('.culture > ul > li').hover(function() {
+                    $('.culture-hotspots > span').eq($(this).attr('data-override')-1).addClass('hilight');
+                }, function() {
+                    $('.culture-hotspots > span').removeClass('hilight');
+                });
+                
+                $('.occupiers-hotspots > span').hover(function() {
+                    $(this).addClass('hilight');
+                    var index = $(this).index()+1;
+                    $('.occupiers > ul').find('li[data-override='+index+']').addClass('hilight');
+                }, function() {
+                    $(this).removeClass('hilight');
+                    $('.occupiers > ul > li').removeClass('hilight');
+                });
+
+                $('.culture-hotspots > span').hover(function() {
+                    $(this).addClass('hilight');
+                    var index = $(this).index()+1;
+                    $('.culture > ul').find('li[data-override='+index+']').addClass('hilight');
+                }, function() {
+                    $(this).removeClass('hilight');
+                    $('.culture > ul > li').removeClass('hilight');
+                });
+
+
+            }
+        }
     };
     // The routing fires all common scripts, followed by the page specific scripts.
     // Add additional events for more control over timing e.g. a finalize event
@@ -123,7 +182,7 @@
 
         //adds active
         activeClassToNav: function() {
-          console.log(location.pathname.split("/")[2]);
+            var primaryNav = $('nav>ul>li');
             //main menu
           $('nav>ul>li>a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
             //sub menu
@@ -152,7 +211,7 @@
                 paginationSpeed: 400,
                 singleItem: true
             });
-            $("#floor-carousel, #gallery-carousel").owlCarousel({
+            $("#floor-carousel, #gallery-carousel, #space-carousel").owlCarousel({
                 navigation: true, // Show paginaion
                 pagination: false, // Show next and prev buttons
                 slideSpeed: 300,

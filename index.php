@@ -47,19 +47,36 @@ include 'header.php';
 						<div class="cell">
 							<h2>Kate Malone</h2>
 							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
-							<h3>Watch the process unfold</h3>
+							<h3>Watch the process unfold </h3>
 						</div>
 					</div>
 
 				</div>
 				<div class="six pad-left-s right">
-					<img src="img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
+					<div class="video-container">
+						<img src="/img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
+						<video id="malone_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						 <source src="/video/malone.mp4" type='video/mp4' />
+						 <source src="/video/malone.webm" type='video/webm' />
+						 <source src="/video/malone.ogv" type='video/ogg' />
+						 <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+						</video>
+					</div>
+
 				</div>
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
 				<div class="six pad-right-s left">
-					<img src="img/videos/associati.jpg" alt="Watch Associati Video" class="full-w">
+					<div class="video-container">
+						<img src="/img/videos/associati.jpg" alt="Watch Storage Associati video" class="full-w">
+						<video id="storage_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						 <source src="/video/storage.mp4" type='video/mp4' />
+						 <source src="/video/storage.webm" type='video/webm' />
+						 <source src="/video/storage.ogv" type='video/ogg' />
+						 <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+						</video>
+					</div>
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -77,7 +94,7 @@ include 'header.php';
 
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/truth.jpg');"></div>
 					<div class="abs-full">
@@ -109,7 +126,7 @@ include 'header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/test3.jpg');"></div>
 					<div class="abs-full">
@@ -126,7 +143,7 @@ include 'header.php';
 				</div>
 			</div>
 			<div class="clear"></div>		
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
@@ -158,7 +175,7 @@ include 'header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
@@ -175,7 +192,7 @@ include 'header.php';
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">

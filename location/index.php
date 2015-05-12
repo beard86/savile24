@@ -26,10 +26,12 @@ include '../header.php';
 	<section id="intro">
 		<div class="intro-text">
 			<h2>
-				“Beauty is a form of genius – is higher, indeed, than genius, as it needs no explanation. It is of the great facts in the world like sunlight, or springtime, or the reflection in dark water of that silver shell we call the moon.”
-			</h2>
-			<h2>
-				Oscar Wilde
+				<blockquote>
+					Beauty is a form of genius – is higher, indeed, than genius, as it needs no explanation. It is of the great facts in the world like sunlight, or springtime, or the reflection in dark water of that silver shell we call the moon.”
+					<footer>
+						<cite>Oscar Wilde</cite>
+					</footer>
+				</blockquote>
 			</h2>
 		</div>
 	</section>
@@ -64,7 +66,7 @@ include '../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
@@ -82,6 +84,22 @@ include '../header.php';
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/fashion/double-vision.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Dsquared2
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-left">
+				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
 					<div class="abs-full">
 						<a href="/location/art">
@@ -96,40 +114,8 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/dining">
-							<div class="tabled">
-								<div class="cell">
-									<h2>
-										Dining
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
 			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/social">
-							<div class="tabled">
-								<div class="cell">
-									<h2>
-										Social
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="three left pad-middle">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
 					<div class="abs-full">
@@ -145,15 +131,15 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="three left pad-middle">
 				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
-						<a href="/location/fashion/double-vision.php">
+						<a href="/location/dining">
 							<div class="tabled">
 								<div class="cell">
-									<h2 class="orange">
-										DSquared2
+									<h2>
+										Dining
 									</h2>
 								</div>
 							</div>
@@ -161,8 +147,7 @@ include '../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-left">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
 					<div class="abs-full">
@@ -171,6 +156,23 @@ include '../header.php';
 								<div class="cell">
 									<h2 class="orange">
 										Bellamy's
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="three left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/social">
+							<div class="tabled">
+								<div class="cell">
+									<h2>
+										Social
 									</h2>
 								</div>
 							</div>

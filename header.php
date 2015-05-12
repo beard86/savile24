@@ -6,6 +6,14 @@
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"/>
 	<link href="http://fast.fonts.net/cssapi/93f0b630-b004-46b4-948b-7c33138d0c8f.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/css/style.css">
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+		<style>
+		</style>
+	<![endif]-->
+	<link href="//vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<script src="//vjs.zencdn.net/4.12/video.js"></script>
 </head>
 <body id="savile" class="<?php echo $title; ?> <?php echo $subtitle; ?> abs-full">
 	<header>

@@ -41,8 +41,8 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p class="bold">In 1992 he moved into Berkeley Square to work for the legendary arbiter of taste, Mark Birley, as Managing Director of Annabel’s, Mark’s Club, Harry’s Bar, George and the Bath & Racquets Club. In 2004 he reclaimed his original site and created Bellamy’s. He explains why it’s known as ‘the club without a sub’.</p>
-							<p>“When I established Bellamy’s as a bar, oyster bar and restaurant drawn from the great Franco-Belgian brasserie tradition, I followed Mark Birley’s advice. He said there’s no point frightening people with fancy ‘franglais’, so Bellamy’s is named after the club in Evelyn Waugh’s Sword of Honour trilogy of novels. That reassures our English customers, and I spotted a happy pun with the title Bel Ami (subtitle, The History of a Scoundrel), the novel by Guy de Maupassant, which amuses our French diners.</p>
+							<p class="bold">In 1992 he moved into Berkeley Square to work for the legendary arbiter of taste, Mark Birley, as Managing Director of Annabel’s, Mark’s Club, Harry’s Bar, George and the Bath &amp; Racquets Club. In 2004 he reclaimed his original site and created Bellamy’s. He explains why it’s known as ‘the club without a sub’.</p>
+							<p>“When I established Bellamy’s as a bar, oyster bar and restaurant drawn from the great Franco-Belgian brasserie tradition, I followed Mark Birley’s advice. He said there’s no point frightening people with fancy ‘franglais’, so Bellamy’s is named after the club in Evelyn Waugh’s Sword of Honour trilogy of novels. That reassures our English customers, and I spotted a happy pun with the title Bel Ami (subtitle, The History of a Scoundrel), the novel by Guy de Maupassant, which amuses our French diners."</p>
 						</div>
 					</div>
 
@@ -84,7 +84,7 @@ include '../../header.php';
 	</section>
 	<section id="similar">
 		<div class="wrapper">
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/fashion.jpg');"></div>
 					<div class="abs-full">
@@ -102,6 +102,22 @@ include '../../header.php';
 			</div>
 			<div class="three left pad-middle">
 				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/fashion/double-vision.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Dsquared2
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-left">
+				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/art.jpg');"></div>
 					<div class="abs-full">
 						<a href="/location/art">
@@ -116,7 +132,24 @@ include '../../header.php';
 					</div>
 				</div>
 			</div>
-			<div class="three left pad-right pad-left">
+			<div class="clear"></div>
+			<div class="three left pad-right">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/art/hauser-and-wirth.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Hauser &amp; Wirth
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="three left pad-middle">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/dining.jpg');"></div>
 					<div class="abs-full">
@@ -132,8 +165,24 @@ include '../../header.php';
 					</div>
 				</div>
 			</div>
+			<div class="three left pad-left">
+				<div class="square">
+					<div class="bgimage" style="background-image: url('/img/squares/bellamy.jpg');"></div>
+					<div class="abs-full">
+						<a href="/location/dining/bellamys.php">
+							<div class="tabled">
+								<div class="cell">
+									<h2 class="orange">
+										Bellamy's
+									</h2>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
+			<div class="three left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/social.jpg');"></div>
 					<div class="abs-full">
@@ -150,39 +199,6 @@ include '../../header.php';
 				</div>
 			</div>
 			<div class="three left pad-middle">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/dsquare.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/fashion/double-vision.php">
-							<div class="tabled">
-								<div class="cell">
-									<h2 class="orange">
-										DSquared2
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="three left pad-right pad-left">
-				<div class="square">
-					<div class="bgimage" style="background-image: url('/img/squares/hauser.jpg');"></div>
-					<div class="abs-full">
-						<a href="/location/art/hauser-and-wirth.php">
-							<div class="tabled">
-								<div class="cell">
-									<h2 class="orange">
-										Hauser &amp; Wirth
-									</h2>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="three left pad-left pad-right">
 				<div class="square">
 					<div class="bgimage" style="background-image: url('/img/squares/foggs.jpg');"></div>
 					<div class="abs-full">
