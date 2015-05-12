@@ -238,6 +238,9 @@ img {
 }
 .pad-left-xlg {
             padding-left: 6.33em;
+            @media #{$smartphones} {
+                  padding-left:0;
+            }
 }
 
 .pad-left-s {

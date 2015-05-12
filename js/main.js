@@ -67,6 +67,12 @@
             init: function() {
                 UTIL.activeClassToNavByData();
                  $('#hero-down, .backtop').remove();
+
+                 //quick dirty fix for active nav to work on large pages
+                 $('a[data-page-type="downloads"]').on('click', function () {
+                        $(this).parent().removeClass('active');
+                        $(this).addClass('active');
+                 });
             }
         },
         'Location': {
@@ -216,6 +222,34 @@
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 singleItem: true
+            });
+            var spacesCarousel =  $("#space-carousel");
+            spacesCarousel.owlCarousel({
+                navigation: true, // Show paginaion
+                pagination: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                singleItem: true
+            });
+             function addClassBold(that) {
+                $('ul li').removeClass('bold');
+                $(that).addClass('bold');
+            }
+            $('.jumpToZero').click(function(){
+                spacesCarousel.trigger('owl.goTo', 3);
+                addClassBold(this);
+            });
+            $('.jumpToOne').click(function(){
+                spacesCarousel.trigger('owl.goTo', 4);
+                addClassBold(this);
+            });
+            $('.jumpToTwo').click(function(){
+                spacesCarousel.trigger('owl.goTo', 0);
+                addClassBold(this);
+            });
+            $('.jumpToThree').click(function(){
+                spacesCarousel.trigger('owl.goTo', 1);
+                addClassBold(this);
             });
         },
 

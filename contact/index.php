@@ -17,7 +17,7 @@ include '../header.php';
 				<div class="tabled">
 					<div class="cell">
 						<h1 class="large orange">Contacts</h1>
-						<div class="contactblock">
+						<div class="contactblock three centralise">
 							<div class="row hpad-bottom title">
 								<h2 class="">CUSHMAN &amp; WAKEFIELD</h2>
 							</div>

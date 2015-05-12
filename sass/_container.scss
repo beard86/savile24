@@ -109,6 +109,9 @@ section {
 }
 
 #main {
+      h2 {
+            display: table;
+      }
             ol {
                         list-style-type: decimal-leading-zero;
                         list-style-position: inside;
@@ -137,7 +140,6 @@ section {
 }
 h2 {
             border-bottom: 1px solid $mblue;
-            display: table;
             padding-bottom: 0;
             line-height: 1.2em;
             margin-bottom: 1.3em;
@@ -401,6 +403,11 @@ h2 {
             .space-plans  {
                   .full-h {
                         p {
+                              &.pad-bottom {
+                                    @media #{$smartphones} {
+                                          margin:0;
+                                    }
+                              }
                               span {
                                     float: right;
                               }
@@ -410,6 +417,9 @@ h2 {
             .foot-note {
                   position: absolute;
                   bottom: -2em;
+                  @media #{ $smartphones } {
+                        bottom: 2em;
+                  }
             }
 }
 .schedule {
@@ -431,7 +441,11 @@ h2 {
                         width: 90%;
             }
 }
-
+.jumper {
+      li {
+            cursor: pointer;
+      }
+}
 .core-office {
       position: absolute;
       margin-bottom:1em;
@@ -470,6 +484,9 @@ h2 {
       height: 481px;
 }
 .contact {
+      h2 {
+            display: inline;
+      }
       #hero {
             >img {
                   @media #{ $smartphones } {

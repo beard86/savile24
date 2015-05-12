@@ -190,7 +190,7 @@ include '../header.php';
 							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
-										<h3>Sixth Floor</h3>
+										<h3>Sixth Floor (Open plan)</h3>
 										<p class="pad-bottom">2,971 sq ft / 271 sq m</p>
 										<p class="qpad-bottom">Occupancy 1:10m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
@@ -218,7 +218,38 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
+								<div class="tabled">
+									<div class="rel">
+										<h3>Sixth Floor (Cellular)</h3>
+										<p class="pad-bottom">2,971 sq ft / 271 sq m</p>
+										<p class="qpad-bottom">Occupancy 1:10m<sup>2</sup></p>
+										<p>2 person reception<span>1</span></p>
+										<p>Open plan workstation<span>1</span></p>
+										<p>Office<span>1</span></p>
+										<p class="bold qpad-bottom">Total workstation seats<span>42</span></p>
+										<p>10 person meeting room<span>1</span></p>
+										<p>12 person board room<span>1</span></p>
+										<p class="bold qpad-bottom">Total meeting room seats<span>42</span></p>
+										<p>Kitchenette</p>
+										<p>Print/post</p>
+
+									</div>
+								</div>
+							</div>
+							<div class="two right">
+								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+							</div>
+							<div class="core-office">
+								<p class="office"><span></span>Office</p>
+								<p class="core"><span></span>Core</p>
+							</div>
+							<div id="compass" class="north">
+								<img src="/img/floor-plan/compass.jpg" alt="Compass" class="full-w">
+							</div>
+						</div>
+						<div class="item space-plans">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>Fifth Floor</h3>
@@ -249,10 +280,10 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
-										<h3>Fourth Floor</h3>
+										<h3>Fourth Floor (Open plan)</h3>
 										<p class="pad-bottom">4,478 sq ft / 416 sq m</p>
 										<p class="qpad-bottom">Occupancy 1:10m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
@@ -280,7 +311,38 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
+								<div class="tabled">
+									<div class="rel">
+										<h3>Fourth Floor (Cellular)</h3>
+										<p class="pad-bottom">4,478 sq ft / 416 sq m</p>
+										<p class="qpad-bottom">Occupancy 1:10m<sup>2</sup></p>
+										<p>2 person reception<span>1</span></p>
+										<p>Open plan workstation<span>1</span></p>
+										<p>Office<span>1</span></p>
+										<p class="bold qpad-bottom">Total workstation seats<span>42</span></p>
+										<p>10 person meeting room<span>1</span></p>
+										<p>12 person board room<span>1</span></p>
+										<p class="bold qpad-bottom">Total meeting room seats<span>42</span></p>
+										<p>Kitchenette</p>
+										<p>Print/post</p>
+
+									</div>
+								</div>
+							</div>
+							<div class="two right">
+								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+							</div>
+							<div class="core-office">
+								<p class="office"><span></span>Office</p>
+								<p class="core"><span></span>Core</p>
+							</div>
+							<div id="compass" class="north">
+								<img src="/img/floor-plan/compass.jpg" alt="Compass" class="full-w">
+							</div>
+						</div>
+						<div class="item space-plans">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>Third Floor</h3>
@@ -311,7 +373,7 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>Second Floor</h3>
@@ -343,7 +405,7 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>First Floor</h3>
@@ -375,7 +437,7 @@ include '../header.php';
 							</div>
 						</div>
 						<div class="item space-plans">
-							<div class="three pad-left-lg full-h">
+							<div class="three pad-left-xlg full-h">
 								<div class="tabled">
 									<div class="rel">
 										<h3>Reception</h3>
@@ -410,14 +472,14 @@ include '../header.php';
 				</div>
 				<div class="quart pad-right left">
 					<h3>Fourth Floor</h3>
-					<ul>
-						<li class="bold">Open Plan</li>
-						<li>Cellular</li>
+					<ul class="jumper">
+						<li class="jumpToZero">Open Plan</li>
+						<li class="jumpToOne">Cellular</li>
 					</ul>
 					<h3>Sixth Floor</h3>
-					<ul>
-						<li>Open Plan</li>
-						<li>Cellular</li>
+					<ul class="jumper">
+						<li class="bold jumpToTwo">Open Plan</li>
+						<li class="jumpToThree">Cellular</li>
 					</ul>
 					<div class="clear pad-bottom"></div>
 					<p class="foot-note">Approximate net internal areas. Floors to be measured upon practical completion</p>
