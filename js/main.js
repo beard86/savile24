@@ -68,11 +68,6 @@
                 UTIL.activeClassToNavByData();
                  $('#hero-down, .backtop').remove();
 
-                 //quick dirty fix for active nav to work on large pages
-                 $('a[data-page-type="downloads"]').on('click', function () {
-                        $(this).parent().removeClass('active');
-                        $(this).addClass('active');
-                 });
             }
         },
         'Location': {
@@ -267,25 +262,25 @@
                 var scrolldelta = Math.round(document.body.scrollTop || document.documentElement.scrollTop || 0);
                 var scrolltemp = 0;
                 var prevscroll = window.scrollY;
-                var down = document.querySelectorAll('.down')[0];
+                var down = $('.down')[0];
                 down.hider = false;
                 down.trigger = 150;
-                var heroimage = document.querySelectorAll('#hero img');
+                var heroimage = $('#hero img');
 
                 function downCheck() {
                     if (!down.hider) {
                         if (scrolldelta > down.trigger) {
-                            down.classList.add('fade');
+                            down.addClass('fade');
                             setTimeout(function() {
-                                down.classList.add('hide');
+                                down.addClass('hide');
                             }, 500);
                             down.hider = true;
                         }
                     } else {
                         if (scrolldelta < down.trigger) {
-                            down.classList.remove('hide');
+                            down.removeClass('hide');
                             setTimeout(function() {
-                                down.classList.remove('fade');
+                                down.removeClass('fade');
                             }, 100);
                             down.hider = false;
                         }

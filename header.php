@@ -52,7 +52,7 @@
 						</ul>
 					</li>
 					<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-					<li class="main-menu-item"><a data-page-type="downloads"  href="/downloads">Downloads</a></li>
+					<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
 					<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 				</ul>
 				<div class="mobile-nav hidden">
@@ -96,7 +96,7 @@
 			</ul>
 		</li>
 		<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
-		<li class="main-menu-item"><a data-page-type="downloads"  href="/downloads">Downloads</a></li>
+		<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
 		<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 	        </ul>
 	</nav>
