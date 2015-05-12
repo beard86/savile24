@@ -13,7 +13,6 @@ module.exports = function(grunt) {
       basic: {
         src: [
                'js/3rdparty/jquery-1.11.2.min.js',
-               'js/3rdparty/polyfill.js',
                'js/3rdparty/owl.carousel.js'
         ],
         dest: 'js/main-thirdparty.js'
