@@ -262,7 +262,7 @@
                 var scrolldelta = Math.round(document.body.scrollTop || document.documentElement.scrollTop || 0);
                 var scrolltemp = 0;
                 var prevscroll = window.scrollY;
-                var down = $('.down')[0];
+                var down = $('.down');
                 down.hider = false;
                 down.trigger = 150;
                 var heroimage = $('#hero img');
