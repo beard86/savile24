@@ -355,3 +355,12 @@ img {
             text-align: left;
             font-size: 0.75em;
 }
+
+.alt-center {
+      position: absolute;
+      right:50%;
+      bottom:50%;
+      -ms-transform: translate(50%, 50%);
+      -webkit-transform: translate(50%, 50%);
+      transform: translate(50%, 50%);
+}

@@ -443,6 +443,16 @@ img {
   font-size: 0.75em;
 }
 
+/* line 359, ../sass/_reset.scss */
+.alt-center {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  -ms-transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
 /* line 3, ../sass/_typography.scss */
 body {
   color: #0f283c;

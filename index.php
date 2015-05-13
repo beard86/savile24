@@ -14,14 +14,10 @@ include 'header.php';
 			<div class="item">
 				<img src="/img/hero/home.jpg" alt="Exterior shot of 24 Savile Row">
 				<div class="text-container">
-					<div class="tabled">
-						<div class="cell">
-							<h1 class="futura light">
-								The art is the building <br>
-								The building is 24 Savile Row
-							</h1>
-						</div>
-					</div>
+					<h1 class="futura light alt-center">
+						The art is the building <br>
+						The building is 24 Savile Row
+					</h1>
 				</div>
 			</div>
 			<div class="item"><img src="/img/hero/home-2.jpg" alt="Exterior shot of 24 Savile Row"></div>
