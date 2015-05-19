@@ -38,18 +38,26 @@ p {
 	font-size: 1.1em;
 	              @media #{ $smartphones } {
 		font-size: 1.4em;
-	              }	
+	              }
+	              &.small {
+	              	font-size: 0.8em;
+	              }
 }
 
 cite {
 	font-size:0.75em;
 	padding-top:0.7em;
 	display: block;
-	font-family: $main-font;	
 }
 h1,h2,h3,h4,h5,h6, blockquote {
 	font-family: 'Didot W01 Headline', 'Didot Headline', Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
 	font-weight: 100;
+}
+blockquote {
+	  padding-left: 0.25em;
+}
+.alt-font {
+	font-family:$main-font;
 }
 #hero {
 	.futura {
@@ -82,15 +90,30 @@ i {
 .uppercase {
 	text-transform:uppercase;
 }
+.blockquote,
 blockquote {
-            quotes: "\201C""\201D""\2018""\2019";
+            quotes: "\201C""\201D";
+            position: relative;
 }
+.blockquote:before,
 blockquote:before {
   content: open-quote;
   font-size: 1em;
   line-height: 0.1em;
+  position: absolute;
+  left: -10px;
+  top: 14px;
 }
-
+p.blockquote:before{
+	left: -14px;
+	  top: 7px;
+}
+.blockquote.six {
+	&:before {
+		left: 10px;
+		  top: 24px;
+	}
+}
 #main blockquote {
       font-size: 1.5em;
       line-height: 1.3em;
@@ -98,8 +121,16 @@ blockquote:before {
       padding: 0.5em 25px;
 }
 
-blockquote p {
+.space-plans {
+	p {
+	font-size:0.8em;
+	}		
+}
+blockquote 
+	{
+	p {
             display: inline;
+        }
 }
 .right {
 	cite {

@@ -35,11 +35,11 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel pad-bottom">
-				<div class="three pad-left left">
+				<div class="three pad-left left full-h">
 					<div class="tabled">
 						<div class="cell ">
-							<p class="bold">“We work in Milan and live in London, so we know the city well. We love the city, and its people are a constant influence for us. Our London flagship is our largest store, and a particularly special store for us.</h2>
-							<p>The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere."</p>
+							<p class="blockquote bold">We work in Milan and live in London, so we know the city well. We love the city, and its people are a constant influence for us. Our London flagship is our largest store, and a particularly special store for us.</h2>
+							<p class="">The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere.”</p>
 						</div>
 					</div>
 				</div>
@@ -60,7 +60,6 @@ include '../../header.php';
 				</div>
 				<div class="three right pad-right marg-right">
 					<img src="/img/dean-catan.jpg" alt="Exterior" class="full-w">
-					<h2 class="orange">Dean Catan</h2>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -76,7 +75,6 @@ include '../../header.php';
 				</div>
 				<div class="three left pad-left ">
 					<img src="/img/dan-catan.jpg" alt="Exterior" class="full-w">
-					<h2 class="orange right">Dan Catan</h2>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -187,7 +185,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -220,7 +218,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

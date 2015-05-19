@@ -188,8 +188,8 @@ h2 {
             background-color: $white;
             @include transform(translateZ(0px));
             @include backface-visibility(visible);
+             @include transition( color 2s);
             &:hover {
-                         @include transition( color 2s);
                          background-color: $blue;
                         .bgimage {
                                     // @include transform(scale(1.5));
@@ -378,13 +378,18 @@ h2 {
                     margin-bottom: 0.5em;
             }
             .core-office {
-                  left:1em;
+                    left: 6.25em;
                   bottom:0;
             }
             .north {
-                  right:1em;
+                  right:5em;
                   bottom:0;
             }
+            .carousel-copy {
+              position: absolute;
+              left: 6.25em;
+            }
+
             section {
                   ul {
                         margin-bottom:2em;
@@ -394,7 +399,7 @@ h2 {
                                     &:before {
                                           content:'>';
                                           position: absolute;
-                                            left: -1em;
+                                              left: 1em;
                                     }
                               }
                         }
@@ -422,12 +427,25 @@ h2 {
                   }
             }
 }
+#area-schedule {
+      .six.right {
+            width: 60%;
+      }
+      .three.left {
+            width: 40%;
+      }
+}
 .schedule {
             .tbl-row {
                         height: 48px;
             }
             .cell {
-                        text-align: center;
+                        text-align: right;
+                        width:40%;
+                        &:first-child {
+                              text-align:left;
+                                width: 20%;
+                        }
             }
             .heading {
                         div {
@@ -438,7 +456,7 @@ h2 {
                         }
             }
             &.tabled {
-                        width: 90%;
+                        width: 75%;
             }
 }
 .jumper {
@@ -475,9 +493,27 @@ h2 {
       right: 0;
       bottom: 3em;
       width: 55px;
+      margin-bottom: 1em;
 }
 .video-container {
       cursor:pointer;
+      .vjs-default-skin  {
+            .vjs-big-play-button {
+                  background: transparent;
+                    border: 1px solid #fff;
+                    width: 3em;
+                    height: 3em;
+                    border-radius: 50%;
+                      top: -9.5em;
+                    left: 45%;
+                    &:before {
+                        font-size: 2em;
+                          line-height: 1.5em;
+                          text-shadow:none;
+                          left: -0.01em;
+                    }
+            }
+      }
 }
 .video-size {
       width:100%;
@@ -514,6 +550,7 @@ h2 {
                         h2 {
                               text-align:center;
                               display: inline;
+                                border-bottom: 1px solid #fff;
                         }
             }
       }

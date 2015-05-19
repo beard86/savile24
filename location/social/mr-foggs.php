@@ -12,12 +12,12 @@ include '../../header.php';
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
-		<img src="/img/hero/foggs.jpg" alt="Mr Fogg's">
+		<img src="/img/hero/foggs.jpg" alt="Mr Fogg’s">
 		<div class="text-container">
 			<div class="tabled">
 				<div class="cell">
 					<h1 class="orange large uppercase">FOR <br>WHAT IT'S <br>WORTH</h1>
-					<p class="orange"> Mr Fogg's</p>
+					<p class="orange"> Mr Fogg’s</p>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,7 @@ include '../../header.php';
 		<div class="wrapper">
 			<div class="rel pad-bottom">
 				<div class="two left">
-					<img src="/img/mr-foggs-1.jpg" alt="Mr Fogg's" class="full-w">
+					<img src="/img/mr-foggs-1.jpg" alt="Mr Fogg’s" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -60,13 +60,13 @@ include '../../header.php';
 
 				</div>
 				<div class="two right">
-					<img src="/img/mr-foggs-2.jpg" alt="Mr Fogg's" class="full-w">
+					<img src="/img/mr-foggs-2.jpg" alt="Mr Fogg’s" class="full-w">
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="rel pad-bottom">
 				<div class="six left pad-left pad-right-lg">
-					<img src="/img/mr-foggs-3.jpg" alt="Mr Fogg's" class="full-w">
+					<img src="/img/mr-foggs-3.jpg" alt="Mr Fogg’s" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -172,7 +172,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -205,7 +205,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

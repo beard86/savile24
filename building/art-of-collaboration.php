@@ -32,7 +32,6 @@ include '../header.php';
 
 	<section id="main">
 		<div class="wrapper">
-
 			<div class="rel">
 				<div class="three pad-right full-h">
 					<div class="tabled">
@@ -48,10 +47,9 @@ include '../header.php';
 				</div>
 				<div class="two pad-left-s right">
 					<img src="/img/collaboration.jpg" alt="Steven Pey" class="full-w">
-					<blockquote class="six orange right">
-						The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
+					<blockquote class="six orange right">The perceived mindset of the two disciplines (art and architecture) is very different. We struggle to think of another London building with this level of collaboration.”
 						<footer>
-							<cite>Steven Pey, EPR</cite>
+							<cite class="alt-font">Steven Pey, EPR</cite>
 						</footer>
 					</blockquote>
 					
@@ -74,8 +72,7 @@ include '../header.php';
 				</div>
 				<div class="two pad-left-s left">
 					<img src="/img/kate-malone.jpg" alt="Kate Malone" class="full-w">
-					<blockquote class="six">
-						This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
+					<blockquote class="six">This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
 						<footer>
 							<cite class="orange"><a class="orange" href="#">Kate Malone</a></cite>
 						</footer>
@@ -98,8 +95,7 @@ include '../header.php';
 				</div>
 				<div class="six pad-left right">
 					<img src="/img/storage-associati.jpg" alt="Storage Associati" class="full-w">
-					<blockquote class="two orange right">
-						“It started with marble. Replicating the subtle elegance of the light and dark exterior, connecting materials, translating what Savile Row means. Reflecting its value.”
+					<blockquote class="two orange right">It started with marble. Replicating the subtle elegance of the light and dark exterior, connecting materials, translating what Savile Row means. Reflecting its value.”
 						<footer>
 							<cite><a href="#">Storage Associati</a></cite>
 						</footer>

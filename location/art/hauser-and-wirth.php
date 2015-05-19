@@ -41,7 +41,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p>“We first opened in London in 2003 in the former Edwin Lutyens bank on Piccadilly, next to St. Luke’s Church. As a gallery, our ethos at Hauser &amp; Wirth has always been artist led, so our exhibitions are often more ambitious in production than traditional commercial galleries. We suåpport our artists in their development and we also work closely with international museums and collections, both private and public in placing works.</p>
+							<p class="blockquote">We first opened in London in 2003 in the former Edwin Lutyens bank on Piccadilly, next to St. Luke’s Church. As a gallery, our ethos at Hauser &amp; Wirth has always been artist led, so our exhibitions are often more ambitious in production than traditional commercial galleries. We support our artists in their development and we also work closely with international museums and collections, both private and public in placing works.”</p>
 						</div>
 					</div>
 
@@ -55,7 +55,7 @@ include '../../header.php';
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell">
-							<p>We opened in our two galleries at 23 Savile Row in 2010 with an incredible exhibition of fabric works by the late Louise Bourgeois. For us it represented a great opportunity to take the entire ground floor of the newly designed building by Eric Parry. We were keen to find uninterrupted column-free space that would be flexible for our changing exhibition programme. The large street level presence on three sides of the building is very rare to find in Mayfair.</p>
+							<p class="bold">We opened in our two galleries at 23 Savile Row in 2010 with an incredible exhibition of fabric works by the late Louise Bourgeois. For us it represented a great opportunity to take the entire ground floor of the newly designed building by Eric Parry. We were keen to find uninterrupted column-free space that would be flexible for our changing exhibition programme. The large street level presence on three sides of the building is very rare to find in Mayfair.</p>
 							<p>In 2014, the Swiss artist Pipilloti Rist created a multi-sensory environment that proved so popular, on the last day of the show we had over 1,300 visitors queuing around all the sides of the building! I like to witness our visitors immersed in an exhibition; whether excited, intrigued, baffled or angered, these are all good emotions when viewing art.</p>
 							<p>Mayfair has such a rich art history. With its origins on Cork Street and Burlington Street – the neighbourhood has been the epicentre of the art world in Britain since the 60s.</p>
 							<p>As international galleries opened spaces to London, there has been a refocus of the art map – and this has meant that many galleries in the East End have moved into Mayfair. Today that translates into a high concentration of contemporary art, with all three major London auction houses and numerous galleries within a short walk.</p>
@@ -173,7 +173,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -190,7 +190,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

@@ -25,8 +25,7 @@ include '../header.php';
 	<section id="intro">
 		<div class="intro-text">
 			<h2>
-				<blockquote>
-					One of the first principles of art so clearly seen in primitive work is truth to material, the artist shows an instinctive understanding of his material, its right use and possibilities” 
+				<blockquote>One of the first principles of art so clearly seen in primitive work is truth to material, the artist shows an instinctive understanding of his material, its right use and possibilities.” 
 					<footer>
 						<cite>Henry Moore</cite>
 					</footer>
@@ -47,7 +46,7 @@ include '../header.php';
 						<div class="cell">
 							<h2 class="orange">Vision</h2>
 
-							<p>24 Savile Row is the vision of EPR architects, who invited renowned London-based ceramicist Kate Malone to help achieve a new concept in contemporary office building. </p>
+							<p class="bold">24 Savile Row is the vision of EPR architects, who invited renowned London-based ceramicist Kate Malone to help achieve a new concept in contemporary office building. </p>
 
 							<p>This creative collaboration has realised not just another landmark for Mayfair, but the capital’s largest work of art. 24 Savile Row comes uniquely hung with 10,000 ceramic tiles, each oneintricately handcrafted, set on a handcast bronze plinth. </p>
 
@@ -66,7 +65,7 @@ include '../header.php';
 				<div class="three pad-right full-h">
 					<div class="tabled">
 						<div class="cell">
-							<h2>Realised</h2>
+							<h2 class="orange">Realised</h2>
 							<p class="bold">The ultimate pursuit of perfection</p>
 							<p>To balance the decadence of her decorative art, her public and commercial art is on show in hospitals, parks, schools and libraries and its essence it to service the community.</p>
 						</div>

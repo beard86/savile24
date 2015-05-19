@@ -39,7 +39,7 @@ include '../../header.php';
 						<div class="cell no-margin-header">
 							<a href="/location/fashion/double-vision.php">
 								<h2 class="orange">Read our interview</h2>
-								<h2 class="orange">with 24 Savile Row</h2><br/>
+								<h2 class="orange">with 24 Savile Row</h2>
 								<h2 class="orange">occupiers ></h2>
 							</a>
 						</div>
@@ -89,21 +89,6 @@ include '../../header.php';
 						<div class="cell">
 							<p>Its roots lie in the craftsmanship of the leather workers, tailors and designers that based themselves here in the 18th century. Through Victorian and Edwardian times, Mayfair consolidated its reputation as the home of luxury fashion for stylish Britons.</p>
 							<p>More recently, it was at the vanguard of the cultural revolution of the 1960s, and famously saw The Beatles play their final gig on the roof of number three Savile Row. In the late twentieth century, as Britain’s status and reputation as a global fashion powerhouse grew, Mayfair became the iconic representation of everything that the international fashion world found synonymous with ‘British-made’ – quality, finesse, flair and durability.</p>
-						</div>
-					</div>
-
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="rel pad-bottom">
-				<div class="two left">
-					<img src="/img/trainers.jpg" alt="Timeless style" class="full-w">
-				</div>
-				<div class="three pad-left right">
-					<div class="tabled">
-						<div class="cell">
-							<p class="bold">At times quietly influential, and at times a glorious showcase of avant-garde excess, Mayfair brings an inimitable wit and soul to fashion. The flair of its international couture houses and the spectacle of its many flagship designer stores juxtapose with the timeless appeal of the world’s most distinguished tailors.</p>
-							<p>Hardy Amies and Céline, Jack Barclay and Mackintosh, Mount Street boutiques and Bond Street heavyweights all, Mayfair offers a sartorial heritage and freedom. This is a place of costume, a place to be spoken of.</p>
 						</div>
 					</div>
 
@@ -203,7 +188,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -236,7 +221,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

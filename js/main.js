@@ -169,7 +169,7 @@
 
                 //change to data attr to avoid redirect
                 for (var i = 0; i < anchors.length; i++){
-                    if (scrollTop > $(anchors[i]).offset().top - 60 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).height() - 60) {
+                    if (scrollTop > $(anchors[i]).offset().top - 60 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).innerHeight() - 60) {
                         $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');
                     } else {
                         $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').removeClass('active');
@@ -216,8 +216,10 @@
                 pagination: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
-                singleItem: true
+                singleItem: true,
+                addClassActive:true
             });
+
             var spacesCarousel =  $("#space-carousel");
             spacesCarousel.owlCarousel({
                 navigation: true, // Show paginaion
@@ -245,6 +247,12 @@
             $('.jumpToThree').click(function(){
                 spacesCarousel.trigger('owl.goTo', 1);
                 addClassBold(this);
+            });
+            $('.owl-buttons > div').click(function() {
+                    var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index() + 1,
+                    floorList = $('body').find('.schedule .tbl-row');
+                    floorList.removeClass('bold');
+                    floorList.eq(activeIndex).addClass('bold');
             });
         },
 

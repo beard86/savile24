@@ -300,7 +300,7 @@ include '../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -333,7 +333,7 @@ include '../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

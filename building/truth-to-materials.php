@@ -36,7 +36,7 @@ include '../header.php';
 				<div class="six pad-left-s right">
 					<div class="video-container">
 						<img src="/img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
-						<video id="example_video_1" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						<video id="example_video_1" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":false,"controls":true}'>
 						 <source src="/video/malone.mp4" type='video/mp4' />
 						 <source src="/video/malone.webm" type='video/webm' />
 						 <source src="/video/malone.ogv" type='video/ogg' />
@@ -60,7 +60,7 @@ include '../header.php';
 				<div class="two right">
 					<img src="/img/ext.jpg" alt="Exterior" class="full-w">
 				</div>
-				<div class="three pad-right full-h">
+				<div class="three pad-right left pad-top">
 					<div class="tabled">
 						<div class="cell">
 							<h2 class="orange">Overview</h2>

@@ -24,8 +24,7 @@ include '../../header.php';
 	
 	<section id="intro">
 		<div class="intro-text">
-			<h2>
-			Mayfair is where art meets. Renowned as the home of several of London’s famous galleries and auction houses, it’s the hunting ground of the world’s
+			<h2>Mayfair is where art meets. Renowned as the home of several of London’s famous galleries and auction houses, it’s the hunting ground of the world’s
 			most formidable art dealers. This is a unique environment, where collectors and gallerists meet in the street and catch up over coffee. Proudly championing both emerging and established art, Mayfair is proof that opposites attract.
 			</h2>
 		</div>
@@ -73,7 +72,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p>Artists, gallerists and collectors have shared knowledge, traded and exhibited in Mayfair for centuries – it’s no surprise that this neighbourhood also houses the Royal Academy of the Arts. </p>
+							<p class="bold">Artists, gallerists and collectors have shared knowledge, traded and exhibited in Mayfair for centuries – it’s no surprise that this neighbourhood also houses the Royal Academy of the Arts. </p>
 							<p>For occupiers at 24 Savile Row, a wealth of world-leading exhibitions is just a lunchtime stroll away. The grande dame of the art world, Sotheby’s, needs no introduction. Founded by London bookseller Samuel Baker in 1744, the venerable British auction house holds often record-breaking global auctions of fine art, jewellery, porcelain and more from its New Bond Street premises. </p>
 							<p>Also residing on New Bond Street, Halcyon Gallery has been showcasing modern and contemporary art from established and emerging artists to a global audience since 1982.</p>
 						</div>
@@ -195,7 +194,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -228,7 +227,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

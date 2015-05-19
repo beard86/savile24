@@ -17,7 +17,7 @@ include '../../header.php';
 			<div class="tabled">
 				<div class="cell">
 					<h1 class="orange large uppercase">Most <br>Civilised</h1>
-					<p class="orange"> Bellamy's</p>
+					<p class="orange"> Bellamy’s</p>
 				</div>
 			</div>
 		</div>
@@ -38,11 +38,11 @@ include '../../header.php';
 				<div class="two left">
 					<img src="/img/bellamys-1.jpg" alt="Exterior" class="full-w">
 				</div>
-				<div class="three pad-left full-h a-right">
+				<div class="three pad-left right">
 					<div class="tabled">
 						<div class="cell">
 							<p class="bold">In 1992 he moved into Berkeley Square to work for the legendary arbiter of taste, Mark Birley, as Managing Director of Annabel’s, Mark’s Club, Harry’s Bar, George and the Bath &amp; Racquets Club. In 2004 he reclaimed his original site and created Bellamy’s. He explains why it’s known as ‘the club without a sub’.</p>
-							<p>“When I established Bellamy’s as a bar, oyster bar and restaurant drawn from the great Franco-Belgian brasserie tradition, I followed Mark Birley’s advice. He said there’s no point frightening people with fancy ‘franglais’, so Bellamy’s is named after the club in Evelyn Waugh’s Sword of Honour trilogy of novels. That reassures our English customers, and I spotted a happy pun with the title Bel Ami (subtitle, The History of a Scoundrel), the novel by Guy de Maupassant, which amuses our French diners."</p>
+							<p class="blockquote">When I established Bellamy’s as a bar, oyster bar and restaurant drawn from the great Franco-Belgian brasserie tradition, I followed Mark Birley’s advice. He said there’s no point frightening people with fancy ‘franglais’, so Bellamy’s is named after the club in Evelyn Waugh’s Sword of Honour trilogy of novels. That reassures our English customers, and I spotted a happy pun with the title Bel Ami (subtitle, The History of a Scoundrel), the novel by Guy de Maupassant, which amuses our French diners.”</p>
 						</div>
 					</div>
 
@@ -53,7 +53,7 @@ include '../../header.php';
 				<div class="two right">
 					<img src="/img/bellamys-2.jpg" alt="Exterior" class="full-w">
 				</div>
-				<div class="three pad-right full-h a-left">
+				<div class="three pad-right  a-left">
 					<div class="tabled">
 						<div class="cell">
 							<p>We are one of the last independents in Mayfair and customers are very much supporters. Eighty per cent are regulars, several since day one, and they don’t stroll far from their office, homes or hotels to reach us. We have art dealers, lawyers, CEOs, financiers, property specialists, Hollywood actors, dowagers, the young and the toff-erati. The new bar is very popular: from 5pm Tomas, the 6ft 8in barman, mixes a variety of cocktails including his trademark mean Martini.</p>
@@ -173,7 +173,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Bellamy's
+										Bellamy’s
 									</h2>
 								</div>
 							</div>
@@ -206,7 +206,7 @@ include '../../header.php';
 							<div class="tabled">
 								<div class="cell">
 									<h2 class="orange">
-										Mr. Fogg's
+										Mr. Fogg’s
 									</h2>
 								</div>
 							</div>

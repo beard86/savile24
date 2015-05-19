@@ -51,7 +51,7 @@ include 'header.php';
 				<div class="six pad-left-s right">
 					<div class="video-container">
 						<img src="/img/videos/malone.jpg" alt="Watch Kate Malone video" class="full-w">
-						<video id="malone_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						<video id="malone_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":false,"controls":true}'>
 						 <source src="/video/malone.mp4" type='video/mp4' />
 						 <source src="/video/malone.webm" type='video/webm' />
 						 <source src="/video/malone.ogv" type='video/ogg' />
@@ -66,7 +66,7 @@ include 'header.php';
 				<div class="six pad-right-s left">
 					<div class="video-container">
 						<img src="/img/videos/associati.jpg" alt="Watch Storage Associati video" class="full-w">
-						<video id="storage_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":true,"controls":true}'>
+						<video id="storage_video" class="video-js vjs-default-skin" width="100%" height="100%" data-setup='{"example_option":true,"preload":true,"autoplay":false,"controls":true}'>
 						 <source src="/video/storage.mp4" type='video/mp4' />
 						 <source src="/video/storage.webm" type='video/webm' />
 						 <source src="/video/storage.ogv" type='video/ogg' />
