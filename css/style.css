@@ -640,7 +640,7 @@ p.blockquote:before {
 }
 
 /* line 112, ../sass/_typography.scss */
-.blockquote.six:before {
+blockquote.six:before {
   left: 10px;
   top: 24px;
 }
