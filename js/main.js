@@ -177,13 +177,14 @@
                 }
 
             });
-
+            //FIX FOR SECTIONS ON LARGE SCREENS NOT TESTED YET...
+            // http://stackoverflow.com/questions/8393442/highlight-active-link-when-using-scrollto-based-on-current-view
            /* var sections = {},
                 _height  = $(window).height(),
                 i        = 0;
 
             // Grab positions of our sections 
-            $('.section').each(function(){
+            $('section').each(function(){
                 sections[this.name] = $(this).offset().top;
             });
 

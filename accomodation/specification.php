@@ -27,9 +27,11 @@ include '../header.php';
 			<div class="rel pad-bottom">
 				<div class="two right main-carousel-wrap">
 					<div id="main-carousel" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs-building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-building.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-building.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel2.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel3.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel4.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel5.jpg" alt="Exterior shot of 24 Savile Row"></div>
 					</div>
 				</div>
 				<div class="three pad-right full-h a-left">
@@ -50,9 +52,9 @@ include '../header.php';
 			<div class="rel pad-bottom">
 				<div class="two left main-carousel-wrap">
 					<div id="main-carousel-2" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-interior.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel1.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel2.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel3.jpg" alt="Interior shot of 24 Savile Row"></div>
 					</div>
 				</div>
 				<div class="three pad-left full-h a-right">
