@@ -162,7 +162,7 @@
 
         activeClassToNavByData : function() {
         //adds class to active nav based on
-            $(window).scroll(function(){
+            /*$(window).scroll(function(){
                 var scrollTop = $(document).scrollTop();
                 var anchors = $('body').find('section');
 
@@ -175,10 +175,10 @@
                     }
                 }
 
-            });
+            });*/
             //FIX FOR SECTIONS ON LARGE SCREENS NOT TESTED YET...
             // http://stackoverflow.com/questions/8393442/highlight-active-link-when-using-scrollto-based-on-current-view
-           /* var sections = {},
+            var sections = {},
                 _height  = $(window).height(),
                 i        = 0;
 
@@ -189,16 +189,16 @@
 
             $(document).scroll(function(){
                 var pos = $(this).scrollTop();
-
+                 var anchors = $('body').find('section');
                 // Look in the sections object and see if any section is viewable on the screen. 
                 // If two are viewable, the lower one will be the active one. 
                 for(i in sections){
                     if(sections[i] > pos && sections[i] < pos + _height){
-                        $('a').removeClass('active');
-                        $('#nav_' + i).addClass('active');
+                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').removeClass('active');
+                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');
                     }  
                 }
-            });*/
+            });
 
         },
 
