@@ -289,6 +289,7 @@ h2 {
                         float: none;
                         position: relative;
                           z-index: 10;
+                            padding-bottom: 0.5em;
                   }
             }
             .image {
@@ -334,7 +335,7 @@ h2 {
                         width: 20px;
                         height: 20px;
                         line-height: 21px;
-
+                        text-align: center;
                         &.hilight,
                         &:hover {
 
@@ -435,6 +436,15 @@ h2 {
             width: 40%;
       }
 }
+.dining {
+      .rel  {
+            .centralise {
+                  .three {
+                          width: 34.333%;
+                  }
+            }
+      }
+}
 .schedule {
             .tbl-row {
                         height: 48px;
@@ -513,6 +523,11 @@ h2 {
                           left: -0.01em;
                     }
             }
+      }
+}
+.transport {
+      .cell {
+            height: 22px;
       }
 }
 .video-size {
@@ -649,7 +664,7 @@ footer {
                         font-size: 0.9em;
                         li {
                                     display: inline-block;
-                                    padding: 1em 0 1em 2em;
+                                    padding: 1em 0 2em 2em;
                                     @media #{ $tablets }
                                     {
                                                 display: block;

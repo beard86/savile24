@@ -34,13 +34,11 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel six centralise pad-bottom">
-				<div class="two pad-left full-h left">
+				<div class="three full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/dining/bellamys.php">
-								<h2 class="orange">Read our case study <br>
-								with Bellamy’s <br>
-								restaurant ></h2>
+								<h2 class="orange">Celebrated restaurateur Gavin Rankin talks about his restaurant, Bellamy’s, and serving the Queen ></h2>
 							</a>
 						</div>
 					</div>
@@ -72,7 +70,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p class="bold">Mayfair reads like a roll call of some of the world’s most extraordinary culinary talents: Hélène Darròze and Alain Ducasse, Angela Hartnett and Simon Rogen.</p>
+							<p class="bold">Mayfair reads like a roll call of some of the world’s most extraordinary culinary talents: Hélène Darroze and Alain Ducasse, Angela Hartnett and Simon Rogen.</p>
 							<p>Often discreet, always opulent, there’s a heady mix here. Old school meets contemporary. Rule breakers meet the old guard. Excellence comes as standard.</p>
 						</div>
 					</div>

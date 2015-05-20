@@ -33,14 +33,12 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel six centralise pad-bottom">
-				<div class="two pad-left full-h left">
+				<div class="three  full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/art/hauser-and-wirth.php">
 								<h2 class="orange">
-								Read the <br>
-								interview with <br>
-								our neighbours ></h2>
+								Meet our neighbours, Hauser &amp; Wirth, who talk about emotional responses to art<br/>and the Mayfair art&nbsp;scene&nbsp;></h2>
 							</a>
 						</div>
 					</div>
@@ -73,7 +71,7 @@ include '../../header.php';
 					<div class="tabled">
 						<div class="cell">
 							<p class="bold">Artists, gallerists and collectors have shared knowledge, traded and exhibited in Mayfair for centuries – it’s no surprise that this neighbourhood also houses the Royal Academy of the Arts. </p>
-							<p>For occupiers at 24 Savile Row, a wealth of world-leading exhibitions is just a lunchtime stroll away. The grande dame of the art world, Sotheby’s, needs no introduction. Founded by London bookseller Samuel Baker in 1744, the venerable British auction house holds often record-breaking global auctions of fine art, jewellery, porcelain and more from its New Bond Street premises. </p>
+							<p>For occupiers at 24 Savile Row, a wealth of world-leading exhibitions is just a lunchtime stroll away. The grande dame of the art world, Sotheby’s, needs no introduction. Founded by London bookseller Samuel Baker in 1744, the venerable British auction house holds often record-breaking global auctions of fine art, jewellery, porcelain and more from its New Bond Street premises.</p>
 							<p>Also residing on New Bond Street, Halcyon Gallery has been showcasing modern and contemporary art from established and emerging artists to a global audience since 1982.</p>
 						</div>
 					</div>

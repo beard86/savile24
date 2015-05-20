@@ -17,6 +17,7 @@ include '../header.php';
 			<div class="tabled">
 				<div class="cell">
 					<h1 class="orange large ">Area Overview</h1>
+					<p class="orange">The Definitive Mayfair Address</p>
 				</div>
 			</div>
 		</div>
@@ -26,7 +27,7 @@ include '../header.php';
 	<section id="intro">
 		<div class="intro-text">
 			<h2 class="purple">
-				Quamet et od eos acerio. Picaect otatis et estemo comnis dolorrum aut elictisimpor minctia et ut esed expedit vidundestem fugiasi tatur? Us quisquo expedi nem que quis sequidel ipis rereste et ea consequunti cum facestrum quo eum quam, ut apitibus re poreptaquate magnim velectem aut ent.
+				This is the heart of the heart of London. Always evolving, yet always true to its soul, character and heritage. Across business, the arts, fashion, dining and culture, Mayfair is a place of discernment and influence on a global scale. This is both an international statement address, and a place to enjoy.  Take centre stage at 24 Savile Row.
 			</h2>
 		</div>
 	</section>
@@ -141,70 +142,89 @@ include '../header.php';
 						<div class="two left">
 							<img src="/img/area-overview-1.jpg" alt="Area overview" class="full-w">
 						</div>
-						<div class="three pad-right right">
-							<div class="tabled purple">
-								<h2 class="orange underline">
-								Transport
-								</h2>
-								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+						<div class="three right transport">
+							<h2 class="orange underline">
+							Transport
+							</h2>
+							<div class="tabled two left pad-right">
+								<div class="tbl-row orange">
+										<div class="cell aleft">Underground</div>
+										<div class="cell aright"></div>
+								</div>
+								<div class="tbl-row orange ">
+										<div class="cell aleft pad-bottom-pad">from Oxford Circus</div>
+										<div class="cell aright pad-bottom-pad">mins</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Euston</div>
+										<div class="cell aright">2</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Victoria</div>
+										<div class="cell aright">3</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">King's Cross St Pancras</div>
+										<div class="cell aright">4</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Bank</div>
+										<div class="cell aright">8</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Paddington</div>
+										<div class="cell aright">7</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Liverpool Street</div>
+										<div class="cell aright">10</div>
 								</div>
 								<div class="tbl-row">
-										<div class="cell aleft">Xxxxx Xxxxx</div>
-										<div class="cell aleft">00 minutes</div>
+										<div class="cell aleft">Canary Wharf</div>
+										<div class="cell aright">20</div>
+								</div>
+							</div>
+							<div class="tabled two right">
+								<div class="tbl-row orange">
+										<div class="cell aleft">Crossrail (2018)</div>
+										<div class="cell aleft"></div>
+								</div>
+								<div class="tbl-row orange">
+										<div class="cell aleft pad-bottom-pad">from Bond St</div>
+										<div class="cell aright pad-bottom-pad">mins</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Tottenham Court Road</div>
+										<div class="cell aright">1</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Paddington</div>
+										<div class="cell aright">3</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Farringdon</div>
+										<div class="cell aright">4</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Liverpool Street</div>
+										<div class="cell aright">7</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Canary Wharf</div>
+										<div class="cell aright">13</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Stratford</div>
+										<div class="cell aright">15</div>
+								</div>
+								<div class="tbl-row">
+										<div class="cell aleft">Heathrow</div>
+										<div class="cell aright">27</div>
 								</div>
 								<div class="clear pad-bottom"></div>
 							</div>
 
 						</div>
-				<div class="clear pad-bottom-xlg"></div>
-			</div>
-			<div class="rel">
-				<div class="two right full-h a-right">
-					<div class="tabled">
-						<div class="cell purple">
-							<img src="/img/area-overview-2.jpg" alt="Area overview" class="full-w">
-						</div>
-					</div>
-				</div>
-				<div class="three pad-left left">
-					<div class="tabled">
-						<div class="cell purple">
-							<h2 class="orange underline">
-							Lorem Ipsum
-							</h2>
-							<p>Itaquo int eos eveliae volectistiam suntotatius suntibusam hitempo ristiam, ut in nemo bea sit alia dolendenes qui dolo beatem explaccabo. Itatur anihilit aliquid qui ant am, volores sumquidis eumquia dis cum est quas et lab iur? Atur as eost omnihic imaximus quos quam et magnihi libusae. Ut omnihitae nos qui quatem ut dolo tecessi tatur?</p>
-							<p>At rerita nestias pictisc imusapis est ut aut ut et pre quibus et a net optaeptas aspernatet, quam quas exped minulpa pelit harum hit volupta tquiber eptatec ullaborepe cus, cuptat res pos ducitatusam quam aut exceratem. Mo od milit remperat. Aquo enis am adi volumquae ex et moluptae rerum que latem adit facit aliquatur?umquam, conest faccum ima volupta ssequia ni omnienis derciistore quam, nos dolendae. Itat venderatia quodiam reicita dolorectum qui blabor sanis nusamus. At rerita nestias pictisc imusapis est ut aut ut et.</p>
-							<p>Nunc sollicitudin nunc sit amet augue posuere, quis porta nisl dignissim. Curabitur neque erat, faucibus rutrum mattis eget, pretium eget tortor. Etiam tincidunt tincidunt sem a posuere. Vivamus consectetur dui augue, sagittis vehicula justo ultricies porta. Maecenas eu porttitor velit. Aenean dictum feugiat consectetur. Nullam vestibulum viverra enim.</p>
-						</div>
-					</div>
-
-				</div>
 				<div class="clear pad-bottom-xlg"></div>
 			</div>
 		</div>

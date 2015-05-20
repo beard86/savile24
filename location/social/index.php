@@ -34,12 +34,11 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel six centralise pad-bottom">
-				<div class="two pad-left full-h left">
+				<div class="three pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/social/mr-foggs.php">
-								<h2 class="orange">Read our case study <br>
-								about Mr Fogg’s ></h2>
+								<h2 class="orange">Charlie Gilkes, co-founder of Mr Fogg’s, talks to us about Jules Verne, stuffed crocodiles and Spicy Rupee cocktails ></h2>
 							</a>
 						</div>
 					</div>
@@ -71,7 +70,7 @@ include '../../header.php';
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell purple">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida facilisis nunc non finibus. Phasellus nec erat lacus. Aenean in neque nisl. Donec pulvinar tortor in accumsan pretium. Integer convallis lorem non ex pretium lacinia. Aenean euismod condimentum tellus, eu accumsan lacus porta ac. Aliquam consequat tortor nec lectus rutrum bibendum.</p>
+							<p>From its prime position overlooking Berkeley Square, Morton’s has been a magnet for the London elite for over three decades. The Grade II listed Georgian building that houses Morton’s was formerly the home of F.J. Robinson, and was notorious in the Roaring Twenties as the favourite haunt of the Bentley brothers, whose lifestyles were as fast as their cars.</p>
 						</div>
 					</div>
 
@@ -85,8 +84,8 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell purple">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida facilisis nunc non finibus. Phasellus nec erat lacus. Aenean in neque nisl. Donec pulvinar tortor in accumsan pretium. Integer convallis lorem non ex pretium lacinia. Aenean euismod condimentum tellus, eu accumsan lacus porta ac. Aliquam consequat tortor nec lectus rutrum bibendum.</p>
-							<p>Sed molestie purus odio, fringilla congue dui mattis eleifend. Suspendisse pretium condimentum molestie. Etiam ante tellus, mollis placerat libero at, volutpat sagittis tellus. Donec nisi ligula, elementum id feugiat efficitur, efficitur ut libero. Proin a est malesuada, bibendum lacus in, lacinia metus. Integer eget aliquam felis. Donec vel massa sit amet sapien mollis malesuada ut eleifend augue. Phasellus ac sem viverra, sagittis justo in, ultrices libero. Mauris pretium condimentum risus at ultricies. Sed dignissim, elit id consequat tristique, velit ex feugiat arcu, vel imperdiet mauris justo sit amet mi.</p>
+							<p>Lively and glamorous, The Arts Club on Dover Street was founded in 1863 by Charles Dickens and friends. Today, its members include notable patrons and professionals from the worlds of the creative arts – from Grayson Perry to Gwyneth Paltrow. </p>
+							<p>Close by on Brook Street, The Savile Club has been welcoming its ‘Savilians’ since 1868. This sumptuous gentlemen’s club – which also admits women as guests – has been favoured by eminent creatives and scientists of each generation, including Charles Darwin, Robert Louis Stevenson, Evelyn Waugh and Stephen Fry, to name just a few.</p>
 						</div>
 					</div>
 

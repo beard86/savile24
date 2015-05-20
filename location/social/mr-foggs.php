@@ -16,7 +16,7 @@ include '../../header.php';
 		<div class="text-container">
 			<div class="tabled">
 				<div class="cell">
-					<h1 class="orange large uppercase">FOR <br>WHAT IT'S <br>WORTH</h1>
+					<h1 class="orange large uppercase">THE NEW <br>ADVENTURERS</h1>
 					<p class="orange"> Mr Fogg’s</p>
 				</div>
 			</div>
@@ -27,7 +27,8 @@ include '../../header.php';
 	<section id="intro">
 		<div class="intro-text">
 			<h2 class="purple">
-				Cearum cum facerum doluptatia exerferoreni digenderi quaecustis eum inverup tasseque pro idebit acepere, ullor mo maio. Natur, aci ut fuga. Nequibust, il ipsum quatur? Imus dia con electus a plantia speribus estis minis eum aut excepre rspicto quatempe nos aute lab ium et eaquiasped mil moluptae sitatur?
+				In Jules Verne’s 1873 novel, the tale of Phileas Fogg’s attempt to travel around the world in eighty days was excitingly futuristic. Today, the sequel of Mr Fogg’s life in late Victorian Mayfair is imaginatively showcased in the townhouse cocktail bar at 15 Bruton Lane. 
+
 			</h2>
 		</div>
 	</section>
@@ -41,7 +42,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p class="purple bold">Ucimus, tem. Occus molupite corrum ut ommo offic te conserio. Et voluptature eiusam eum ipicatur sandunt quaturi onsequo qui beriate stisquiaspel magnimaiorem faccabo. Et dolupis explici idero dis explaccat et quiasit et dolest voloreh endaepro et quam rehendae si uteceaque qui tem in nobiti sequi blaccusam quam, tem audit volorum imusdant officiis sectem. Itaque volorest enis utem que est, sum, occusam, quae et, sitiunt volupta nullignatis idis magnis ipsunto dolorruptat a ipsamus eaqui volessi tatquam qui cusam eum idus maio molorpo reptate preptusapis demolore nis simus de omnis dolupta ni officil ma cori dolore, odiciist.</p>
+							<p class="purple bold">“As a child, I loved Jules Verne’s books. In Phileas Fogg, he created a wonderful character who lived in Mayfair and was a member of the Reform Club. My business partner Duncan Stirling and I thought it would be fun to conjure the house Mr Fogg might inhabit after his travels</p>
 						</div>
 					</div>
 
@@ -52,9 +53,8 @@ include '../../header.php';
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell purple">
-							<p>Excesseque pelenimus ma accuptatium natquamusa as atemporatque es exere que velique verumquas et faciatem sed que paribus andus, simillo riatiis alibust ibusanda nim re eatem id et facienis suscias accum fugit ex eaquia non nobis sitiusc itatur.</p>
-							<p>Xerum il maios estet quatem. Itate experia con consequis aut dolorerspis et fugit fugian expelia nus et vollenda vene offictemo cum in por assimin et volor sint estotatiat. Id utetur? Ulpa exero tem aut lacimodit accabo. Et mos eturias molorem dolupti unt que ped es eatust ea veni doluptature eum fugit quasped eaquatem nimpori atemqui nobitis alibusd aecabo. Xeriandit magnihi tatur?Net, coneces sitaers pelenimetur.</p>
-							<p>Onsed essitatem. Nem quaspe cus, sunto tem Quidunt laboreperro blam, officaborit, sit quiscil lentiatur, ullaborerum nemoluptiur? It, ut dolupta quatiis di idunt quid etusdae. Cus endant qui ut es aute sunt aut et dolut exces et occum laut arum ad moditiur autemoditio erepuda volenie ndaerspici dolute lique suntia vendit, cus dolorepe none nonsed earum eaquos aut qui iumene sinctot atenda nullorehenis iunt rem veliquiam quide corenit et voluptaessum qui vidi resenis qui deria doluptur, verferu ptatectate dolenes verumet umquam, conest faccum ima volupta ssequia ni omnienis derciistore quam, nos dolendae. Itat venderatia quodiam reicita dolorectum qui blabor sanis nusamus.</p>
+							<p>I love that juxtaposition of the location and the eclectic eccentricity of a bar with great service and fun cocktails. Mayfair has a wonderful array of pubs, hotel bars and members’ clubs. We’ve taken inspiration from all three, but with no membership required, no dress code or limitation on guests. Our regulars are a fun mix. </p>
+							<p>The Victorian artefacts were painstakingly gathered. Sourcing paraphernalia such as pennyfarthing bikes and faux elephant leg umbrella stands sounds fun, but it was hard work lugging an entire stuffed crocodile back to our van.  The result is a ‘stage’ for our concept of immersive theatre. Traditionally, people like to meet for a drink, eat and then go to the theatre; we have put all three together. As Danny Meyer, founder of Shake Shack, remarked: ‘Creating restaurants is like composing music… there are only so many notes and the trick is to put those notes together in a way not heard before.</p>
 						</div>
 					</div>
 
@@ -71,8 +71,8 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell purple">
-							<p>Itaquo int eos eveliae volectistiam suntotatius suntibusam hitempo ristiam, ut in nemo bea sit alia dolendenes qui dolo beatem explaccabo. Itatur anihilit aliquid qui ant am, volores sumquidis eumquia dis cum est quas et lab iur? Atur as eost omnihic imaximus quos quam et magnihi libusae. Ut omnihitae nos qui quatem ut dolo tecessi tatur?</p>
-							<p>At rerita nestias pictisc imusapis est ut aut ut et pre quibus et a net optaeptas aspernatet, quam quas exped minulpa pelit harum hit volupta tquiber eptatec ullaborepe cus, cuptat res pos ducitatusam quam aut exceratem. Mo od milit remperat. Aquo enis am adi volumquae ex et moluptae rerum que latem adit facit aliquatur?umquam, conest faccum ima volupta ssequia ni omnienis derciistore quam, nos dolendae. Itat venderatia quodiam reicita dolorectum qui blabor sanis nusamus. At rerita nestias pictisc imusapis est ut aut ut et.</p>
+							<p>The theatrical element comes into play later in the evening and is sensitively guaged. We have customers who come at 4pm for a work meeting and we are aware the last thing they’d want is Phileas Fogg sitting down to join them or his household staff delivering telegrams containing cocktail suggestions.</p>
+							<p>May I recommend my favourite? The Spicy Rupee – vanilla-infused Russian Standard premium vodka, elderflower cordial, fresh chilli, lime juice and a splash of honey. It’s sweet, with a kick. You love it or hate it. The Passepartout is the proven crowdpleaser – Hendricks gin, fresh cucumber, nettle cordial, lime juice, sugar, egg white and a bit of cracked black pepper. Come and sample one.</p>
 						</div>
 					</div>
 

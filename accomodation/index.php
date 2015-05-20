@@ -221,7 +221,7 @@ include '../header.php';
 								</div>
 							</div>
 							<div class="six right pad-right-xlg pad-left-lg">
-								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+								<img src="/img/floor-plan/floor-plan-open.jpg" alt="Exterior shot of 24 Savile Row">
 							</div>
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
@@ -252,7 +252,7 @@ include '../header.php';
 								</div>
 							</div>
 							<div class="six right pad-right-xlg pad-left-lg">
-								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+								<img src="/img/floor-plan/floor-plan-cellular.jpg" alt="Exterior shot of 24 Savile Row">
 							</div>
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
@@ -283,7 +283,7 @@ include '../header.php';
 								</div>
 							</div>
 							<div class="six right pad-right-xlg pad-left-lg">
-								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+								<img src="/img/floor-plan/floor-plan-open.jpg" alt="Exterior shot of 24 Savile Row">
 							</div>
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
@@ -314,7 +314,7 @@ include '../header.php';
 								</div>
 							</div>
 							<div class="six right pad-right-xlg pad-left-lg">
-								<img src="/img/floor-plan/floor-plan-vert.jpg" alt="Exterior shot of 24 Savile Row">
+								<img src="/img/floor-plan/floor-plan-cellular.jpg" alt="Exterior shot of 24 Savile Row">
 							</div>
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>

@@ -57,7 +57,7 @@ include '../header.php';
 				<div class="clear pad-bottom"></div>
 			</div>
 			<div class="rel">
-				<div class="three pad-left right">
+				<div class="three pad-left pad-top right">
 					<div class="tabled">
 						<div class="cell">
 							<h2 class="orange">Kate Malone</h2>
@@ -74,7 +74,7 @@ include '../header.php';
 					<img src="/img/kate-malone.jpg" alt="Kate Malone" class="full-w">
 					<blockquote class="six">This building is really unique, I’d challenge anybody to do it to this level of detail and this level of accuracy. A whole building as a work of art. It looks as extraordinary as the journey has been to make it.”
 						<footer>
-							<cite class="orange"><a class="orange" href="#">Kate Malone</a></cite>
+							<cite class="orange alt-font">Kate Malone</cite>
 						</footer>
 					</blockquote>
 					
@@ -97,7 +97,7 @@ include '../header.php';
 					<img src="/img/storage-associati.jpg" alt="Storage Associati" class="full-w">
 					<blockquote class="two orange right">It started with marble. Replicating the subtle elegance of the light and dark exterior, connecting materials, translating what Savile Row means. Reflecting its value.”
 						<footer>
-							<cite><a href="#">Storage Associati</a></cite>
+							<cite class="alt-font">Storage Associati</cite>
 						</footer>
 					</blockquote>
 					

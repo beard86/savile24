@@ -64,24 +64,7 @@ include '../header.php';
 							<p>Male and Female showers <br>and changing rooms</p>
 							<p>Public Art bronze plinth designed <br>by Kate Malone in consultation <br>with EPR and Michael Eden</p>
 							<p>Building targeted to achieve<br> BREEAM ’Excellent’ rating</p>
-						</div>
-					</div>
-
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="rel pad-bottom">
-				<div class="two right main-carousel-wrap">
-					<div id="main-carousel-2" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs-download.jpg" alt="Bathroom shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-download.jpg" alt="Bathroom shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs-download.jpg" alt="Bathroom shot of 24 Savile Row"></div>
-					</div>
-				</div>
-				<div class="three pad-right full-h a-left">
-					<div class="tabled">
-						<div class="cell">
-							<h2 class="orange right"><a href="#"></a>Download full specification ></a></h2>
+							<h2 class="orange"><a href="#"></a>Download full specification ></a></h2>
 						</div>
 					</div>
 
