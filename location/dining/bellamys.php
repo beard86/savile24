@@ -53,7 +53,7 @@ include '../../header.php';
 				<div class="two right">
 					<img src="/img/bellamys-2.jpg" alt="Exterior" class="full-w">
 				</div>
-				<div class="three pad-right  a-left">
+				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell">
 							<p>We are one of the last independents in Mayfair and customers are very much supporters. Eighty per cent are regulars, several since day one, and they don’t stroll far from their office, homes or hotels to reach us. We have art dealers, lawyers, CEOs, financiers, property specialists, Hollywood actors, dowagers, the young and the toff-erati. The new bar is very popular: from 5pm Tomas, the 6ft 8in barman, mixes a variety of cocktails including his trademark mean Martini.</p>

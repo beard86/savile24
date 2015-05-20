@@ -49,7 +49,7 @@ include '../header.php';
 						<div class="cell">
 							<h2>Kate Malone</h2>
 							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
-							<h3 class="">Watch the process </h3>
+							<h3 class="">Watch the process ></h3>
 						</div>
 					</div>
 

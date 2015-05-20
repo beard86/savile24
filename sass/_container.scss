@@ -66,7 +66,7 @@ section {
                         margin: 0 auto;
                         width: 80%;
                         max-width: 600px;
-                        border-left: 1px solid $lblue;
+                        border-left: 1px solid #D0D3D5;
                         padding-left: 1em;
                          @media #{$smartphones} {
                               width: 90%;
@@ -265,6 +265,14 @@ h2 {
               color: inherit;
       }
 }
+.Gallery {
+            li {
+                        ul.gallery {
+                                    display: block;
+                        }
+            }
+}
+
 .Building {
             li {
                         ul.building {
@@ -476,8 +484,8 @@ h2 {
 }
 .core-office {
       position: absolute;
-      margin-bottom:1em;
       p {
+            font-size: 1em;
             line-height: 0.75em;
             margin-bottom:5px;
             &.core {
@@ -502,8 +510,7 @@ h2 {
       position: absolute;
       right: 0;
       bottom: 3em;
-      width: 55px;
-      margin-bottom: 1em;
+      width: 48px;
 }
 .video-container {
       cursor:pointer;
@@ -528,11 +535,31 @@ h2 {
 .transport {
       .cell {
             height: 22px;
+            &.head {
+                  height: 52px;
+            }
+            span {
+                    position: relative;
+                    bottom: 10px;
+            }
       }
 }
 .video-size {
       width:100%;
       height: 481px;
+}
+i.icon {
+        width: 47px;
+        height: 35px;
+        display: inline-block;
+      background-repeat:no-repeat;
+      &.underground {
+            background-image: url(/img/icon/underground.png);
+
+      }
+      &.crossrail {
+            background-image: url(/img/icon/crossrail.png);
+      }
 }
 .contact {
       h2 {

@@ -28,7 +28,6 @@ include '../../header.php';
 		<div class="intro-text">
 			<h2 class="purple">
 				In Jules Verne’s 1873 novel, the tale of Phileas Fogg’s attempt to travel around the world in eighty days was excitingly futuristic. Today, the sequel of Mr Fogg’s life in late Victorian Mayfair is imaginatively showcased in the townhouse cocktail bar at 15 Bruton Lane. 
-
 			</h2>
 		</div>
 	</section>
@@ -42,7 +41,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p class="purple bold">“As a child, I loved Jules Verne’s books. In Phileas Fogg, he created a wonderful character who lived in Mayfair and was a member of the Reform Club. My business partner Duncan Stirling and I thought it would be fun to conjure the house Mr Fogg might inhabit after his travels</p>
+							<p class="blockquote bold">As a child, I loved Jules Verne’s books. In Phileas Fogg, he created a wonderful character who lived in Mayfair and was a member of the Reform Club. My business partner Duncan Stirling and I thought it would be fun to conjure the house Mr Fogg might inhabit after his travels.</p>
 						</div>
 					</div>
 
@@ -72,7 +71,7 @@ include '../../header.php';
 					<div class="tabled">
 						<div class="cell purple">
 							<p>The theatrical element comes into play later in the evening and is sensitively guaged. We have customers who come at 4pm for a work meeting and we are aware the last thing they’d want is Phileas Fogg sitting down to join them or his household staff delivering telegrams containing cocktail suggestions.</p>
-							<p>May I recommend my favourite? The Spicy Rupee – vanilla-infused Russian Standard premium vodka, elderflower cordial, fresh chilli, lime juice and a splash of honey. It’s sweet, with a kick. You love it or hate it. The Passepartout is the proven crowdpleaser – Hendricks gin, fresh cucumber, nettle cordial, lime juice, sugar, egg white and a bit of cracked black pepper. Come and sample one.</p>
+							<p>May I recommend my favourite? The Spicy Rupee – vanilla-infused Russian Standard premium vodka, elderflower cordial, fresh chilli, lime juice and a splash of honey. It’s sweet, with a kick. You love it or hate it. The Passepartout is the proven crowdpleaser – Hendricks gin, fresh cucumber, nettle cordial, lime juice, sugar, egg white and a bit of cracked black pepper. Come and sample one.”</p>
 						</div>
 					</div>
 

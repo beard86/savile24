@@ -27,11 +27,11 @@ include '../header.php';
 			<div class="rel pad-bottom">
 				<div class="two right main-carousel-wrap">
 					<div id="main-carousel" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs/top_carousel.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/top_carousel2.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/top_carousel3.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/top_carousel4.jpg" alt="Exterior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/top_carousel5.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel-1.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel-2.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel-3.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel-4.jpg" alt="Exterior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/top_carousel-5.jpg" alt="Exterior shot of 24 Savile Row"></div>
 					</div>
 				</div>
 				<div class="three pad-right full-h a-left">
@@ -52,9 +52,9 @@ include '../header.php';
 			<div class="rel pad-bottom">
 				<div class="two left main-carousel-wrap">
 					<div id="main-carousel-2" class="owl-carousel owl-theme">
-						<div class="item"><img src="/img/specs/left_carousel1.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/left_carousel2.jpg" alt="Interior shot of 24 Savile Row"></div>
-						<div class="item"><img src="/img/specs/left_carousel3.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel-1.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel-2.jpg" alt="Interior shot of 24 Savile Row"></div>
+						<div class="item"><img src="/img/specs/left_carousel-3.jpg" alt="Interior shot of 24 Savile Row"></div>
 					</div>
 				</div>
 				<div class="three pad-left full-h a-right">
@@ -65,21 +65,8 @@ include '../header.php';
 							<p>Storage for 32 cycles at lower <br>ground accessed via bike lift</p>
 							<p>Male and Female showers <br>and changing rooms</p>
 							<p>Public Art bronze plinth designed <br>by Kate Malone in consultation <br>with EPR and Michael Eden</p>
-							<p>Building targeted to achieve<br> BREEAM ’Excellent’ rating</p>
+							<p class="hpad-bottom">Building targeted to achieve<br> BREEAM ’Excellent’ rating</p>
 							<h2 class="orange"><a href="#"></a>Download full specification ></a></h2>
-						</div>
-					</div>
-
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="rel pad-bottom">
-				<div class="two right main-carousel-wrap">
-				</div>
-				<div class="three pad-left left">
-					<div class="tabled">
-						<div class="cell">
-							<img src="/img/specs-balcony.jpg" class="full-w" alt="Balcony shot of 24 Savile Row">
 						</div>
 					</div>
 
@@ -89,9 +76,6 @@ include '../header.php';
 		</div>
 	</section>
 </div>
-
-
-
 
 <?php
 include '../footer.php'

@@ -34,7 +34,7 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel six centralise pad-bottom">
-				<div class="three pad-left full-h left">
+				<div class="two pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/fashion/double-vision.php">

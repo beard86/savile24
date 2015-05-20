@@ -6,9 +6,10 @@ $logocolour = 'cream';
 $PHP_SELF = $_SERVER['PHP_SELF'];
 include '../header.php';
 ?>
+<div class="sub-nav-bg"></div>
 <div class="container">
 	<div class="down" id="hero-down">
-		<img src="img/down.png" alt="Scroll Down">
+		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
 		<div id="gallery-carousel" class="owl-carousel owl-theme show-nav">

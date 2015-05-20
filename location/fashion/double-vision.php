@@ -49,7 +49,7 @@ include '../../header.php';
 				<div class="clear"></div>
 			</div>
 			<div class="rel pad-bottom">
-				<div class="three pad-left right full-h">
+				<div class="three pad-left right full-h a-right">
 					<div class="tabled">
 						<div class="cell">
 							<p>For us, Savile Row represents both tradition and evolution. It has the link to the bespoke art, and some of the world’s most excellent tailors are here. Mayfair is a very exclusive and very central area, with its own unique identity. It has a charming atmosphere, but it’s also very international. It’s the perfect blend of a sophisticated atmosphere and the proper exposure. We really love eating at Cecconi’s or The Arts Club or just having tea at Claridge’s. Mayfair is related to evolution, the arts, culture and even business. It breathes exclusivity and modernity at the same time.</p>
@@ -58,13 +58,13 @@ include '../../header.php';
 					</div>
 
 				</div>
-				<div class="three right pad-right marg-right">
+				<div class="three left pad-right marg-right">
 					<img src="/img/dean-catan.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="rel pad-bottom">
-				<div class="three pad-left a-right marg-right full-h">
+				<div class="three pad-left a-left marg-right full-h">
 					<div class="tabled">
 						<div class="cell">
 							<p>What we really wanted to do was create something that completely encompassed our style and vision. Dsquared2 reflects our personalities and lifestyle: fun, sexy, glamorous and irreverent. It’s accidental chic, uncontrived cool. Dsquared2 is not just fashion. It’s a specific attitude and mood.</p>
@@ -73,7 +73,7 @@ include '../../header.php';
 					</div>
 
 				</div>
-				<div class="three left pad-left ">
+				<div class="three right pad-left ">
 					<img src="/img/dan-catan.jpg" alt="Exterior" class="full-w">
 				</div>
 				<div class="clear"></div>

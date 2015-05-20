@@ -11,7 +11,6 @@
                 UTIL.loadCarousels();
                 UTIL.activeClassToNav();
 
-
                 $('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');
                 });
@@ -256,11 +255,11 @@
                 $(that).addClass('bold');
             }
             $('.jumpToZero').click(function(){
-                spacesCarousel.trigger('owl.goTo', 3);
+                spacesCarousel.trigger('owl.goTo', 2);
                 addClassBold(this);
             });
             $('.jumpToOne').click(function(){
-                spacesCarousel.trigger('owl.goTo', 4);
+                spacesCarousel.trigger('owl.goTo', 3);
                 addClassBold(this);
             });
             $('.jumpToTwo').click(function(){

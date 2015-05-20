@@ -65,7 +65,7 @@ include '../../header.php';
 			</div>
 			<div class="rel pad-bottom">
 				<div class="two left">
-					<img src="/img/painting.jpg" alt="Painting" class="full-w">
+					<img src="/img/art-1.jpg" alt="Painting" class="full-w">
 				</div>
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
@@ -81,7 +81,7 @@ include '../../header.php';
 			</div>
 			<div class="rel pad-bottom">
 				<div class="main-carousel-wrap two right">
-					<img src="/img/gallery.jpg" alt="Exterior shot of 24 Savile Row" class="full-w">
+					<img src="/img/art-2.jpg" alt="Exterior shot of 24 Savile Row" class="full-w">
 				</div>
 				<div class="three pad-left left">
 					<div class="tabled">

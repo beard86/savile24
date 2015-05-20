@@ -69,8 +69,8 @@ include '../../header.php';
 				</div>
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
-						<div class="cell purple">
-							<p>From its prime position overlooking Berkeley Square, Morton’s has been a magnet for the London elite for over three decades. The Grade II listed Georgian building that houses Morton’s was formerly the home of F.J. Robinson, and was notorious in the Roaring Twenties as the favourite haunt of the Bentley brothers, whose lifestyles were as fast as their cars.</p>
+						<div class="cell">
+							<p class="bold">From its prime position overlooking Berkeley Square, Morton’s has been a magnet for the London elite for over three decades. The Grade II listed Georgian building that houses Morton’s was formerly the home of F.J. Robinson, and was notorious in the Roaring Twenties as the favourite haunt of the Bentley brothers, whose lifestyles were as fast as their cars.</p>
 						</div>
 					</div>
 

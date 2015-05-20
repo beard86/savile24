@@ -48,10 +48,15 @@
 							<li><a data-page-type="art"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/art' ? ' active' : '');?>" href="/location/art">Art</a></li>
 							<li><a data-page-type="dining"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/dining' ? ' active' : '');?>" href="/location/dining">Dining</a></li>
 							<li><a data-page-type="social"  class="<?php echo ($_SERVER['PHP_SELF'] == '/location/social' ? ' active' : '');?>" href="/location/social">Social</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/area-overview.php' ? ' active' : '');?>" href="/location/area-overview.php">Area Overview</a></li>
+							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/area-overview.php' ? ' active' : '');?>" href="/location/area-overview.php">Maps</a></li>
 						</ul>
 					</li>
-					<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
+					<li class="main-menu-item"><a href="/gallery">Gallery</a>
+						<ul class="gallery sub-menu">
+							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
+							<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/building.php' ? ' active' : '');?>" href="/gallery/building.php">Building</a></li>
+						</ul>
+					</li>
 					<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
 					<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 				</ul>

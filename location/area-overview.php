@@ -147,8 +147,11 @@ include '../header.php';
 							Transport
 							</h2>
 							<div class="tabled two left pad-right">
-								<div class="tbl-row orange">
-										<div class="cell aleft">Underground</div>
+								<div class="tbl-row orange head">
+										<div class="cell aleft bold">
+											<i class="icon underground"></i>
+											<span>Underground</span>
+										</div>
 										<div class="cell aright"></div>
 								</div>
 								<div class="tbl-row orange ">
@@ -185,8 +188,11 @@ include '../header.php';
 								</div>
 							</div>
 							<div class="tabled two right">
-								<div class="tbl-row orange">
-										<div class="cell aleft">Crossrail (2018)</div>
+								<div class="tbl-row orange head">
+										<div class="cell aleft bold">
+											<i class="icon crossrail"></i>
+											<span>Crossrail (2018)</span>
+										</div>
 										<div class="cell aleft"></div>
 								</div>
 								<div class="tbl-row orange">
