@@ -178,6 +178,28 @@
 
             });
 
+           /* var sections = {},
+                _height  = $(window).height(),
+                i        = 0;
+
+            // Grab positions of our sections 
+            $('.section').each(function(){
+                sections[this.name] = $(this).offset().top;
+            });
+
+            $(document).scroll(function(){
+                var pos = $(this).scrollTop();
+
+                // Look in the sections object and see if any section is viewable on the screen. 
+                // If two are viewable, the lower one will be the active one. 
+                for(i in sections){
+                    if(sections[i] > pos && sections[i] < pos + _height){
+                        $('a').removeClass('active');
+                        $('#nav_' + i).addClass('active');
+                    }  
+                }
+            });*/
+
         },
 
         //adds active

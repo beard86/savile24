@@ -38,7 +38,7 @@ include '../../header.php';
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/dining/bellamys.php">
-								<h2 class="orange">Celebrated restaurateur Gavin Rankin talks about his restaurant, Bellamy’s, and serving the Queen ></h2>
+								<h2 class="orange">Celebrated restaurateur Gavin Rankin talks about his restaurant, Bellamy’s, and serving the&nbsp;Queen&nbsp;></h2>
 							</a>
 						</div>
 					</div>
@@ -70,8 +70,9 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p class="bold">Mayfair reads like a roll call of some of the world’s most extraordinary culinary talents: Hélène Darroze and Alain Ducasse, Angela Hartnett and Simon Rogen.</p>
-							<p>Often discreet, always opulent, there’s a heady mix here. Old school meets contemporary. Rule breakers meet the old guard. Excellence comes as standard.</p>
+							<p class="bold">With 22 Michelin-starred restaurants in the neighbourhood, Mayfair reads like a roll call of some of the world’s most extraordinary culinary talents. </p>
+							<p>More than just restaurants, these are global dining destinations, showcasing the very best 21st century cuisine. Everything is represented: from the reverent haute cuisine classicism of Michel Roux Jr at Le Gavroche, to the playful theatrics and ingenious delights of Pierre Gagnaire’s molecular gastronomy at Sketch. </p>
+							<p>At Wild Honey, Anthony Demetre’s delightfully simple cooking is elevated and evolved to Michelin two star status. At the Connaught, Hélène Darroze’s thrilling French cuisine is set off by an historic, wood-panelled dining room complete with works by Damien Hirst, Baccarat crystal and famously impeccable service. </p>
 						</div>
 					</div>
 
@@ -82,8 +83,8 @@ include '../../header.php';
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell purple">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida facilisis nunc non finibus. Phasellus nec erat lacus. Aenean in neque nisl. Donec pulvinar tortor in accumsan pretium. Integer convallis lorem non ex pretium lacinia. Aenean euismod condimentum tellus, eu accumsan lacus porta ac. Aliquam consequat tortor nec lectus rutrum bibendum.</p>
-							<p>Sed molestie purus odio, fringilla congue dui mattis eleifend. Suspendisse pretium condimentum molestie. Etiam ante tellus, mollis placerat libero at, volutpat sagittis tellus. Donec nisi ligula, elementum id feugiat efficitur, efficitur ut libero. Proin a est malesuada, bibendum lacus in, lacinia metus. Integer eget aliquam felis. Donec vel massa sit amet sapien mollis malesuada ut eleifend augue. Phasellus ac sem viverra, sagittis justo in, ultrices libero. Mauris pretium condimentum risus at ultricies. Sed dignissim, elit id consequat tristique, velit ex feugiat arcu, vel imperdiet mauris justo sit amet mi.</p>
+							<p>Simon Rogen’s Fera at Claridges treats exceptional ingredients with sensitivity and wit, honouring flavour and seasonality with a menu that changes regularly as new ingredients arrive.</p>
+							<p>Angela Hartnett’s latest incarnation, Murano, reflects the prodigious talent and Italian heritage of this celebrated chef and former Gordon Ramsey protege. At the Dorchester, Alain Ducasse demonstrates his world-renowned expertise with a menu that combines meticulous French technique with majestic modern flair.</p>
 						</div>
 					</div>
 
