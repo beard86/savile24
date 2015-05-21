@@ -120,7 +120,7 @@ include '../header.php';
 								<h3>Reception</h3>
 								<p>840 sq ft / 78 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-0.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-r.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
@@ -208,12 +208,10 @@ include '../header.php';
 										<p class="bold heading">Open plan Layout</p>
 										<p class="qpad-bottom heading">Occupancy 1:10m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
-										<p>Open plan workstation<span>1</span></p>
-										<p>Office<span>1</span></p>
-										<p class="bold qpad-bottom">Total workstation seats<span>42</span></p>
-										<p>10 person meeting room<span>1</span></p>
-										<p>12 person board room<span>1</span></p>
-										<p class="bold qpad-bottom">Total meeting room seats<span>42</span></p>
+										<p>Open plan workstations<span>4</span></p>
+										<p>Offices<span>7</span></p>
+										<p>10 person board room<span>1</span></p>
+										<p>4 person meeting room<span>1</span></p>
 										<p>Kitchenette<span>1</span></p>
 										<p>Print/post<span>1</span></p>
 
@@ -238,15 +236,13 @@ include '../header.php';
 									<div class="rel">
 										<h3>Sixth Floor (Cellular)</h3>
 										<p class="pad-bottom small bold">2,971 sq ft / 271 sq m</p>
-										<p class="bold heading">Open plan Layout</p>
+										<p class="bold heading">Cellular Layout</p>
 										<p class="qpad-bottom heading">Occupancy 1:10m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
-										<p>Open plan workstation<span>1</span></p>
-										<p>Office<span>1</span></p>
-										<p class="bold qpad-bottom">Total workstation seats<span>42</span></p>
-										<p>10 person meeting room<span>1</span></p>
-										<p>12 person board room<span>1</span></p>
-										<p class="bold qpad-bottom">Total meeting room seats<span>42</span></p>
+										<p>Open plan workstations<span>4</span></p>
+										<p>Offices<span>7</span></p>
+										<p>10 person board room<span>1</span></p>
+										<p>4 person meeting room<span>1</span></p>
 										<p>Kitchenette<span>1</span></p>
 										<p>Print/post<span>1</span></p>
 									</div>
@@ -271,14 +267,12 @@ include '../header.php';
 										<h3>Fourth Floor (Open plan)</h3>
 										<p class="pad-bottom small bold">4,478 sq ft / 416 sq m</p>
 										<p class="bold heading">Open plan Layout</p>
-										<p class="qpad-bottom heading">Occupancy 1:10m</p>
+										<p class="qpad-bottom heading">Occupancy 1:10m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
-										<p>Open plan workstation<span>38</span></p>
-										<p>Office<span>2</span></p>
-										<p class="bold qpad-bottom">Total workstation seats<span>42</span></p>
-										<p>10 person meeting room<span>1</span></p>
+										<p>Open plan workstations<span>38</span></p>
+										<p>Offices<span>2</span></p>
 										<p>12 person board room<span>1</span></p>
-										<p class="bold qpad-bottom">Total meeting room seats<span>22</span></p>
+										<p>10 person meeting room<span>1</span></p>
 										<p>Kitchenette<span>1</span></p>
 										<p>Print/post<span>1</span></p>
 									</div>
@@ -303,14 +297,13 @@ include '../header.php';
 										<h3>Fourth Floor (Cellular)</h3>
 										<p class="pad-bottom small bold">4,478 sq ft / 416 sq m</p>
 										<p class="bold heading">Open plan Layout</p>
-										<p class="qpad-bottom heading">Occupancy 1:10m</p>
+										<p class="qpad-bottom heading">Occupancy 1:26m<sup>2</sup></p>
 										<p>2 person reception<span>1</span></p>
-										<p>Open plan workstation<span>4</span></p>
-										<p>Office<span>10</span></p>
+										<p>Open plan workstations<span>4</span></p>
+										<p>Offices<span>10</span></p>
 										<p class="bold qpad-bottom">Total workstation seats<span>16</span></p>
-										<p>10 person meeting room<span>2</span></p>
-										<p>12 person board room<span>1</span></p>
-										<p class="bold qpad-bottom">Total meeting room seats<span>28</span></p>
+										<p>12 person boardroom<span>1</span></p>
+										<p>8 person flexible meeting room<span>2</span></p>
 										<p>Kitchenette<span>1</span></p>
 										<p>Print/post<span>1</span></p>
 									</div>

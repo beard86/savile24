@@ -16,7 +16,7 @@ include '../header.php';
 		<div class="text-container">
 			<div class="tabled">
 				<div class="cell">
-					<h1 class="orange  large">Summary<br/>Specification</h1>
+					<h1 class="large">Summary<br/>Specification</h1>
 				</div>
 			</div>
 		</div>

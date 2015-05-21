@@ -16,8 +16,8 @@ include '../header.php';
 		<div class="text-container">
 			<div class="tabled">
 				<div class="cell">
-					<h1 class="orange large ">Area Overview</h1>
-					<p class="orange">The Definitive Mayfair Address</p>
+					<h1 class="large ">Area Overview</h1>
+					<p class="">The Definitive Mayfair Address</p>
 				</div>
 			</div>
 		</div>

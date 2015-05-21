@@ -18,7 +18,7 @@
                     UTIL.goToSection('#main');
                 });
                 $('#space-down').on('click', function() {
-                    UTIL.goToSection('#area-schedule');
+                    UTIL.goToSectionSpecs('#area-schedule');
                 });
                 $('#hero-downloads').on('click', function() {
                     UTIL.goToSection('#downloads');
@@ -218,6 +218,11 @@
                 scrollTop: $(id).offset().top - 50
             }, 1000);
         },
+        goToSectionSpecs: function(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 1000);
+        },
 
         loadCarousels: function() {
             //initialise carousel for hero images
@@ -289,8 +294,8 @@
             })
 
             $('.owl-buttons > div').click(function() {
-                    var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index() + 1,
-                    floorList = $('body').find('.schedule .tbl-row');
+                    var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index();
+                    floorList = $('body').find('.schedule .ctrl');
                     floorList.removeClass('bold');
                     floorList.eq(activeIndex).addClass('bold');
             });
