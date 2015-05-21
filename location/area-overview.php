@@ -41,30 +41,18 @@ include '../header.php';
 					</h3>
 					<div style="display:none;" class="occupiers">
 						<ul>
-							<li data-override="1">01. AXA Private Equity</li>
-							<li data-override="2">02. The Grosvenor Estate</li>
-							<li data-override="3">03. Evans Randall</li>
-							<li data-override="4">04. Condé Nast</li>
-							<li data-override="5">05. Perella Weinberg</li> 
-							<li data-override="6">06. Arcelor Mittal</li>
-							<li data-override="6">06. BTG Pactual</li>
-							<li data-override="7">07. Audley Capital Partners</li>
-							<li data-override="8">08. Rathbone Brothers</li>
-							<li data-override="8">08. Kedge Capital</li>
-							<li data-override="8">08. PetroSaudi International</li>
-							<li data-override="9">09. Heritage Oil</li>
-							<li data-override="9">09. Helical Bar</li>
-							<li data-override="10">10. Tudor Capital</li>
-							<li data-override="10">10. Ares</li>
-							<li data-override="11">11. Castlelake</li>
-							<li data-override="11">11. Antin Infrastructure</li>
-							<li data-override="11">11. Gulfstream</li>
-							<li data-override="12">12. GoldenTree</li>
-							<li data-override="13">13. Angelo, Gordon</li>
-							<li data-override="13">13. Viking Global Investors</li>
-							<li data-override="13">13. York Capital Management</li>
-							<li data-override="13">13. Eton Park Capital</li>
-							<li data-override="13">13. General Atlantic Partners</li>
+							<li data-override="1">01. Ardian</li>
+							<li data-override="2">02. Arcelor Mittal</li>
+							<li data-override="3">03. PetroSaudi International</li>
+							<li data-override="4">04. Ares Capital Corporation</li>
+							<li data-override="5">05. Tudor Capital</li> 
+							<li data-override="6">06. Castlelake</li>
+							<li data-override="6">06. Angelo, Gordon &amp; Co</li>
+							<li data-override="7">07. Fortress Investment Group</li>
+							<li data-override="8">08. Trafigura</li>
+							<li data-override="9">09. Apollo Global Management</li>
+							<li data-override="10">10. York Capital</li>
+							<li data-override="11">11. Eton Park</li>
 						</ul>
 					</div>
 
@@ -73,22 +61,16 @@ include '../header.php';
 					</h3>
 					<div style="display:none;" class="culture">		
 						<ul>
-							<li data-override="1">01. Pollen Street Social</li>
-							<li data-override="2">02. Sketch</li>
-							<li data-override="3">03. Sartoria</li>
-							<li data-override="4">04. Hakkasan Mayfair</li>
-							<li data-override="5">05. Nobu</li>
-							<li data-override="6">06. Alyn Williams at The Westbury</li>
-							<li data-override="7">07. The Square</li>
-							<li data-override="8">08. Wild Honey</li>
-							<li data-override="9">09. Brasserie Chavot</li>
-							<li data-override="10">10. Hibiscus</li>
-							<li data-override="11">11. Benares</li>
-							<li data-override="12">12. Hélène Darroze at the Connaught </li>
-							<li data-override="13">13. Halcyon Gallery</li>
-							<li data-override="14">14. Gagosian</li>
-							<li data-override="15">15. Royal Academy of Arts</li>
-							<li data-override="16">16. Annabel's</li>
+							<li data-override="1">12. Pollen Street Social</li>
+							<li data-override="2">13. Sketch</li>
+							<li data-override="3">14. Sartoria</li>
+							<li data-override="4">15. Alyn Williams at The Westbury</li>
+							<li data-override="5">16. The Square</li>
+							<li data-override="6">17. Wild Honey</li>
+							<li data-override="7">18. Hibiscus</li>
+							<li data-override="8">19. Hélène Darroze at the Connaught </li>
+							<li data-override="9">20. Fera at Claridge's</li>
+							<li data-override="10">21. Cecconi's</li>
 						</ul>
 					</div>
 				</div>
@@ -98,44 +80,34 @@ include '../header.php';
 					</div>		
 					<div class="occupiers-hotspots">
 						
-						<span style="top:71%; left:43%;">01</span>
-						<span style="top:27%; left:32%;">02</span>
-						<span style="top:63%; left:56.4%;">03</span>
-						<span style="top:23%; left:54%;">04</span>
-						<span style="top:67%; left:45%;">05</span>
-						<span style="top:60%; left:39.5%;">06</span>
-						<span style="top:86%; left:1%;">07</span>
-						<span style="top:70%; left:24%;">08</span>
-						<span style="top:14%; left:56.5%;">09</span>
-						<span style="top:50%; left:62%;">10</span>
-						<span style="top:72%; left:69%;">11</span>
-						<span style="top:27%; left:24%;">12</span>
-						<span style="top:44%; left:56%;">13</span>	
+						<span style="top: 67%; left: 40%;">01</span>
+						<span style="top: 60%; left: 39%;">02</span>
+						<span style="top: 69%; left: 27.4%;">03</span>
+						<span style="top: 50%; left: 61%;">04</span>
+						<span style="top: 72%; left: 68%;">05</span>
+						<span style="top: 43%; left: 55.5%;">06</span>
+						<span style="top: 62%; left: 60%;">07</span>
+						<span style="top: 26%; left: 43%;">08</span>
+						<span style="top: 24%; left: 48.5%;">09</span>
+						<span style="top: 57%; left: 58.5%;">10</span>
+						<span style="top: 51%; left: 57%;">11</span>
 					</div>
 					
 					<div class="culture-hotspots">
-						
-						<span style="top:24%; left:53%;">01</span>
-						<span style="top:34%; left:58%;">02</span>
-						<span style="top:51%; left:58%;">03</span>
-						<span style="top:57%; left:39%;">04</span>
-						<span style="top:70%; left:42%;">05</span>
-						<span style="top:51%; left:46%;">06</span>
-						<span style="top:54.5%; left:42%;">07</span>
-						<span style="top:34%; left:45%;">08</span>
-						<span style="top:49%; left:48%;">09</span>
-						<span style="top:32%; left:53.4%;">10</span>
-						<span style="top:62%; left:39.9%;">11</span>
-						<span style="top:45%; left:23%;">12</span>
-						<span style="top:44.5%; left:39%;">13</span>	
-						<span style="top:33.4%; left:24%;">14</span>
-						<span style="top:72%; left:57%;">15</span>
-						<span style="top:62.5%; left:27%;">16</span>
+						<span style="top: 24%; left: 51%;">12</span>
+						<span style="top: 33%; left: 56%;">13</span>
+						<span style="top: 53%; left: 57%;">14</span>
+						<span style="top: 51%; left: 46%;">15</span>
+						<span style="top: 55%; left: 40.7%;">16</span>
+						<span style="top: 34%; left: 44%;">17</span>
+						<span style="top: 30.5%; left: 53%;">18</span>
+						<span style="top:44%; left:18%;">19</span>
+						<span style="top:24%; left:30%;">20</span>
+						<span style="top: 66%; left: 52%;">21</span>
 					</div>
-
-						<img src="/img/hotspot-map.png" alt="map" class="full-w desktop">
-						<img src="/img/hotspot-map-mobile.png" alt="map" class="full-w hidden">
-						<div class="clear pad-bottom-xlg"></div>
+					<img src="/img/hotspot-map.png" alt="map" class="full-w desktop">
+					<img src="/img/hotspot-map-mobile.png" alt="map" class="full-w hidden">
+					<div class="clear pad-bottom-xlg"></div>
 					</div>
 				</div>
 					<div class="rel">

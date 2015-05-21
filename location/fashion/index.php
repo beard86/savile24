@@ -34,11 +34,11 @@ include '../../header.php';
 	<section id="main">
 		<div class="wrapper">
 			<div class="rel six centralise pad-bottom">
-				<div class="two pad-left full-h left">
+				<div class="three pad-left full-h left">
 					<div class="tabled">
 						<div class="cell no-margin-header">
 							<a href="/location/fashion/double-vision.php">
-								<h2 class="orange">Why celebrated fashion house Dsquared2 chose 24 Savile Row for their spectacular London flagship store ></h2>
+								<h2 class="orange">Why celebrated fashion house Dsquared2 chose 24&nbsp;Savile&nbsp;Row for their spectacular London flagship store ></h2>
 							</a>
 						</div>
 					</div>

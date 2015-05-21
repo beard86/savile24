@@ -79,7 +79,7 @@ include 'header.php';
 						<div class="cell">
 							<h2>Storage Associati</h2>
 							<p>Asked to imagine the new entrance and reception to 24 Savile Row, this acclaimed Milan-based team began with marble and brass – natural materials that translate what Savile Row means: a true reflection of value.</p>
-							<h3>Watch their story ></h3>
+							<h3>&lt; Watch their story</h3>
 						</div>
 					</div>
 				</div>

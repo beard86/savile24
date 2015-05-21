@@ -33,9 +33,8 @@
 							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/building/art-of-collaboration.php' ? ' active' : '');?>" href="/building/art-of-collaboration.php">The Art of Collaboration</a></li>
 						</ul>
 					</li>
-					<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">Accommodation</a>
+					<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">The Space</a>
 						<ul class="accomodation sub-menu">
-							<li><a data-page-type="hero" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/index.php' ? ' active' : '');?>" href="/accomodation/index.php">The Space</a></li>
 							<li><a data-page-type="area-schedule" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#area-schedule' ? ' active' : '');?>" href="/accomodation#area-schedule">Area Schedule</a></li>
 							<li><a data-page-type="floor-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#floor-plans' ? ' active' : '');?>" href="/accomodation#floor-plans">Space Plans</a></li>
 							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/specification.php' ? ' active' : '');?>" href="/accomodation/specification.php">Specification</a></li>
@@ -53,8 +52,8 @@
 					</li>
 					<li class="main-menu-item"><a href="/gallery">Gallery</a>
 						<ul class="gallery sub-menu">
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
 							<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/building.php' ? ' active' : '');?>" href="/gallery/building.php">Building</a></li>
+							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
 						</ul>
 					</li>
 					<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
@@ -92,15 +91,19 @@
 				<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/location/area-overview.php' ? ' active' : '');?>" href="/location/area-overview.php">Area Overview</a></li>
 			</ul>
 		</li>
-		<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">Accomodation</a>
+		<li class="main-menu-item"><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation' ? ' active' : '');?>" href="/accomodation">The Space</a>
 			<ul class="accomodation sub-menu">
-				<li><a data-page-type="hero" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/index.php' ? ' active' : '');?>" href="/accomodation/index.php">The Space</a></li>
 				<li><a data-page-type="area-schedule" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#area-schedule' ? ' active' : '');?>" href="/accomodation#area-schedule">Area Schedule</a></li>
 				<li><a data-page-type="floor-plans" class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation#floor-plans' ? ' active' : '');?>" href="/accomodation#floor-plans">Space Plans</a></li>
 				<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/accomodation/specification.php' ? ' active' : '');?>" href="/accomodation/specification.php">Specification</a></li>
 			</ul>
 		</li>
-		<li class="main-menu-item"><a href="/gallery">Gallery</a></li>
+		<li class="main-menu-item"><a href="/gallery">Gallery</a>
+			<ul class="gallery sub-menu">
+				<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/building.php' ? ' active' : '');?>" href="/gallery/building.php">Building</a></li>
+				<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
+			</ul>
+		</li>
 		<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
 		<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 	        </ul>

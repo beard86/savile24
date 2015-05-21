@@ -4,7 +4,7 @@
 	<p>Back to top</p>
 </div>
 
-<footer>
+<!--footer>
 	<div class="wrapper">
 		<div class="left">
 			<p>24 Savile Row</p>
@@ -20,7 +20,7 @@
 		</div>
 		<div class="clear"></div>
 	</div>
-</footer>
+</footer-->
 <script src="/js/main-thirdparty.js"></script>
 <script src="/js/main.js"></script>
 </body>

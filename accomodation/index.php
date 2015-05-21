@@ -138,22 +138,22 @@ include '../header.php';
 								<div class="cell"><span>sq ft</span></div>
 								<div class="cell"><span>sq m</span></div>
 						</div>
-						<div class="tbl-row bold">
+						<div class="tbl-row bold ctrl">
 								<div class="cell">Sixth</div>
 								<div class="cell">2,971</div>
 								<div class="cell">271</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ctrl">
 								<div class="cell">Fifth</div>
 								<div class="cell">3,789</div>
 								<div class="cell">352</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ctrl">
 								<div class="cell">Fourth</div>
 								<div class="cell">4,478</div>
 								<div class="cell">416</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ctrl">
 								<div class="cell">Third</div>
 								<div class="cell">4,483</div>
 								<div class="cell">416</div>
@@ -161,14 +161,14 @@ include '../header.php';
 						<div class="tbl-row">
 								<div class="cell">Second</div>
 								<div class="cell">Let</div>
-								<div class="cell">–</div>
+								<div class="cell">Let</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ctrl">
 								<div class="cell">First</div>
 								<div class="cell">1,647</div>
 								<div class="cell">153</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ctrl">
 								<div class="cell">Reception</div>
 								<div class="cell">840</div>
 								<div class="cell">78</div>
@@ -180,7 +180,7 @@ include '../header.php';
 						</div>
 					</div>
 					<div class="clear hpad-bottom"></div>
-					<p class="foot-note">Approximate net internal areas. Floors to be measured upon practical completion</p>
+					<p class="foot-note">Plans not to scale, indicative only.</p>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -342,7 +342,7 @@ include '../header.php';
 						<li class="jumpToThree">Cellular</li>
 					</ul>
 					<div class="clear hpad-bottom"></div>
-					<p class="foot-note">Approximate net internal areas. Floors to be measured upon practical completion</p>
+					<p class="foot-note">Plans not to scale, indicative only.</p>
 				</div>
 				<div class="clear"></div>
 			</div>

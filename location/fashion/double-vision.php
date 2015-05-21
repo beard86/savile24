@@ -39,7 +39,7 @@ include '../../header.php';
 					<div class="tabled">
 						<div class="cell ">
 							<p class="blockquote bold">We work in Milan and live in London, so we know the city well. We love the city, and its people are a constant influence for us. Our London flagship is our largest store, and a particularly special store for us.</h2>
-							<p class="">The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere.”</p>
+							<p class="">The neighbourhood’s heritage of bespoke tailoring was a strong reason for us to base ourselves here. The store’s interior themes are forest and nature, motifs that are an integral part of our Canadian heritage. But it differs from the other flagship stores because it has a more contemporary atmosphere.</p>
 						</div>
 					</div>
 				</div>

@@ -14,17 +14,14 @@
                 $('#hero-down').on('click', function() {
                     UTIL.goToSection('#intro');
                 });
+                $('#specs-down').on('click', function() {
+                    UTIL.goToSection('#main');
+                });
                 $('#space-down').on('click', function() {
                     UTIL.goToSection('#area-schedule');
                 });
                 $('#hero-downloads').on('click', function() {
                     UTIL.goToSection('#downloads');
-                });
-                $('#down-schedule').on('click', function() {
-                    UTIL.goToSection('#floor-plans');
-                });
-                $('#down-floor').on('click', function() {
-                    UTIL.goToSection('#space-plans');
                 });
                 $('.backtop').on('click', function() {
                     UTIL.goToSection('#savile');
@@ -50,11 +47,16 @@
                 // JavaScript to be fired on the home page, after the init JS
             }
         },
-        // About us page, note the change from about-us to about_us.
         'Accomodation': {
             init: function() {
-                // JavaScript to be fired on the about us page
+                // JavaScript to be fired on the Accomodation page
                 UTIL.activeClassToNavByData();
+                $('#down-schedule').on('click', function() {
+                    UTIL.goToSection('#floor-plans');
+                });
+                $('#down-floor').on('click', function() {
+                    UTIL.goToSection('#space-plans');
+                });
             }
         },
         'Gallery': {
@@ -162,7 +164,7 @@
 
         activeClassToNavByData : function() {
         //adds class to active nav based on
-            /*$(window).scroll(function(){
+            $(window).scroll(function(){
                 var scrollTop = $(document).scrollTop();
                 var anchors = $('body').find('section');
 
@@ -175,10 +177,10 @@
                     }
                 }
 
-            });*/
+            });
             //FIX FOR SECTIONS ON LARGE SCREENS NOT TESTED YET...
             // http://stackoverflow.com/questions/8393442/highlight-active-link-when-using-scrollto-based-on-current-view
-            var sections = {},
+           /* var sections = {},
                 _height  = $(window).height(),
                 i        = 0;
 
@@ -189,16 +191,16 @@
 
             $(document).scroll(function(){
                 var pos = $(this).scrollTop();
-                 var anchors = $('body').find('section');
+
                 // Look in the sections object and see if any section is viewable on the screen. 
                 // If two are viewable, the lower one will be the active one. 
                 for(i in sections){
                     if(sections[i] > pos && sections[i] < pos + _height){
-                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').removeClass('active');
-                        $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');
+                        $('a').removeClass('active');
+                        $('#nav_' + i).addClass('active');
                     }  
                 }
-            });
+            });*/
 
         },
 
@@ -233,7 +235,7 @@
                 paginationSpeed: 400,
                 singleItem: true
             });
-            $("#floor-carousel, #gallery-carousel, #space-carousel").owlCarousel({
+            $("#gallery-carousel, #space-carousel").owlCarousel({
                 navigation: true, // Show paginaion
                 pagination: false, // Show next and prev buttons
                 slideSpeed: 300,
@@ -270,6 +272,22 @@
                 spacesCarousel.trigger('owl.goTo', 1);
                 addClassBold(this);
             });
+            var floorCarousel =  $("#floor-carousel");
+            floorCarousel.owlCarousel({
+                navigation: true, // Show paginaion
+                pagination: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                singleItem: true,
+                addClassActive:true
+            });
+            $('.schedule > .ctrl').click(function() {
+                $('.schedule > .ctrl').removeClass('bold');
+                $(this).addClass('bold');
+                var clickIndex = $(this).index() - 1;
+                floorCarousel.trigger('owl.goTo', clickIndex);
+            })
+
             $('.owl-buttons > div').click(function() {
                     var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index() + 1,
                     floorList = $('body').find('.schedule .tbl-row');

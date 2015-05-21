@@ -8,7 +8,7 @@ include '../header.php';
 ?>
 <div class="sub-nav-bg"></div>
 <div class="container">
-	<div class="down" id="hero-down">
+	<div class="down" id="specs-down">
 		<img src="/img/down.png" alt="Scroll Down">
 	</div>
 	<section id="hero">
@@ -66,7 +66,7 @@ include '../header.php';
 							<p>Male and Female showers <br>and changing rooms</p>
 							<p>Public Art bronze plinth designed <br>by Kate Malone in consultation <br>with EPR and Michael Eden</p>
 							<p class="hpad-bottom">Building targeted to achieve<br> BREEAM ’Excellent’ rating</p>
-							<h2 class="orange"><a href="#"></a>Download full specification ></a></h2>
+							<h2 class="orange"><a href="/pdf/24SavileRow-Specification.pdf">Download full specification ></a></h2>
 						</div>
 					</div>
 
