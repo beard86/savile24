@@ -294,18 +294,19 @@
                 floorCarousel.trigger('owl.goTo', clickIndex);
             })
 
-            /*$('.owl-buttons > div').click(function() {
+           $('.owl-buttons > div').click(function() {
                     var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index();
                     var floorList = $('body').find('.schedule .ctrl');
                         floorList.removeClass('bold');
                         floorList.eq(activeIndex).addClass('bold');
 
-            });*/
+            });
+            /*
             $('.owl-buttons > div').on('click', function(e) {
                 var cls = $(e.target).attr('class'),
                     $table = $('.schedule .ctrl');
-                    idx = $table.find('.tbl-row.bold').index();
-                    console.log(cls + $table + idx)
+                    idx = $table.find('.tblrow.bold').index();
+                    console.log()
                 if (cls == 'owl-next') {
                     if (idx == 4) { //skip let floor
                         idx = 6;
@@ -334,7 +335,7 @@
                 $table.find('.tblrow').removeClass('bold').end().find('.tblrow').eq(idx).addClass('bold');          
                 //updateGroundFloorMeta($table.find('tr.hilight td'));
             });
-
+            */
 
 
 
