@@ -120,7 +120,7 @@ include '../header.php';
 								<h3>Reception</h3>
 								<p>840 sq ft / 78 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-4.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-0.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
