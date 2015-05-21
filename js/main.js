@@ -286,18 +286,17 @@
                 singleItem: true,
                 addClassActive:true
             });
-            $('.schedule > .ctrl').click(function() {
+            $('.schedule > .ctrl').on('click', function() {
                 $('.schedule > .ctrl').removeClass('bold');
                 $(this).addClass('bold');
                 var clickIndex = $(this).index() - 1;
-                console.log(clickIndex);
                 floorCarousel.trigger('owl.goTo', clickIndex);
                 if(clickIndex == 5) {
                     floorCarousel.trigger('owl.goTo', 4);
                 }
             })
 
-           $('.owl-buttons > div').click(function() {
+           $('.owl-buttons > div').on('click', function() {
                     var activeIndex = $('#floor-carousel .owl-wrapper .owl-item.active').index();
                     var floorList = $('body').find('.schedule .ctrl');
                         floorList.removeClass('bold');
