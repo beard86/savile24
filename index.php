@@ -42,7 +42,7 @@ include 'header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
-							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
+							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s facade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
 							<h3>Watch the process unfold ></h3>
 						</div>
 					</div>

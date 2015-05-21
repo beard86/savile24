@@ -36,7 +36,7 @@ include '../header.php';
 								<h3>Sixth Floor</h3>
 								<p>2,971 sq ft / 271 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-6.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-7.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
@@ -50,7 +50,7 @@ include '../header.php';
 								<h3>Fifth Floor</h3>
 								<p>3,789 sq ft / 352 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-5.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-6.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
@@ -64,7 +64,7 @@ include '../header.php';
 								<h3>Fourth Floor</h3>
 								<p>4,478 sq ft / 416 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-4.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-5.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
@@ -78,7 +78,7 @@ include '../header.php';
 								<h3>Third Floor</h3>
 								<p>4,483 sq ft / 416 sq m</p>
 							</div>
-							<img src="/img/floor-plan/floor-plan-3.jpg" alt="Exterior shot of 24 Savile Row">
+							<img src="/img/floor-plan/floor-plan-4.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
 								<p class="office"><span></span>Office</p>
 								<p class="core"><span></span>Core</p>
@@ -158,7 +158,7 @@ include '../header.php';
 								<div class="cell">4,483</div>
 								<div class="cell">416</div>
 						</div>
-						<div class="tbl-row">
+						<div class="tbl-row ">
 								<div class="cell">Second</div>
 								<div class="cell">Let</div>
 								<div class="cell">Let</div>

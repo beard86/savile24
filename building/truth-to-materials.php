@@ -48,7 +48,7 @@ include '../header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2>Kate Malone</h2>
-							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s façade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
+							<p>The renowned ceramic artist spent three years perfecting the detail to 24 Savile Row’s facade. With 10,000 intricately hand-crafted tiles, this was ‘making art at its most demanding’.</p>
 							<h3 class="">Watch the process ></h3>
 						</div>
 					</div>
@@ -79,7 +79,7 @@ include '../header.php';
 				<div class="three pad-left right a-right">
 					<div class="tabled">
 						<div class="cell">
-							<h2 class="orange"><i>The</i> Façade</h2>
+							<h2 class="orange"><i>The</i> Facade</h2>
 							<p class="bold">Ceramic artist Kate Malone spent a year responding to the needs of the architect to define the glazes and unique recipes for the façade’s tiles.</p>
 							<p>The precision of the work meant that if recipes were out by just one gram, the structure of the glaze would be compromised.
 Temperamental in nature, the glazes can be affected by any element, from tap water to the heat of summer, and even transporting the tiles to storage. Glazes all have a shelf life and time constraint. Each production batch was carefully hand-weighed, sieved mixed, bucketed, labelled, and hand-tested.
