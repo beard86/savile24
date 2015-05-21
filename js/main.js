@@ -292,7 +292,9 @@
                 var clickIndex = $(this).index() - 1;
                 console.log(clickIndex);
                 floorCarousel.trigger('owl.goTo', clickIndex);
-                //if click
+                if(clickIndex == 5) {
+                    floorCarousel.trigger('owl.goTo', 4);
+                }
             })
 
            $('.owl-buttons > div').click(function() {
