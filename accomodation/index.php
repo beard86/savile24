@@ -87,7 +87,7 @@ include '../header.php';
 								<img src="/img/floor-plan/compass.jpg" alt="Compass" class="full-w">
 							</div>
 						</div>
-						<div class="item dpad-bottom-pad">
+						<!--div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Second Floor</h3>
 								<p>Let</p>
@@ -100,7 +100,7 @@ include '../header.php';
 							<div id="compass" class="north">
 								<img src="/img/floor-plan/compass.jpg" alt="Compass" class="full-w">
 							</div>
-						</div>
+						</div-->
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>First Floor</h3>

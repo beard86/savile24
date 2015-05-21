@@ -292,6 +292,7 @@
                 var clickIndex = $(this).index() - 1;
                 console.log(clickIndex);
                 floorCarousel.trigger('owl.goTo', clickIndex);
+                //if click
             })
 
            $('.owl-buttons > div').click(function() {
@@ -299,47 +300,7 @@
                     var floorList = $('body').find('.schedule .ctrl');
                         floorList.removeClass('bold');
                         floorList.eq(activeIndex).addClass('bold');
-
             });
-            /*
-            $('.owl-buttons > div').on('click', function(e) {
-                var cls = $(e.target).attr('class'),
-                    $table = $('.schedule .ctrl');
-                    idx = $table.find('.tblrow.bold').index();
-                    console.log()
-                if (cls == 'owl-next') {
-                    if (idx == 4) { //skip let floor
-                        idx = 6;
-                    }
-                    else {
-                        idx++;
-                        if (idx > 7) {
-                            idx = 1; 
-                        }
-                    }
-                }
-                else if (cls == 'owl-prev') { 
-                    if (idx == 6) { //skip let floor
-                        idx = 4;
-                    } 
-                    else {
-                        idx--;
-                        if (idx < 1) {
-                            idx = 7; 
-                        }   
-                    }
-                }
-
-                // internalSlider.trigger('to.owl.carousel', [idx-1]);
-                floorCarousel.trigger('owl.goTo', idx-1);
-                $table.find('.tblrow').removeClass('bold').end().find('.tblrow').eq(idx).addClass('bold');          
-                //updateGroundFloorMeta($table.find('tr.hilight td'));
-            });
-            */
-
-
-
-
         },
 
         scrollHandlers: function() {
