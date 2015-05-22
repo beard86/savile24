@@ -29,12 +29,12 @@ include '../header.php';
 				</h2>
 			</div>
 			<div class="rel hpad-bottom">
-				<div class="six right pad-left-lg">
+				<div class="six right pad-left">
 					<div id="floor-carousel" class="owl-carousel owl-theme show-nav">
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Sixth Floor</h3>
-								<p>2,971 sq ft / 271 sq m</p>
+								<p class="bold">2,971 sq ft / 271 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-7.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
@@ -48,7 +48,7 @@ include '../header.php';
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Fifth Floor</h3>
-								<p>3,789 sq ft / 352 sq m</p>
+								<p class="bold">3,789 sq ft / 352 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-6.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
@@ -62,7 +62,7 @@ include '../header.php';
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Fourth Floor</h3>
-								<p>4,478 sq ft / 416 sq m</p>
+								<p class="bold">4,478 sq ft / 416 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-5.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
@@ -76,7 +76,7 @@ include '../header.php';
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Third Floor</h3>
-								<p>4,483 sq ft / 416 sq m</p>
+								<p class="bold">4,483 sq ft / 416 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-4.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
@@ -104,7 +104,7 @@ include '../header.php';
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>First Floor</h3>
-								<p>1,647 sq ft / 153 sq m</p>
+								<p class="bold">1,647 sq ft / 153 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-1.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">
@@ -118,7 +118,7 @@ include '../header.php';
 						<div class="item dpad-bottom-pad">
 							<div class="carousel-copy">
 								<h3>Reception</h3>
-								<p>840 sq ft / 78 sq m</p>
+								<p class="bold">840 sq ft / 78 sq m</p>
 							</div>
 							<img src="/img/floor-plan/floor-plan-r.jpg" alt="Exterior shot of 24 Savile Row">
 							<div class="core-office">

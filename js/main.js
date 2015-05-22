@@ -66,7 +66,6 @@
         },
         'Contact': {
             init: function() {
-                UTIL.activeClassToNavByData();
                  $('#hero-down, .backtop').remove();
 
             }
@@ -167,7 +166,7 @@
                 var scrollTop = $(document).scrollTop();
                 var anchors = $('body').find('section');
 
-                //change to data attr to avoid redirect
+                //change to data attr based on
                 for (var i = 0; i < anchors.length; i++){
                     if (scrollTop > $(anchors[i]).offset().top - 60 && scrollTop < $(anchors[i]).offset().top + $(anchors[i]).innerHeight() - 60) {
                         $('nav ul li a[data-page-type="' + $(anchors[i]).attr('id') + '"]').addClass('active');

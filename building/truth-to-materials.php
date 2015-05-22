@@ -64,7 +64,7 @@ include '../header.php';
 					<div class="tabled">
 						<div class="cell">
 							<h2 class="orange">Overview</h2>
-							<p class="bold">24 Savile Row pushes traditional boundaries. Each of the 10,000 hand-crafted ceramic tiles that make up its façade is unique. The building presents a very different view in every weather, and every light.</p>
+							<p class="bold">24 Savile Row pushes traditional boundaries. Each of the 10,000 hand-crafted ceramic tiles that make up its facade is unique. The building presents a very different view in every weather, and every light.</p>
 							<p>This is the architectural art of creating a building, where natural beauty is always visible.</p>
 						</div>
 					</div>

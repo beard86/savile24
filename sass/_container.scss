@@ -385,7 +385,7 @@ h2 {
                   font-family: inherit;
                     border-bottom: 1px solid #f18c00;
                      display: inline-block;
-                    font-size: 1em;
+                    font-size: 1.3em;
                     margin-bottom: 0.5em;
             }
             .core-office {
@@ -400,7 +400,6 @@ h2 {
               position: absolute;
               left: 6.25em;
             }
-
             section {
                   ul {
                         margin-bottom:2em;
@@ -423,6 +422,9 @@ h2 {
                                     @media #{$smartphones} {
                                           margin:0;
                                     }
+                                    &.small {
+                                          font-size: 1em;
+                                    }
                               }
                               span {
                                     float: right;
@@ -432,7 +434,7 @@ h2 {
             }
             .foot-note {
                   position: absolute;
-                  bottom: -2em;
+                  bottom: 1em;
                   @media #{ $smartphones } {
                         bottom: 2em;
                   }
