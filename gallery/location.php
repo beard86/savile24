@@ -21,11 +21,9 @@ include '../header.php';
 			<div class="item"><img src="/img/hero/gallery/gallery-building-6.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-7.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-8.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/gallery/gallery-building-9.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-10.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-11.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-12.jpg" alt="Exterior shot of 24 Savile Row"></div>
-			<div class="item"><img src="/img/hero/gallery/gallery-building-13.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-14.jpg" alt="Exterior shot of 24 Savile Row"></div>
 			<div class="item"><img src="/img/hero/gallery/gallery-building-15.jpg" alt="Exterior shot of 24 Savile Row"></div>
 		</div>

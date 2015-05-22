@@ -299,6 +299,7 @@ h2 {
                         position: relative;
                           z-index: 10;
                             padding-bottom: 0.5em;
+                              font-size: 1.8em;
                   }
             }
             .image {
@@ -437,6 +438,9 @@ h2 {
                   }
             }
 }
+.download .main-menu-item a.down-nav {
+      color:$orange;
+}
 #area-schedule {
       .six.right {
             width: 60%;
@@ -541,7 +545,8 @@ h2 {
                         font-size: 2em;
                           line-height: 1.5em;
                           text-shadow:none;
-                          left: -0.01em;
+                            left: 0.09em;
+                          color: #fff;
                     }
             }
       }

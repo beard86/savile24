@@ -37,7 +37,7 @@ include '../header.php';
 				<div class="three pad-right full-h a-left">
 					<div class="tabled">
 						<div class="cell large-copy">
-							<p>Floor to ceiling height <br>of 2.7m on floors 1st –5th</p>
+							<p>Floor to ceiling height <br>of 2.7m on floors 1st – 5th</p>
 							<p>Floor to ceiling height <br>of 2.9m on 6th floor</p>
 							<p>High fired stoneware ceramic <br>tile feature elevations</p>
 							<p>Full height double glazed <br>curtain walling window system</p>

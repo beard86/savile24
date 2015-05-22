@@ -60,7 +60,7 @@ include '../header.php';
 				<div class="two right">
 					<img src="/img/ext.jpg" alt="Exterior" class="full-w">
 				</div>
-				<div class="three pad-right left pad-top">
+				<div class="three pad-right left pad-top-lg">
 					<div class="tabled">
 						<div class="cell">
 							<h2 class="orange">Overview</h2>
@@ -109,7 +109,7 @@ Slow-fired at 1260 degrees, the molten glaze forms extraordinary crystals then c
 				<div class="two pad-right-s left">
 					<img src="/img/plinth.jpg" alt="The Plinth" class="full-w">
 				</div>
-				<div class="three pad-left right a-right">
+				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
 							<h2 class="orange"><i>The</i> Plinth</h2>

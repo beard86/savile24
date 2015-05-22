@@ -16,7 +16,7 @@ include '../../header.php';
 		<div class="text-container">
 			<div class="tabled">
 				<div class="cell">
-					<h1 class="orange large uppercase">FOR WHAT <br/>IT'S WIRTH</h1>
+					<h1 class="orange large uppercase">FOR WHAT <br/>IT’S WIRTH</h1>
 					<p class="orange"> Hauser &amp; Wirth</p>
 				</div>
 			</div>
@@ -72,7 +72,7 @@ include '../../header.php';
 				<div class="three pad-left full-h a-right">
 					<div class="tabled">
 						<div class="cell">
-							<p>“Mayfair is evolving. A district formed as a patchwork of galleries and high-end tailoring, with an influx of high-end designer fashion and the transformation of Mount Street and more recently Conduit Street. Savile Row is a very convenient location, it allows collectors to nip into the gallery from their office, we can grab lunch together or dash into the Royal Academy.</p>
+							<p>Mayfair is evolving. A district formed as a patchwork of galleries and high-end tailoring, with an influx of high-end designer fashion and the transformation of Mount Street and more recently Conduit Street. Savile Row is a very convenient location, it allows collectors to nip into the gallery from their office, we can grab lunch together or dash into the Royal Academy.</p>
 							<p>My Mayfair secret is a scotch egg and a pint at the Burlington Arms round the corner from us. A very naughty lunch indeed!”</p>
 						</div>
 					</div>

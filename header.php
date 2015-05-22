@@ -52,11 +52,11 @@
 					</li>
 					<li class="main-menu-item"><a href="/gallery">Gallery</a>
 						<ul class="gallery sub-menu">
-							<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/building.php' ? ' active' : '');?>" href="/gallery/building.php">Building</a></li>
-							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
+							<li><a data-page-type="fashion" class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Building</a></li>
+							<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/location.php' ? ' active' : '');?>" href="/gallery/location.php">Location</a></li>
 						</ul>
 					</li>
-					<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
+					<li class="main-menu-item"><a class="down-nav" data-page-type="downloads"  href="/downloads">Downloads</a></li>
 					<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 				</ul>
 				<div class="mobile-nav hidden">
@@ -104,7 +104,7 @@
 				<li><a class="<?php echo ($_SERVER['PHP_SELF'] == '/gallery/index.php' ? ' active' : '');?>" href="/gallery/index.php">Location</a></li>
 			</ul>
 		</li>
-		<li class="main-menu-item"><a data-page-type="downloads"  href="/contact/#downloads">Downloads</a></li>
+		<li class="main-menu-item"><a data-page-type="downloads"  href="/downloads">Downloads</a></li>
 		<li class="main-menu-item"><a data-page-type="contact"  href="/contact">Contact</a></li>
 	        </ul>
 	</nav>

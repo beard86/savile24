@@ -45,7 +45,7 @@ include '../header.php';
 						<div class="cell">
 							<h2 class="orange">New visions for the future</h2>
 
-							<p>24 Savile Row is the vision of EPR architects, who invited renowned London-based ceramicist Kate Malone to help achieve a new concept in contemporary office building. </p>
+							<p class="bold">24 Savile Row is the vision of EPR architects, who invited renowned London-based ceramicist Kate Malone to help achieve a new concept in contemporary office building. </p>
 
 							<p>This creative collaboration has realised not just another landmark for Mayfair, but the capital’s largest work of art. 24 Savile Row comes uniquely hung with 10,000 ceramic tiles, each oneintricately handcrafted, set on a handcast bronze plinth. </p>
 

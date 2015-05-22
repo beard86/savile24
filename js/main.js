@@ -81,7 +81,6 @@
                 if (!$el.data('first')) {
                     $el.data('first', true);
                     $(this).next('div').slideToggle();
-                    $(this).find('span').addClass('underline');
                     $('.' + $(this).attr('data-type') + '-hotspots').show(); // :/
                 }
                 else {
@@ -89,43 +88,43 @@
                     $el.find('div').each(function() {
                         $(this).slideToggle();
                     });
-                    $('#hotspot-list').find('h3 span').toggleClass('underline');
                     $('.occupiers-hotspots, .culture-hotspots').toggle();
                 }
             });
+            $("h3[data-type='occupiers']").trigger('click');
 
                 // this code is real bad, but at least its not dealing with string comprehension!!
                 // could chuck the occupiers and culture into two arrays. to condense this into two functions
                 // why does he use find so much?! it's so slow!!!!
 
                 $('.occupiers > ul > li').hover(function() {
-                    $('.occupiers-hotspots > span').eq($(this).attr('data-override')-1).addClass('hilight');
+                    $('.occupiers-hotspots > span').eq($(this).attr('data-override')-1).addClass('bold');
                 }, function() {
-                    $('.occupiers-hotspots > span').removeClass('hilight');
+                    $('.occupiers-hotspots > span').removeClass('bold');
                 });
 
                 $('.culture > ul > li').hover(function() {
-                    $('.culture-hotspots > span').eq($(this).attr('data-override')-1).addClass('hilight');
+                    $('.culture-hotspots > span').eq($(this).attr('data-override')-1).addClass('bold');
                 }, function() {
-                    $('.culture-hotspots > span').removeClass('hilight');
+                    $('.culture-hotspots > span').removeClass('bold');
                 });
                 
                 $('.occupiers-hotspots > span').hover(function() {
-                    $(this).addClass('hilight');
+                    $(this).addClass('bold');
                     var index = $(this).index()+1;
-                    $('.occupiers > ul').find('li[data-override='+index+']').addClass('hilight');
+                    $('.occupiers > ul').find('li[data-override='+index+']').addClass('bold');
                 }, function() {
-                    $(this).removeClass('hilight');
-                    $('.occupiers > ul > li').removeClass('hilight');
+                    $(this).removeClass('bold');
+                    $('.occupiers > ul > li').removeClass('bold');
                 });
 
                 $('.culture-hotspots > span').hover(function() {
-                    $(this).addClass('hilight');
+                    $(this).addClass('bold');
                     var index = $(this).index()+1;
-                    $('.culture > ul').find('li[data-override='+index+']').addClass('hilight');
+                    $('.culture > ul').find('li[data-override='+index+']').addClass('bold');
                 }, function() {
-                    $(this).removeClass('hilight');
-                    $('.culture > ul > li').removeClass('hilight');
+                    $(this).removeClass('bold');
+                    $('.culture > ul > li').removeClass('bold');
                 });
 
 

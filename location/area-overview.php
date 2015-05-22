@@ -17,7 +17,6 @@ include '../header.php';
 			<div class="tabled">
 				<div class="cell">
 					<h1 class="large ">Area Overview</h1>
-					<p class="">The Definitive Mayfair Address</p>
 				</div>
 			</div>
 		</div>
@@ -37,7 +36,7 @@ include '../header.php';
 			<div class="rel">
 				<div class="content three full-h left" id="hotspot-list">
 					<h3 data-type="occupiers" class="hilight">
-						<span class="orange">Local Occupiers</span>
+						<span class="orange underline">Local Occupiers</span>
 					</h3>
 					<div style="display:none;" class="occupiers">
 						<ul>
@@ -57,7 +56,7 @@ include '../header.php';
 					</div>
 
 					<h3 data-type="culture">
-						<span class="orange">Culture &amp; Dining</span>
+						<span class="orange underline">Culture &amp; Dining</span>
 					</h3>
 					<div style="display:none;" class="culture">		
 						<ul>
